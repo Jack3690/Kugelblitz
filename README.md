@@ -1,4 +1,4 @@
-# Marvin and Fasi.ai Notebooks for Data Analysis and Visualization
+# Jupyter Notebooks for Data Driven Astronomy
 
 ## Introduction
 
