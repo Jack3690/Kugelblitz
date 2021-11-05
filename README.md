@@ -20,8 +20,8 @@ This repository contains code for the following:
 * Fast.ai : [Bar_Classifier.ipynb](https://github.com/Jack3690/Kugelblitz/blob/main/Bar_Classifier.ipynb)
 
 ## Usage
-
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Jack3690/Kugelblitz/blob/main/ScienceExercises.ipynb)  can be used to generate Marvin maps with optical contour overplots using Plateifu of MaNGA sources. An example of maps is given below 
+### [ScienceExercises.ipynb](https://github.com/Jack3690/Kugelblitz/blob/main/ScienceExercises.ipynb) [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Jack3690/Kugelblitz/blob/main/ScienceExercises.ipynb)
+This notebook can be used to generate Marvin maps with optical contour overplots using Plateifu of MaNGA sources. An example of maps is given below 
 
 ![plot](./data/maps.png) 
 
