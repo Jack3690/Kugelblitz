@@ -2,3 +2,6 @@ voila
 matplotlib
 numpy
 ipywidgets
+pandas
+seaborn
+astropy
