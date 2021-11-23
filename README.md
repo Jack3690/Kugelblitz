@@ -8,13 +8,16 @@ This repository contains codes for the following:
 
 *  H alpha Map, WHAN Map, BPT Map and Metallcity Map overplotted with SDSS g band contours
 *  Fast.ai CNN Classifier using Galaxy Zoo Kaggle dataset
-*  PSF Simulator
+*  PSF using catalogs and Casjobs
 
 ## Notebooks
 
 * Marvin : [ScienceExercises.ipynb](https://github.com/Jack3690/Kugelblitz/blob/main/ScienceExercises.ipynb)
 * Fast.ai : [Bar_Classifier.ipynb](https://github.com/Jack3690/Kugelblitz/blob/main/Bar_Classifier.ipynb)
 * PSF Simulator : [PSF_Simulator.ipynb](https://github.com/Jack3690/Kugelblitz/blob/main/PSF_Simulator.ipynb)
+
+# INSIST Tools
+* PSF Simulator : 
 
 ## Usage
 ### [ScienceExercises.ipynb](https://github.com/Jack3690/Kugelblitz/blob/main/ScienceExercises.ipynb) [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Jack3690/Kugelblitz/blob/main/ScienceExercises.ipynb)
@@ -31,7 +34,7 @@ This notebook contains code for creating a Convolution Neural Network based imag
 #### Unbarred 
 ![plot](./data/unbarred.png) 
 
-The example uses CNN model with **ResNet50** architecture with pretrained weights. Following data augmentation methods are used:
+The example uses the CNN model with **ResNet50** architecture with pre-trained weights. Following data augmentation methods are used:
 
 * Rotation : 0 to 360
 * Flip : Horizontal and vertical
@@ -48,7 +51,7 @@ The example uses CNN model with **ResNet50** architecture with pretrained weight
 ## Conclusion/Disclaimer
 
 If you have any questions or suggestions for improvements to this repo,
-please contact the owners of the  repository.
+please contact the owners of the repository.
 
 This is not an official Google product.
 
