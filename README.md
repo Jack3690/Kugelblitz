@@ -10,14 +10,16 @@ This repository contains codes for the following:
 *  Fast.ai CNN Classifier using Galaxy Zoo Kaggle dataset
 *  PSF using catalogs and Casjobs
 
+# INSIST Tools
+* PSF Simulation Tool : [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Jack3690/Kugelblitz/main?urlpath=%2Fvoila%2Frender%2FPSF_Simulator_Tool.ipynb%3Fvoila-theme%3Ddark)
+
 ## Notebooks
 
 * Marvin : [ScienceExercises.ipynb](https://github.com/Jack3690/Kugelblitz/blob/main/ScienceExercises.ipynb)
 * Fast.ai : [Bar_Classifier.ipynb](https://github.com/Jack3690/Kugelblitz/blob/main/Bar_Classifier.ipynb)
 * PSF Simulator : [PSF_Simulator.ipynb](https://github.com/Jack3690/Kugelblitz/blob/main/PSF_Simulator.ipynb)
 
-# INSIST Tools
-* PSF Simulation Tool : 
+
 
 ## Usage
 ### [ScienceExercises.ipynb](https://github.com/Jack3690/Kugelblitz/blob/main/ScienceExercises.ipynb) [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Jack3690/Kugelblitz/blob/main/ScienceExercises.ipynb)
