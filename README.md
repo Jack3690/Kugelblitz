@@ -8,16 +8,16 @@ In this repository, we have created a routine that will allow users to use [SDSS
 
 This repository contains code for the following:
 
-*  H alpha Map overplotted with SDSS g band contours
-*  WHAN Map overplotted with SDSS g band contours
-*  BPT Map overplotted with SDSS g band contours
-*  Metallcity Map overplotted with g band contours
-*  ResNet50 Bar Classifier using Galaxy Zoo Kaggle dataset
+
+*  H alpha Map, WHAN Map, BPT Map and Metallcity Map overplotted with SDSS g band contours
+*  Fast.ai CNN Classifier using Galaxy Zoo Kaggle dataset
+*  PSF Simulator
 
 ## Notebooks
 
 * Marvin : [ScienceExercises.ipynb](https://github.com/Jack3690/Kugelblitz/blob/main/ScienceExercises.ipynb)
 * Fast.ai : [Bar_Classifier.ipynb](https://github.com/Jack3690/Kugelblitz/blob/main/Bar_Classifier.ipynb)
+* PSF Simulator : [PSF_Simulator.ipynb](https://github.com/Jack3690/Kugelblitz/blob/main/PSF_Simulator.ipynb)
 
 ## Usage
 ### [ScienceExercises.ipynb](https://github.com/Jack3690/Kugelblitz/blob/main/ScienceExercises.ipynb) [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Jack3690/Kugelblitz/blob/main/ScienceExercises.ipynb)
@@ -54,3 +54,8 @@ If you have any questions or suggestions for improvements to this repo,
 please contact the owners of the  repository.
 
 This is not an official Google product.
+
+## References
+* [SDSS-Marvin](https://sdss-marvin.readthedocs.io/en/latest/index.html)
+* [MaNGA](https://www.sdss.org/surveys/manga/)
+* [fast.ai](http://fast.ai/)
