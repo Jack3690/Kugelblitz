@@ -4,10 +4,7 @@
 
 With services such as [Google Colab](https://colab.research.google.com/notebooks/intro.ipynb?utm_source=scs-index), [Binder](https://mybinder.org/), and [Gradient](https://gradient.run/notebooks), now Jupyter notebooks can be hosted and shared online. Users can run shared notebooks without having to install required packages locally on their machines. Although these services come with many pre-installed packages, some newer packages require manual installation routines. 
 
-In this repository, we have created a routine that will allow users to use [SDSS-Marvin](https://sdss-marvin.readthedocs.io/en/latest/index.html), a python based tool for handling [MaNGA](https://www.sdss.org/surveys/manga/) data, on Google Colab. The repository comes with Jupyter notebooks with solved Marvin Science Exercises and more. The repository also has [fast.ai](http://fast.ai/) notebooks for Galaxy Morphology Classification and Saliency Mapping for visualization of CNN models.
-
-This repository contains code for the following:
-
+This repository contains codes for the following:
 
 *  H alpha Map, WHAN Map, BPT Map and Metallcity Map overplotted with SDSS g band contours
 *  Fast.ai CNN Classifier using Galaxy Zoo Kaggle dataset
