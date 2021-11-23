@@ -17,7 +17,7 @@ This repository contains codes for the following:
 * PSF Simulator : [PSF_Simulator.ipynb](https://github.com/Jack3690/Kugelblitz/blob/main/PSF_Simulator.ipynb)
 
 # INSIST Tools
-* PSF Simulator : 
+* PSF Simulation Tool : 
 
 ## Usage
 ### [ScienceExercises.ipynb](https://github.com/Jack3690/Kugelblitz/blob/main/ScienceExercises.ipynb) [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Jack3690/Kugelblitz/blob/main/ScienceExercises.ipynb)
