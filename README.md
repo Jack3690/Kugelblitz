@@ -50,12 +50,16 @@ The example uses the CNN model with **ResNet50** architecture with pre-trained w
 #### Confusion Matrix
 ![plot](./data/CM.png)
 
+### [PSF_Simulator.ipynb](https://github.com/Jack3690/Kugelblitz/blob/main/PSF_Simulator.ipynb) [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Jack3690/Kugelblitz/blob/main/PSF_Simulator.ipynb)
+This notebook can be used to understand how to generate Point Spread Functions of sources in a given field using user defined catalogs and CasJobs. A Voila based web tool is also created using same routine which can be accessed here [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Jack3690/Kugelblitz/main?urlpath=%2Fvoila%2Frender%2FPSF_Simulator_Tool.ipynb%3Fvoila-theme%3Ddark) (Work in progress)
+
 ## Conclusion/Disclaimer
 
 If you have any questions or suggestions for improvements to this repo,
 please contact the owners of the repository.
 
 This is not an official Google product.
+
 
 ## References
 * [SDSS-Marvin](https://sdss-marvin.readthedocs.io/en/latest/index.html)
