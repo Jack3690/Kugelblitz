@@ -8,17 +8,12 @@ This repository contains codes for the following:
 
 *  H alpha Map, WHAN Map, BPT Map and Metallcity Map overplotted with SDSS g band contours
 *  Fast.ai CNN Classifier using Galaxy Zoo Kaggle dataset
-*  PSF using catalogs and Casjobs
 
-# INSIST Tools
-* PSF Simulation Tool : [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Jack3690/Kugelblitz/main?urlpath=%2Fvoila%2Frender%2FPSF_Simulator_Tool.ipynb%3Fvoila-theme%3Ddark) (Work in progress)
  
 ## Notebooks
 
 * Marvin : [ScienceExercises.ipynb](https://github.com/Jack3690/Kugelblitz/blob/main/ScienceExercises.ipynb)
 * Fast.ai : [Bar_Classifier.ipynb](https://github.com/Jack3690/Kugelblitz/blob/main/Bar_Classifier.ipynb)
-* PSF Simulator : [PSF_Simulator.ipynb](https://github.com/Jack3690/Kugelblitz/blob/main/PSF_Simulator.ipynb)
-
 
 
 ## Usage
@@ -50,8 +45,6 @@ The example uses the CNN model with **ResNet50** architecture with pre-trained w
 #### Confusion Matrix
 ![plot](./data/CM.png)
 
-### [PSF_Simulator.ipynb](https://github.com/Jack3690/Kugelblitz/blob/main/PSF_Simulator.ipynb) [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Jack3690/Kugelblitz/blob/main/PSF_Simulator.ipynb)
-This notebook can be used to understand how to generate Point Spread Functions of sources in a given field using user defined catalogs and CasJobs. A Voila based web tool is also created using same routine which can be accessed here [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Jack3690/Kugelblitz/main?urlpath=%2Fvoila%2Frender%2FPSF_Simulator_Tool.ipynb%3Fvoila-theme%3Ddark) (Work in progress)
 
 ## Conclusion/Disclaimer
 
