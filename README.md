@@ -12,13 +12,13 @@ This repository contains codes for the following:
  
 ## Notebooks
 
-* Marvin : [ScienceExercises.ipynb](https://github.com/Jack3690/Kugelblitz/blob/main/ScienceExercises.ipynb)
+* Marvin : [MaNGA_Data_Analysis.ipynb](https://github.com/Jack3690/Kugelblitz/blob/main/ScienceExercises.ipynb)
 * Fast.ai : [Bar_Classifier.ipynb](https://github.com/Jack3690/Kugelblitz/blob/main/Bar_Classifier.ipynb)
 
 
 ## Usage
-### [ScienceExercises.ipynb](https://github.com/Jack3690/Kugelblitz/blob/main/ScienceExercises.ipynb) [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Jack3690/Kugelblitz/blob/main/ScienceExercises.ipynb)
-This notebook can be used to generate Marvin maps with optical contour overplots using Plateifu of MaNGA sources. An example of maps is given below 
+### [MaNGA_Data_Analysis.ipynb](https://github.com/Jack3690/Kugelblitz/blob/main/MaNGA_Data_Analysis.ipynb) [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Jack3690/Kugelblitz/blob/main/MaNGA_Data_Analysis.ipynb)
+This notebook can be used to generate different Marvin maps with optical contour overplots using Plateifu of MaNGA sources. An example of maps is given below 
 
 ![plot](./data/maps.png) 
 
