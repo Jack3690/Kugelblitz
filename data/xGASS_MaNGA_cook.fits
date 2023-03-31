@@ -1,0 +1,1076 @@
+SIMPLE  =                    T / Standard FITS format                           BITPIX  =                    8 / Character data                                 NAXIS   =                    1 / Text string                                    NAXIS1  =                39038 / Number of characters                           VOTMETA =                    T / Table metadata in VOTable format               EXTEND  =                    T / There are standard extensions                  COMMENT                                                                         COMMENT The data in this primary HDU consists of bytes which                    COMMENT comprise a VOTABLE document.                                            COMMENT The VOTable describes the metadata of the table contained               COMMENT in the following BINTABLE extension.                                    COMMENT Such a BINTABLE extension can be used on its own as a perfectly         COMMENT good table, but the information from this HDU may provide some          COMMENT useful additional metadata.                                             COMMENT There is one following BINTABLE.                                        NTABLE  =                    1 / Number of following BINTABLE HDUs              END                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             <?xml version='1.0'?>
+<VOTABLE version="1.4"
+ xmlns="http://www.ivoa.net/xml/VOTable/v1.3">
+<!--
+ !  VOTable written by STIL version 3.4-2 (uk.ac.starlink.votable.VOTableWriter)
+ !  at 2023-02-02T08:21:25
+ !-->
+<RESOURCE>
+<!-- Describes BINTABLE extensions in the following HDU.-->
+<TABLE name="Joined" nrows="34">
+<PARAM arraysize="19" datatype="char" name="DATE-HDU" value="2022-05-31T16:08:03"/>
+<PARAM arraysize="5" datatype="char" name="STILVERS" value="3.4-2"/>
+<PARAM arraysize="42" datatype="char" name="STILCLAS" value="uk.ac.starlink.votable.FitsPlusTableWriter"/>
+<PARAM arraysize="*" datatype="char" name="CONTINUE" value="">
+<DESCRIPTION>'OmegaLambda=0.7'</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="*" datatype="char" name="TCOMM146" value=""/>
+<PARAM arraysize="*" datatype="char" name="TCOMM147" value=""/>
+<PARAM arraysize="*" datatype="char" name="TCOMM148" value=""/>
+<PARAM arraysize="*" datatype="char" name="TCOMM149" value=""/>
+<PARAM arraysize="*" datatype="char" name="TCOMM150" value=""/>
+<PARAM arraysize="*" datatype="char" name="TCOMM151" value=""/>
+<PARAM arraysize="*" datatype="char" name="TCOMM152" value=""/>
+<PARAM arraysize="*" datatype="char" name="TCOMM153" value=""/>
+<PARAM arraysize="*" datatype="char" name="TCOMM154" value=""/>
+<PARAM arraysize="*" datatype="char" name="TCOMM155" value=""/>
+<PARAM arraysize="*" datatype="char" name="TCOMM156" value=""/>
+<PARAM arraysize="*" datatype="char" name="TCOMM157" value=""/>
+<PARAM arraysize="*" datatype="char" name="TCOMM158" value=""/>
+<PARAM arraysize="*" datatype="char" name="TCOMM159" value=""/>
+<PARAM arraysize="*" datatype="char" name="TCOMM160" value=""/>
+<PARAM arraysize="*" datatype="char" name="TCOMM161" value=""/>
+<PARAM arraysize="*" datatype="char" name="TCOMM162" value=""/>
+<PARAM arraysize="*" datatype="char" name="TCOMM163" value=""/>
+<PARAM arraysize="*" datatype="char" name="TCOMM164" value=""/>
+<PARAM arraysize="*" datatype="char" name="TCOMM165" value=""/>
+<PARAM arraysize="35" datatype="char" name="TCOMM166" value="Arecibo General Catalogue ID number"/>
+<PARAM arraysize="14" datatype="char" name="TCOMM167" value="SDSS ID number"/>
+<PARAM arraysize="13" datatype="char" name="TCOMM168" value="SDSS Plate ID"/>
+<PARAM arraysize="40" datatype="char" name="TCOMM169" value="Modified Julian Date of SDSS Observation"/>
+<PARAM arraysize="13" datatype="char" name="TCOMM170" value="SDSS Fiber ID"/>
+<PARAM arraysize="25" datatype="char" name="TCOMM171" value="Right Ascension (degrees)"/>
+<PARAM arraysize="21" datatype="char" name="TCOMM172" value="Declination (degrees)"/>
+<PARAM arraysize="40" datatype="char" name="TCOMM173" value="Redshift measured from SDSS spectroscopy"/>
+<PARAM arraysize="20" datatype="char" name="TCOMM174" value="Luminosity distance."/>
+<PARAM arraysize="37" datatype="char" name="TCOMM175" value="SDSS Stellar mass (base-10 logarithm)"/>
+<PARAM arraysize="53" datatype="char" name="TCOMM176" value="SDSS Stellar mass surface density (base-10 logarithm)"/>
+<PARAM arraysize="43" datatype="char" name="TCOMM177" value="SDSS axial ratio (exponential r-band model)"/>
+<PARAM arraysize="25" datatype="char" name="TCOMM178" value="Error on SDSS axial ratio"/>
+<PARAM arraysize="26" datatype="char" name="TCOMM179" value="u-band Petrosian magnitude"/>
+<PARAM arraysize="26" datatype="char" name="TCOMM180" value="g-band Petrosian magnitude"/>
+<PARAM arraysize="26" datatype="char" name="TCOMM181" value="r-band Petrosian magnitude"/>
+<PARAM arraysize="26" datatype="char" name="TCOMM182" value="i-band Petrosian magnitude"/>
+<PARAM arraysize="26" datatype="char" name="TCOMM183" value="z-band Petrosian magnitude"/>
+<PARAM arraysize="27" datatype="char" name="TCOMM184" value="u-band SDSS Model magnitude"/>
+<PARAM arraysize="27" datatype="char" name="TCOMM185" value="g-band SDSS Model magnitude"/>
+<PARAM arraysize="27" datatype="char" name="TCOMM186" value="r-band SDSS Model magnitude"/>
+<PARAM arraysize="27" datatype="char" name="TCOMM187" value="i-band SDSS Model magnitude"/>
+<PARAM arraysize="27" datatype="char" name="TCOMM188" value="z-band SDSS Model magnitude"/>
+<PARAM arraysize="36" datatype="char" name="TCOMM189" value="Error on u-band SDSS Model magnitude"/>
+<PARAM arraysize="36" datatype="char" name="TCOMM190" value="Error on g-band SDSS Model magnitude"/>
+<PARAM arraysize="36" datatype="char" name="TCOMM191" value="Error on r-band SDSS Model magnitude"/>
+<PARAM arraysize="36" datatype="char" name="TCOMM192" value="Error on i-band SDSS Model magnitude"/>
+<PARAM arraysize="36" datatype="char" name="TCOMM193" value="Error on z-band SDSS Model magnitude"/>
+<PARAM arraysize="29" datatype="char" name="TCOMM194" value="Galactic Extinction in u-band"/>
+<PARAM arraysize="29" datatype="char" name="TCOMM195" value="Galactic Extinction in g-band"/>
+<PARAM arraysize="29" datatype="char" name="TCOMM196" value="Galactic Extinction in r-band"/>
+<PARAM arraysize="29" datatype="char" name="TCOMM197" value="Galactic Extinction in i-band"/>
+<PARAM arraysize="29" datatype="char" name="TCOMM198" value="Galactic Extinction in z-band"/>
+<PARAM arraysize="51" datatype="char" name="TCOMM199" value="Radius containing 50% of SDSS Petrosian r-band flux"/>
+<PARAM arraysize="51" datatype="char" name="TCOMM200" value="Radius containing 90% of SDSS Petrosian r-band flux"/>
+<PARAM arraysize="51" datatype="char" name="TCOMM201" value="Radius containing 50% of SDSS Petrosian z-band flux"/>
+<PARAM arraysize="29" datatype="char" name="TCOMM202" value="Error on Petrosian r-band R50"/>
+<PARAM arraysize="29" datatype="char" name="TCOMM203" value="Error on Petrosian r-band R90"/>
+<PARAM arraysize="29" datatype="char" name="TCOMM204" value="Error on Petrosian z-band R50"/>
+<PARAM arraysize="23" datatype="char" name="TCOMM205" value="(petroR90_r/petroR50_r)"/>
+<PARAM arraysize="19" datatype="char" name="TCOMM206" value="Velocity Dispersion"/>
+<PARAM arraysize="31" datatype="char" name="TCOMM207" value="Flag on the Star Formation Rate"/>
+<PARAM arraysize="40" datatype="char" name="TCOMM208" value="Flag on the specific Star Formation Rate"/>
+<PARAM arraysize="19" datatype="char" name="TCOMM209" value="Star Formation Rate"/>
+<PARAM arraysize="40" datatype="char" name="TCOMM210" value="Specific Star Formation Rate (SFR/Mstar)"/>
+<PARAM arraysize="23" datatype="char" name="TCOMM211" value="xGASS/GASS Data Release"/>
+<PARAM arraysize="26" datatype="char" name="TCOMM212" value="Source of measured HI-line"/>
+<PARAM arraysize="14" datatype="char" name="TCOMM213" value="ALFALFA70 flag"/>
+<PARAM arraysize="16" datatype="char" name="TCOMM215" value="HI Confused Flag"/>
+<PARAM arraysize="65" datatype="char" name="TCOMM216" value="HI Quality code (99=non-detections; 3,5=confused, 1,2=detections)"/>
+<PARAM arraysize="29" datatype="char" name="TCOMM218" value="Error on HI-line flux density"/>
+<PARAM arraysize="46" datatype="char" name="TCOMM219" value="Signal-to-Noise Ratio for the observed HI-line"/>
+<PARAM arraysize="27" datatype="char" name="TCOMM220" value="HI Mass (base-10 logarithm)"/>
+<PARAM arraysize="31" datatype="char" name="TCOMM221" value="Redshift measured from HI-line."/>
+<PARAM arraysize="38" datatype="char" name="TCOMM222" value="Recessional velocity from HI-line (cz)"/>
+<PARAM arraysize="36" datatype="char" name="TCOMM225" value="Error on the observed velocity width"/>
+<PARAM arraysize="12" datatype="char" name="TCOMM226" value="NUV-r colour"/>
+<PARAM arraysize="45" datatype="char" name="TCOMM227" value="HI Gas Fraction MHI/Mstar (base-10 logarithm)"/>
+<PARAM arraysize="17" datatype="char" name="TCOMM228" value="Inclination angle"/>
+<PARAM arraysize="26" datatype="char" name="TCOMM230" value="Final best SFR from UV+MIR"/>
+<PARAM arraysize="23" datatype="char" name="TCOMM231" value="uncertainty on SFR_best"/>
+<PARAM arraysize="26" datatype="char" name="TCOMM233" value="SFR from J.Wang + SED fits"/>
+<PARAM arraysize="16" datatype="char" name="TCOMM234" value="Error on SED SFR"/>
+<PARAM arraysize="25" datatype="char" name="TCOMM235" value="Near-UV magnitude (GALEX)"/>
+<PARAM arraysize="26" datatype="char" name="TCOMM236" value="Error on Near-UV magnitude"/>
+<PARAM arraysize="24" datatype="char" name="TCOMM237" value="Far-UV magnitude (GALEX)"/>
+<PARAM arraysize="25" datatype="char" name="TCOMM238" value="Error on Far-UV magnitude"/>
+<PARAM arraysize="16" datatype="char" name="TCOMM239" value="NUV quality flag"/>
+<PARAM arraysize="16" datatype="char" name="TCOMM240" value="FUV quality flag"/>
+<PARAM arraysize="34" datatype="char" name="TCOMM241" value="Catalogue source for UV magnitudes"/>
+<PARAM arraysize="16" datatype="char" name="TCOMM242" value="WISE 1 magnitude"/>
+<PARAM arraysize="16" datatype="char" name="TCOMM243" value="WISE 2 magnitude"/>
+<PARAM arraysize="16" datatype="char" name="TCOMM244" value="WISE 3 magnitude"/>
+<PARAM arraysize="16" datatype="char" name="TCOMM245" value="WISE 4 magnitude"/>
+<PARAM arraysize="11" datatype="char" name="TCOMM246" value="WISE 1 flag"/>
+<PARAM arraysize="11" datatype="char" name="TCOMM247" value="WISE 2 flag"/>
+<PARAM arraysize="11" datatype="char" name="TCOMM248" value="WISE 3 flag"/>
+<PARAM arraysize="11" datatype="char" name="TCOMM249" value="WISE 4 flag"/>
+<PARAM arraysize="15" datatype="char" name="TCOMM250" value="Galaxy Group ID"/>
+<PARAM arraysize="38" datatype="char" name="TCOMM251" value="New-York University Group Catalogue ID"/>
+<PARAM arraysize="16" datatype="char" name="TCOMM252" value="Environment code"/>
+<PARAM arraysize="27" datatype="char" name="TCOMM253" value="Number of galaxies in group"/>
+<PARAM arraysize="40" datatype="char" name="TCOMM254" value="Yang+2005 Group Catalogue Shredding code"/>
+<PARAM arraysize="35" datatype="char" name="TCOMM255" value="Group Halo Mass (base-10 logarithm)"/>
+<PARAM arraysize="21" datatype="char" name="TCOMM257" value="CO-line emission flag"/>
+<PARAM arraysize="38" datatype="char" name="TCOMM258" value="XCO Conversion factor (Saintonge+2017)"/>
+<PARAM arraysize="33" datatype="char" name="TCOMM261" value="Error on A16 XCO coversion factor"/>
+<PARAM arraysize="27" datatype="char" name="TCOMM262" value="H2 mass (base-10 logarithm)"/>
+<PARAM arraysize="16" datatype="char" name="TCOMM263" value="Error on H2 mass"/>
+<PARAM arraysize="16" datatype="char" name="TCOMM264" value="Limit on H2 mass"/>
+<PARAM arraysize="40" datatype="char" name="NAME" value="xGASS Bulge Disk Decomposition Catalogue"/>
+<PARAM arraysize="56" datatype="char" name="DESCRIPT" value="This table contains the results of fitting single- and &amp;"/>
+<PARAM datatype="int" name="COLUMNS" value="378"/>
+<PARAM datatype="int" name="ROWS" value="1176"/>
+<PARAM arraysize="21" datatype="char" name="CREATED" value="29/10/2020 (01:14:14)"/>
+<PARAM arraysize="16" datatype="char" name="AUTHOR" value="Robin H. W. Cook"/>
+<PARAM arraysize="20" datatype="char" name="EMAIL" value="robin.cook@icrar.org"/>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="3" datatype="char" name="Match algorithm" value="Sky">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="82" datatype="char" name="Join Type" value="1 and 2 (An output row for each row represented in both input tables (INNER JOIN))">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="26" datatype="char" name="First input table" value="2: xGASS_MaNGA_HI_DEF.fits"/>
+<PARAM arraysize="54" datatype="char" name="Second input table" value="1: xGASS_Bulge-Disk_Decomposition_MASTER_29-10-20.f..."/>
+<FIELD datatype="long" name="plate">
+<VALUES null='-9223372036854775808'/>
+</FIELD>
+<FIELD arraysize="32" datatype="char" name="ifudsgn"/>
+<FIELD arraysize="32" datatype="char" name="plateifu"/>
+<FIELD arraysize="32" datatype="char" name="mangaid"/>
+<FIELD arraysize="32" datatype="char" name="versdrp2"/>
+<FIELD arraysize="32" datatype="char" name="versdrp3"/>
+<FIELD arraysize="32" datatype="char" name="verscore"/>
+<FIELD arraysize="32" datatype="char" name="versutil"/>
+<FIELD arraysize="32" datatype="char" name="versprim"/>
+<FIELD arraysize="32" datatype="char" name="platetyp"/>
+<FIELD arraysize="32" datatype="char" name="srvymode"/>
+<FIELD datatype="double" name="objra"/>
+<FIELD datatype="double" name="objdec"/>
+<FIELD datatype="double" name="ifuglon"/>
+<FIELD datatype="double" name="ifuglat"/>
+<FIELD datatype="double" name="ifura"/>
+<FIELD datatype="double" name="ifudec"/>
+<FIELD datatype="double" name="ebvgal"/>
+<FIELD datatype="long" name="nexp">
+<VALUES null='-9223372036854775808'/>
+</FIELD>
+<FIELD datatype="double" name="exptime"/>
+<FIELD datatype="long" name="drp3qual">
+<VALUES null='-9223372036854775808'/>
+</FIELD>
+<FIELD datatype="double" name="bluesn2"/>
+<FIELD datatype="double" name="redsn2"/>
+<FIELD arraysize="53" datatype="char" name="harname"/>
+<FIELD datatype="long" name="frlplug">
+<VALUES null='-9223372036854775808'/>
+</FIELD>
+<FIELD arraysize="32" datatype="char" name="cartid"/>
+<FIELD datatype="long" name="designid">
+<VALUES null='-9223372036854775808'/>
+</FIELD>
+<FIELD datatype="double" name="cenra"/>
+<FIELD datatype="double" name="cendec"/>
+<FIELD datatype="double" name="airmsmin"/>
+<FIELD datatype="double" name="airmsmed"/>
+<FIELD datatype="double" name="airmsmax"/>
+<FIELD datatype="double" name="seemin"/>
+<FIELD datatype="double" name="seemed"/>
+<FIELD datatype="double" name="seemax"/>
+<FIELD datatype="double" name="transmin"/>
+<FIELD datatype="double" name="transmed"/>
+<FIELD datatype="double" name="transmax"/>
+<FIELD datatype="long" name="mjdmin">
+<VALUES null='-9223372036854775808'/>
+</FIELD>
+<FIELD datatype="long" name="mjdmed">
+<VALUES null='-9223372036854775808'/>
+</FIELD>
+<FIELD datatype="long" name="mjdmax">
+<VALUES null='-9223372036854775808'/>
+</FIELD>
+<FIELD datatype="double" name="gfwhm"/>
+<FIELD datatype="double" name="rfwhm"/>
+<FIELD datatype="double" name="ifwhm"/>
+<FIELD datatype="double" name="zfwhm"/>
+<FIELD datatype="long" name="mngtarg1">
+<VALUES null='-9223372036854775808'/>
+</FIELD>
+<FIELD datatype="long" name="mngtarg2">
+<VALUES null='-9223372036854775808'/>
+</FIELD>
+<FIELD datatype="long" name="mngtarg3">
+<VALUES null='-9223372036854775808'/>
+</FIELD>
+<FIELD datatype="long" name="catidnum">
+<VALUES null='-9223372036854775808'/>
+</FIELD>
+<FIELD arraysize="32" datatype="char" name="plttarg"/>
+<FIELD datatype="long" name="manga_tileid">
+<VALUES null='-9223372036854775808'/>
+</FIELD>
+<FIELD arraysize="19" datatype="char" name="nsa_iauname"/>
+<FIELD datatype="long" name="ifudesignsize">
+<VALUES null='-9223372036854775808'/>
+</FIELD>
+<FIELD datatype="long" name="ifutargetsize">
+<VALUES null='-9223372036854775808'/>
+</FIELD>
+<FIELD datatype="long" name="ifudesignwrongsize">
+<VALUES null='-9223372036854775808'/>
+</FIELD>
+<FIELD datatype="double" name="z"/>
+<FIELD datatype="double" name="zmin"/>
+<FIELD datatype="double" name="zmax"/>
+<FIELD datatype="double" name="szmin"/>
+<FIELD datatype="double" name="szmax"/>
+<FIELD datatype="double" name="ezmin"/>
+<FIELD datatype="double" name="ezmax"/>
+<FIELD datatype="double" name="probs"/>
+<FIELD datatype="double" name="pweight"/>
+<FIELD datatype="double" name="psweight"/>
+<FIELD datatype="double" name="psrweight"/>
+<FIELD datatype="double" name="sweight"/>
+<FIELD datatype="double" name="srweight"/>
+<FIELD datatype="double" name="eweight"/>
+<FIELD datatype="double" name="esweight"/>
+<FIELD datatype="double" name="esrweight"/>
+<FIELD datatype="long" name="nsa_field">
+<VALUES null='-9223372036854775808'/>
+</FIELD>
+<FIELD datatype="long" name="nsa_run">
+<VALUES null='-9223372036854775808'/>
+</FIELD>
+<FIELD datatype="long" name="nsa_camcol">
+<VALUES null='-9223372036854775808'/>
+</FIELD>
+<FIELD arraysize="6" datatype="char" name="nsa_version"/>
+<FIELD datatype="long" name="nsa_nsaid">
+<VALUES null='-9223372036854775808'/>
+</FIELD>
+<FIELD datatype="long" name="nsa_nsaid_v1b">
+<VALUES null='-9223372036854775808'/>
+</FIELD>
+<FIELD datatype="double" name="nsa_z"/>
+<FIELD datatype="double" name="nsa_zdist"/>
+<FIELD arraysize="7" datatype="double" name="nsa_sersic_absmag"/>
+<FIELD arraysize="7" datatype="double" name="nsa_elpetro_absmag"/>
+<FIELD arraysize="7" datatype="double" name="nsa_elpetro_amivar"/>
+<FIELD datatype="double" name="nsa_sersic_mass"/>
+<FIELD datatype="double" name="nsa_elpetro_mass"/>
+<FIELD datatype="double" name="nsa_elpetro_ba"/>
+<FIELD datatype="double" name="nsa_elpetro_phi"/>
+<FIELD arraysize="7" datatype="double" name="nsa_extinction"/>
+<FIELD datatype="double" name="nsa_elpetro_th50_r"/>
+<FIELD datatype="double" name="nsa_petro_th50"/>
+<FIELD arraysize="7" datatype="double" name="nsa_petro_flux"/>
+<FIELD arraysize="7" datatype="double" name="nsa_petro_flux_ivar"/>
+<FIELD arraysize="7" datatype="double" name="nsa_elpetro_flux"/>
+<FIELD arraysize="7" datatype="double" name="nsa_elpetro_flux_ivar"/>
+<FIELD datatype="double" name="nsa_sersic_ba"/>
+<FIELD datatype="double" name="nsa_sersic_n"/>
+<FIELD datatype="double" name="nsa_sersic_phi"/>
+<FIELD datatype="double" name="nsa_sersic_th50"/>
+<FIELD arraysize="7" datatype="double" name="nsa_sersic_flux"/>
+<FIELD arraysize="7" datatype="double" name="nsa_sersic_flux_ivar"/>
+<FIELD datatype="int" name="GASS">
+<VALUES null='-2147483648'/>
+</FIELD>
+<FIELD datatype="int" name="AGCnr">
+<VALUES null='-2147483648'/>
+</FIELD>
+<FIELD arraysize="19" datatype="char" name="SDSS_1"/>
+<FIELD datatype="short" name="PLATEID">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="int" name="MJD">
+<VALUES null='-2147483648'/>
+</FIELD>
+<FIELD datatype="short" name="FIBERID">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="double" name="RA_1"/>
+<FIELD datatype="double" name="DEC_1"/>
+<FIELD datatype="float" name="zSDSS_1"/>
+<FIELD datatype="float" name="Dlum"/>
+<FIELD datatype="float" name="lgMstar"/>
+<FIELD datatype="double" name="expAB_r"/>
+<FIELD datatype="float" name="model_r"/>
+<FIELD datatype="float" name="merr_r"/>
+<FIELD datatype="float" name="ext_r"/>
+<FIELD datatype="float" name="petrR50_r"/>
+<FIELD datatype="float" name="petrR90_r"/>
+<FIELD datatype="float" name="petrR50_z"/>
+<FIELD datatype="float" name="lgmust"/>
+<FIELD datatype="float" name="CINDX"/>
+<FIELD datatype="float" name="INCL"/>
+<FIELD datatype="float" name="NUVr"/>
+<FIELD datatype="float" name="lgSFR_tot_median"/>
+<FIELD datatype="float" name="SFR_best"/>
+<FIELD datatype="float" name="SFRerr_best"/>
+<FIELD datatype="int" name="SFRcase_best">
+<VALUES null='-2147483648'/>
+</FIELD>
+<FIELD datatype="short" name="HIsrc">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="short" name="HI_FLAG">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="short" name="xGASSDR">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="float" name="zHI">
+<DESCRIPTION>(roundDecimal(v50/299792.458D,6))</DESCRIPTION>
+</FIELD>
+<FIELD datatype="float" name="W50cor"/>
+<FIELD datatype="float" name="lgMHI"/>
+<FIELD datatype="float" name="lgGF">
+<DESCRIPTION>(roundDecimal(lgMHI-lgMstar,3))</DESCRIPTION>
+</FIELD>
+<FIELD datatype="float" name="HIconf_flag"/>
+<FIELD datatype="float" name="weight"/>
+<FIELD datatype="int" name="group_id_B">
+<VALUES null='-2147483648'/>
+</FIELD>
+<FIELD datatype="int" name="NYU_id">
+<VALUES null='-2147483648'/>
+</FIELD>
+<FIELD datatype="int" name="env_code_B">
+<VALUES null='-2147483648'/>
+</FIELD>
+<FIELD datatype="int" name="Ngal_B">
+<VALUES null='-2147483648'/>
+</FIELD>
+<FIELD datatype="int" name="yang_shred_code">
+<VALUES null='-2147483648'/>
+</FIELD>
+<FIELD datatype="float" name="logMh_Mst_B"/>
+<FIELD datatype="float" name="lvir_ratB"/>
+<FIELD datatype="double" name="Separation_1" ucd="pos.angDistance" unit="arcsec">
+<DESCRIPTION>Distance between matched objects along a great circle</DESCRIPTION>
+</FIELD>
+<FIELD datatype="float" name="lgMH_Mst_pred"/>
+<FIELD arraysize="10" datatype="char" name="GASSID">
+<DESCRIPTION>GASS ID number</DESCRIPTION>
+</FIELD>
+<FIELD arraysize="19" datatype="char" name="SDSS_2">
+<DESCRIPTION>SDSS ID number</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="RA_2">
+<DESCRIPTION>Right Ascension (degrees)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="Dec_2">
+<DESCRIPTION>Declination (degrees)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="float" name="zSDSS_2">
+<DESCRIPTION>Redshift measured from SDSS spectroscopy</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="distance" unit="Mpc">
+<DESCRIPTION>Luminosity distance (Mpc) assuming H0=70, OmegaM=0.3, &amp;</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="magB_g">
+<DESCRIPTION>Bulge apparent magnitude in g-band (mag)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="magB_g_err">
+<DESCRIPTION>Error on bulge apparent magnitude in g-band (mag)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="magD_g">
+<DESCRIPTION>Disk apparent magnitude in g-band (mag)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="magD_g_err">
+<DESCRIPTION>Error on disk apparent magnitude in g-band (mag)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="magT_g">
+<DESCRIPTION>Total apparent magnitude in g-band (mag)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="magT_g_err">
+<DESCRIPTION>Error on total apparent magnitude in g-band (mag)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="abmagB_g">
+<DESCRIPTION>Bulge absolute magnitude in g-band (mag)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="abmagB_g_err">
+<DESCRIPTION>Error on bulge absolute magnitude in g-band (mag)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="abmagD_g">
+<DESCRIPTION>Disk absolute magnitude in g-band (mag)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="abmagD_g_err">
+<DESCRIPTION>Error on disk absolute magnitude in g-band (mag)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="abmagT_g">
+<DESCRIPTION>Total absolute magnitude in g-band (mag)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="abmagT_g_err">
+<DESCRIPTION>Error on total absolute magnitude in g-band (mag)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="B2T_g">
+<DESCRIPTION>Bulge-to-total flux ratio in g-band</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="B2T_g_err">
+<DESCRIPTION>Error on the g-band bulge-to-total ratio</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="reB_g">
+<DESCRIPTION>Bulge effective radius in g-band (pixels)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="reB_g_err">
+<DESCRIPTION>Error on bulge effective radius in g-band (pixels)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="reD_g">
+<DESCRIPTION>Disk effective radius in g-band (pixels)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="reD_g_err">
+<DESCRIPTION>Error on disk effective radius in g-band (pixels)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="reT_g">
+<DESCRIPTION>Total effective radius in g-band (pixels)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="reT_g_err">
+<DESCRIPTION>Error on total effective radius in g-band (pixels)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="reB_g_kpc">
+<DESCRIPTION>Bulge physical effective radius in g-band (kpc)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="reB_g_kpc_err">
+<DESCRIPTION>Error on bulge physical effective radius in g-band (kpc)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="reD_g_kpc">
+<DESCRIPTION>Disk physical effective radius in g-band (kpc)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="reD_g_kpc_err">
+<DESCRIPTION>Error on disk physical effective radius in g-band (kpc)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="reT_g_kpc">
+<DESCRIPTION>Total physical effective radius in g-band (kpc)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="reT_g_kpc_err">
+<DESCRIPTION>Error on total physical effective radius in g-band (kpc)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="nserB_g">
+<DESCRIPTION>Bulge Sersic index in g-band</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="nserB_g_err">
+<DESCRIPTION>Error on bulge Sersic index in g-band</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="nserD_g">
+<DESCRIPTION>Disk Sersic index in g-band</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="nserD_g_err">
+<DESCRIPTION>Error on disk Sersic index in g-band</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="angT_g">
+<DESCRIPTION>Position angle (of disk if model is 2-comp) in g-band (degrees)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="angT_g_err">
+<DESCRIPTION>Error on position angle in g-band (degrees)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="axratT_g">
+<DESCRIPTION>Axial ratio (b/a) in g-band (of disk if model is 2-comp)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="axratT_g_err">
+<DESCRIPTION>Error on axial ratio in g-band</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="chisq_g_1C">
+<DESCRIPTION>Reduced chi^2 of 1-component model in g-band</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="chisq_g_2C">
+<DESCRIPTION>Reduced chi^2 of 2-component model in g-band</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="elapsed_time_g_1C">
+<DESCRIPTION>Time taken to perform 1e4 MCMC iterations of Bayesian fitting on &amp;</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="elapsed_time_g_2C">
+<DESCRIPTION>Time taken to perform 1e4 MCMC iterations of Bayesian fitting on &amp;</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="magB_r">
+<DESCRIPTION>Bulge apparent magnitude in r-band (mag)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="magB_r_err">
+<DESCRIPTION>Error on bulge apparent magnitude in r-band (mag)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="magD_r">
+<DESCRIPTION>Disk apparent magnitude in r-band (mag)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="magD_r_err">
+<DESCRIPTION>Error on disk apparent magnitude in r-band (mag)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="magT_r">
+<DESCRIPTION>Total apparent magnitude in r-band (mag)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="magT_r_err">
+<DESCRIPTION>Error on total apparent magnitude in r-band (mag)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="abmagB_r">
+<DESCRIPTION>Bulge absolute magnitude in r-band (mag)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="abmagB_r_err">
+<DESCRIPTION>Error on bulge absolute magnitude in r-band (mag)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="abmagD_r">
+<DESCRIPTION>Disk absolute magnitude in r-band (mag)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="abmagD_r_err">
+<DESCRIPTION>Error on disk absolute magnitude in r-band (mag)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="abmagT_r">
+<DESCRIPTION>Total absolute magnitude in r-band (mag)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="abmagT_r_err">
+<DESCRIPTION>Error on total absolute magnitude in r-band (mag)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="B2T_r">
+<DESCRIPTION>Bulge-to-total flux ratio in the r-band</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="B2T_r_err">
+<DESCRIPTION>Error on the r-band bulge-to-total ratio</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="reB_r">
+<DESCRIPTION>Bulge effective radius in r-band (pixels)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="reB_r_err">
+<DESCRIPTION>Error on bulge effective radius in r-band (pixels)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="reD_r">
+<DESCRIPTION>Disk effective radius in r-band (pixels)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="reD_r_err">
+<DESCRIPTION>Error on disk effective radius in r-band (pixels)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="reT_r">
+<DESCRIPTION>Total effective radius in r-band (pixels)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="reT_r_err">
+<DESCRIPTION>Error on total effective radius in r-band (pixels)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="reB_r_kpc">
+<DESCRIPTION>Bulge physical effective radius in r-band (kpc)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="reB_r_kpc_err">
+<DESCRIPTION>Error on bulge physical effective radius in r-band (kpc)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="reD_r_kpc">
+<DESCRIPTION>Disk physical effective radius in r-band (kpc)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="reD_r_kpc_err">
+<DESCRIPTION>Error on disk physical effective radius in r-band (kpc)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="reT_r_kpc">
+<DESCRIPTION>Total physical effective radius in r-band (kpc)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="reT_r_kpc_err">
+<DESCRIPTION>Error on total physical effective radius in r-band (kpc)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="nserB_r">
+<DESCRIPTION>Bulge Sersic index in r-band</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="nserB_r_err">
+<DESCRIPTION>Error on bulge Sersic index in r-band</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="nserD_r">
+<DESCRIPTION>Disk Sersic index in r-band</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="nserD_r_err">
+<DESCRIPTION>Error on disk Sersic index in r-band</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="angT_r">
+<DESCRIPTION>Position angle (of disk if model is 2-comp) in r-band (degrees)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="angT_r_err">
+<DESCRIPTION>Error on position angle in r-band (degrees)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="axratT_r">
+<DESCRIPTION>Axial ratio (b/a) in r-band (of disk if model is 2-comp)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="axratT_r_err">
+<DESCRIPTION>Error on axial ratio in r-band</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="chisq_r_1C">
+<DESCRIPTION>Reduced chi^2 of 1-component model in r-band</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="chisq_r_2C">
+<DESCRIPTION>Reduced chi^2 of 2-component model in r-band</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="elapsed_time_r_1C">
+<DESCRIPTION>Time taken to perform 1e4 MCMC iterations of Bayesian fitting on &amp;</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="elapsed_time_r_2C">
+<DESCRIPTION>Time taken to perform 1e4 MCMC iterations of Bayesian fitting on &amp;</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="magB_i">
+<DESCRIPTION>Bulge apparent magnitude in i-band (mag)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="magB_i_err">
+<DESCRIPTION>Error on bulge apparent magnitude in i-band</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="magD_i">
+<DESCRIPTION>Disk apparent magnitude in i-band (mag)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="magD_i_err">
+<DESCRIPTION>Error on disk apparent magnitude in i-band (mag)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="magT_i">
+<DESCRIPTION>Total apparent magnitude in i-band (mag)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="magT_i_err">
+<DESCRIPTION>Error on total apparent magnitude in i-band (mag)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="abmagB_i">
+<DESCRIPTION>Bulge absolute magnitude in i-band (mag)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="abmagB_i_err">
+<DESCRIPTION>Error on bulge absolute magnitude in i-band (mag)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="abmagD_i">
+<DESCRIPTION>Disk absolute magnitude in i-band (mag)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="abmagD_i_err">
+<DESCRIPTION>Error on disk absolute magnitude in i-band (mag)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="abmagT_i">
+<DESCRIPTION>Total absolute magnitude in i-band (mag)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="abmagT_i_err">
+<DESCRIPTION>Error on total absolute magnitude in i-band (mag)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="B2T_i">
+<DESCRIPTION>Bulge-to-total flux ratio in the i-band</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="B2T_i_err">
+<DESCRIPTION>Error on the i-band bulge-to-total ratio</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="reB_i">
+<DESCRIPTION>Bulge effective radius in i-band (pixels)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="reB_i_err">
+<DESCRIPTION>Error on bulge effective radius in i-band (pixels)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="reD_i">
+<DESCRIPTION>Disk effective radius in i-band (pixels)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="reD_i_err">
+<DESCRIPTION>Error on disk effective radius in i-band (pixels)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="reT_i">
+<DESCRIPTION>Total effective radius in i-band (pixels)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="reT_i_err">
+<DESCRIPTION>Error on total effective radius in i-band (pixels)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="reB_i_kpc">
+<DESCRIPTION>Bulge physical effective radius in i-band (kpc)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="reB_i_kpc_err">
+<DESCRIPTION>Error on bulge physical effective radius in i-band (kpc)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="reD_i_kpc">
+<DESCRIPTION>Disk physical effective radius in i-band (kpc)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="reD_i_kpc_err">
+<DESCRIPTION>Error on disk physical effective radius in i-band (kpc)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="reT_i_kpc">
+<DESCRIPTION>Total physical effective radius in i-band (kpc)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="reT_i_kpc_err">
+<DESCRIPTION>Error on total physical effective radius in i-band (kpc)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="nserB_i">
+<DESCRIPTION>Bulge Sersic index in i-band</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="nserB_i_err">
+<DESCRIPTION>Error on bulge Sersic index in i-band</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="nserD_i">
+<DESCRIPTION>Disk Sersic index in i-band</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="nserD_i_err">
+<DESCRIPTION>Error on disk Sersic index in i-band</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="angT_i">
+<DESCRIPTION>Position angle (of disk if model is 2-comp) in i-band (degrees)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="angT_i_err">
+<DESCRIPTION>Error on position angle in i-band (degrees)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="axratT_i">
+<DESCRIPTION>Axial ratio (b/a) in i-band (of disk if model is 2-comp)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="axratT_i_err">
+<DESCRIPTION>Error on axial ratio in i-band</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="chisq_i_1C">
+<DESCRIPTION>Reduced chi^2 of 1-component model in i-band</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="chisq_i_2C">
+<DESCRIPTION>Reduced chi^2 of 2-component model in i-band</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="elapsed_time_i_1C">
+<DESCRIPTION>Time taken to perform 1e4 MCMC iterations of Bayesian fitting on &amp;</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="elapsed_time_i_2C">
+<DESCRIPTION>Time taken to perform 1e4 MCMC iterations of Bayesian fitting on &amp;</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="gicolB">
+<DESCRIPTION>Bulge (g-i) colour (mag)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="gicolB_err">
+<DESCRIPTION>Error on bulge (g-i) colour (mag)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="gicolD">
+<DESCRIPTION>Disk (g-i) colour (mag)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="gicolD_err">
+<DESCRIPTION>Error on disk (g-i) colour (mag)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="gicolT">
+<DESCRIPTION>Total (g-i) colour (mag)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="gicolT_err">
+<DESCRIPTION>Error on total (g-i) colour (mag)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="lgMstarB">
+<DESCRIPTION>(base-10 log) Stellar mass of bulge-component (Solar Masses)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="lgMstarB_err">
+<DESCRIPTION>(base-10 log) Error on bulge stellar mass (Solar Masses)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="lgMstarD">
+<DESCRIPTION>(base-10 log) Stellar mass of disk-component (Solar Masses)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="lgMstarD_err">
+<DESCRIPTION>(base-10 log) Error on disk stellar mass (Solar Masses)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="lgMstarT">
+<DESCRIPTION>(base-10 log) Stellar mass from total magnitude/colour by adding &amp;</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="lgMstarT_err">
+<DESCRIPTION>(base-10 log) Error on total stellar mass (Solar Masses)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="lgMstarS">
+<DESCRIPTION>(base-10 log) Stellar mass from summing individual component &amp;</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="lgMstarS_err">
+<DESCRIPTION>(base-10 log) Error on summed stellar mass (Solar Masses)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="lgmustarT">
+<DESCRIPTION>(base-10 log) Stellar mass surface density of total galaxy (Solar &amp;</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="lgmustarT_err">
+<DESCRIPTION>(base-10 log) Error on total stellar mass surface density (Solar &amp;</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="lgmustarD">
+<DESCRIPTION>(base-10 log) Stellar mass surface density of disk component &amp;</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="lgmustarD_err">
+<DESCRIPTION>(base-10 log) Error on disk stellar mass surface density (Solar &amp;</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="B2T_M">
+<DESCRIPTION>Stellar mass bulge-to-total ratio (calculated from B/T = &amp;</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="B2T_M_err">
+<DESCRIPTION>Error on stellar mass bulge-to-total ratio</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="B2T_Mratio">
+<DESCRIPTION>Direct ratio of bulge stellar mass to summed stellar mass &amp;</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="B2T_Mratio_err">
+<DESCRIPTION>Error on direct stellar mass bulge-to-total ratio</DESCRIPTION>
+</FIELD>
+<FIELD datatype="long" name="Model">
+<DESCRIPTION>Best fit model (0: double-component [bulge+disk]; 1: &amp;</DESCRIPTION>
+<VALUES null='-9223372036854775808'/>
+</FIELD>
+<FIELD datatype="double" name="ModelFlag">
+<DESCRIPTION>Model quality flags (1: impossible/highly-disrupted; 2: Caution &amp;</DESCRIPTION>
+</FIELD>
+<FIELD arraysize="36" datatype="char" name="Constraints"/>
+<FIELD datatype="double" name="Separation" ucd="pos.angDistance" unit="arcsec">
+<DESCRIPTION>Distance between matched objects along a great circle</DESCRIPTION>
+</FIELD>
+<!-- Dummy VOTable - no DATA element -->
+</TABLE>
+</RESOURCE>
+</VOTABLE>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  XTENSION= 'BINTABLE'           / binary table extension                         BITPIX  =                    8 / 8-bit bytes                                    NAXIS   =                    2 / 2-dimensional table                            NAXIS1  =                 3016 / width of table in bytes                        NAXIS2  =                   34 / number of rows in table                        PCOUNT  =                    0 / size of special data area                      GCOUNT  =                    1 / one data group                                 TFIELDS =                  289 / number of columns                              EXTNAME = 'Joined  '           / table name                                     TTYPE1  = 'plate   '           / label for column 1                             TFORM1  = 'K       '           / format for column 1                            TNULL1  =               999999 / blank value for column 1                       TTYPE2  = 'ifudsgn '           / label for column 2                             TFORM2  = '32A     '           / format for column 2                            TTYPE3  = 'plateifu'           / label for column 3                             TFORM3  = '32A     '           / format for column 3                            TTYPE4  = 'mangaid '           / label for column 4                             TFORM4  = '32A     '           / format for column 4                            TTYPE5  = 'versdrp2'           / label for column 5                             TFORM5  = '32A     '           / format for column 5                            TTYPE6  = 'versdrp3'           / label for column 6                             TFORM6  = '32A     '           / format for column 6                            TTYPE7  = 'verscore'           / label for column 7                             TFORM7  = '32A     '           / format for column 7                            TTYPE8  = 'versutil'           / label for column 8                             TFORM8  = '32A     '           / format for column 8                            TTYPE9  = 'versprim'           / label for column 9                             TFORM9  = '32A     '           / format for column 9                            TTYPE10 = 'platetyp'           / label for column 10                            TFORM10 = '32A     '           / format for column 10                           TTYPE11 = 'srvymode'           / label for column 11                            TFORM11 = '32A     '           / format for column 11                           TTYPE12 = 'objra   '           / label for column 12                            TFORM12 = 'D       '           / format for column 12                           TTYPE13 = 'objdec  '           / label for column 13                            TFORM13 = 'D       '           / format for column 13                           TTYPE14 = 'ifuglon '           / label for column 14                            TFORM14 = 'D       '           / format for column 14                           TTYPE15 = 'ifuglat '           / label for column 15                            TFORM15 = 'D       '           / format for column 15                           TTYPE16 = 'ifura   '           / label for column 16                            TFORM16 = 'D       '           / format for column 16                           TTYPE17 = 'ifudec  '           / label for column 17                            TFORM17 = 'D       '           / format for column 17                           TTYPE18 = 'ebvgal  '           / label for column 18                            TFORM18 = 'D       '           / format for column 18                           TTYPE19 = 'nexp    '           / label for column 19                            TFORM19 = 'K       '           / format for column 19                           TNULL19 =               999999 / blank value for column 19                      TTYPE20 = 'exptime '           / label for column 20                            TFORM20 = 'D       '           / format for column 20                           TTYPE21 = 'drp3qual'           / label for column 21                            TFORM21 = 'K       '           / format for column 21                           TNULL21 =               999999 / blank value for column 21                      TTYPE22 = 'bluesn2 '           / label for column 22                            TFORM22 = 'D       '           / format for column 22                           TTYPE23 = 'redsn2  '           / label for column 23                            TFORM23 = 'D       '           / format for column 23                           TTYPE24 = 'harname '           / label for column 24                            TFORM24 = '53A     '           / format for column 24                           TTYPE25 = 'frlplug '           / label for column 25                            TFORM25 = 'K       '           / format for column 25                           TNULL25 =               999999 / blank value for column 25                      TTYPE26 = 'cartid  '           / label for column 26                            TFORM26 = '32A     '           / format for column 26                           TTYPE27 = 'designid'           / label for column 27                            TFORM27 = 'K       '           / format for column 27                           TNULL27 =               999999 / blank value for column 27                      TTYPE28 = 'cenra   '           / label for column 28                            TFORM28 = 'D       '           / format for column 28                           TTYPE29 = 'cendec  '           / label for column 29                            TFORM29 = 'D       '           / format for column 29                           TTYPE30 = 'airmsmin'           / label for column 30                            TFORM30 = 'D       '           / format for column 30                           TTYPE31 = 'airmsmed'           / label for column 31                            TFORM31 = 'D       '           / format for column 31                           TTYPE32 = 'airmsmax'           / label for column 32                            TFORM32 = 'D       '           / format for column 32                           TTYPE33 = 'seemin  '           / label for column 33                            TFORM33 = 'D       '           / format for column 33                           TTYPE34 = 'seemed  '           / label for column 34                            TFORM34 = 'D       '           / format for column 34                           TTYPE35 = 'seemax  '           / label for column 35                            TFORM35 = 'D       '           / format for column 35                           TTYPE36 = 'transmin'           / label for column 36                            TFORM36 = 'D       '           / format for column 36                           TTYPE37 = 'transmed'           / label for column 37                            TFORM37 = 'D       '           / format for column 37                           TTYPE38 = 'transmax'           / label for column 38                            TFORM38 = 'D       '           / format for column 38                           TTYPE39 = 'mjdmin  '           / label for column 39                            TFORM39 = 'K       '           / format for column 39                           TNULL39 =               999999 / blank value for column 39                      TTYPE40 = 'mjdmed  '           / label for column 40                            TFORM40 = 'K       '           / format for column 40                           TNULL40 =               999999 / blank value for column 40                      TTYPE41 = 'mjdmax  '           / label for column 41                            TFORM41 = 'K       '           / format for column 41                           TNULL41 =               999999 / blank value for column 41                      TTYPE42 = 'gfwhm   '           / label for column 42                            TFORM42 = 'D       '           / format for column 42                           TTYPE43 = 'rfwhm   '           / label for column 43                            TFORM43 = 'D       '           / format for column 43                           TTYPE44 = 'ifwhm   '           / label for column 44                            TFORM44 = 'D       '           / format for column 44                           TTYPE45 = 'zfwhm   '           / label for column 45                            TFORM45 = 'D       '           / format for column 45                           TTYPE46 = 'mngtarg1'           / label for column 46                            TFORM46 = 'K       '           / format for column 46                           TNULL46 =               999999 / blank value for column 46                      TTYPE47 = 'mngtarg2'           / label for column 47                            TFORM47 = 'K       '           / format for column 47                           TNULL47 =               999999 / blank value for column 47                      TTYPE48 = 'mngtarg3'           / label for column 48                            TFORM48 = 'K       '           / format for column 48                           TNULL48 =               999999 / blank value for column 48                      TTYPE49 = 'catidnum'           / label for column 49                            TFORM49 = 'K       '           / format for column 49                           TNULL49 =               999999 / blank value for column 49                      TTYPE50 = 'plttarg '           / label for column 50                            TFORM50 = '32A     '           / format for column 50                           TTYPE51 = 'manga_tileid'       / label for column 51                            TFORM51 = 'K       '           / format for column 51                           TNULL51 =               999999 / blank value for column 51                      TTYPE52 = 'nsa_iauname'        / label for column 52                            TFORM52 = '19A     '           / format for column 52                           TTYPE53 = 'ifudesignsize'      / label for column 53                            TFORM53 = 'K       '           / format for column 53                           TNULL53 =               999999 / blank value for column 53                      TTYPE54 = 'ifutargetsize'      / label for column 54                            TFORM54 = 'K       '           / format for column 54                           TNULL54 =               999999 / blank value for column 54                      TTYPE55 = 'ifudesignwrongsize' / label for column 55                            TFORM55 = 'K       '           / format for column 55                           TNULL55 =               999999 / blank value for column 55                      TTYPE56 = 'z       '           / label for column 56                            TFORM56 = 'D       '           / format for column 56                           TTYPE57 = 'zmin    '           / label for column 57                            TFORM57 = 'D       '           / format for column 57                           TTYPE58 = 'zmax    '           / label for column 58                            TFORM58 = 'D       '           / format for column 58                           TTYPE59 = 'szmin   '           / label for column 59                            TFORM59 = 'D       '           / format for column 59                           TTYPE60 = 'szmax   '           / label for column 60                            TFORM60 = 'D       '           / format for column 60                           TTYPE61 = 'ezmin   '           / label for column 61                            TFORM61 = 'D       '           / format for column 61                           TTYPE62 = 'ezmax   '           / label for column 62                            TFORM62 = 'D       '           / format for column 62                           TTYPE63 = 'probs   '           / label for column 63                            TFORM63 = 'D       '           / format for column 63                           TTYPE64 = 'pweight '           / label for column 64                            TFORM64 = 'D       '           / format for column 64                           TTYPE65 = 'psweight'           / label for column 65                            TFORM65 = 'D       '           / format for column 65                           TTYPE66 = 'psrweight'          / label for column 66                            TFORM66 = 'D       '           / format for column 66                           TTYPE67 = 'sweight '           / label for column 67                            TFORM67 = 'D       '           / format for column 67                           TTYPE68 = 'srweight'           / label for column 68                            TFORM68 = 'D       '           / format for column 68                           TTYPE69 = 'eweight '           / label for column 69                            TFORM69 = 'D       '           / format for column 69                           TTYPE70 = 'esweight'           / label for column 70                            TFORM70 = 'D       '           / format for column 70                           TTYPE71 = 'esrweight'          / label for column 71                            TFORM71 = 'D       '           / format for column 71                           TTYPE72 = 'nsa_field'          / label for column 72                            TFORM72 = 'K       '           / format for column 72                           TNULL72 =               999999 / blank value for column 72                      TTYPE73 = 'nsa_run '           / label for column 73                            TFORM73 = 'K       '           / format for column 73                           TNULL73 =               999999 / blank value for column 73                      TTYPE74 = 'nsa_camcol'         / label for column 74                            TFORM74 = 'K       '           / format for column 74                           TNULL74 =               999999 / blank value for column 74                      TTYPE75 = 'nsa_version'        / label for column 75                            TFORM75 = '6A      '           / format for column 75                           TTYPE76 = 'nsa_nsaid'          / label for column 76                            TFORM76 = 'K       '           / format for column 76                           TNULL76 =               999999 / blank value for column 76                      TTYPE77 = 'nsa_nsaid_v1b'      / label for column 77                            TFORM77 = 'K       '           / format for column 77                           TNULL77 =               999999 / blank value for column 77                      TTYPE78 = 'nsa_z   '           / label for column 78                            TFORM78 = 'D       '           / format for column 78                           TTYPE79 = 'nsa_zdist'          / label for column 79                            TFORM79 = 'D       '           / format for column 79                           TTYPE80 = 'nsa_sersic_absmag'  / label for column 80                            TFORM80 = '7D      '           / format for column 80                           TTYPE81 = 'nsa_elpetro_absmag' / label for column 81                            TFORM81 = '7D      '           / format for column 81                           TTYPE82 = 'nsa_elpetro_amivar' / label for column 82                            TFORM82 = '7D      '           / format for column 82                           TTYPE83 = 'nsa_sersic_mass'    / label for column 83                            TFORM83 = 'D       '           / format for column 83                           TTYPE84 = 'nsa_elpetro_mass'   / label for column 84                            TFORM84 = 'D       '           / format for column 84                           TTYPE85 = 'nsa_elpetro_ba'     / label for column 85                            TFORM85 = 'D       '           / format for column 85                           TTYPE86 = 'nsa_elpetro_phi'    / label for column 86                            TFORM86 = 'D       '           / format for column 86                           TTYPE87 = 'nsa_extinction'     / label for column 87                            TFORM87 = '7D      '           / format for column 87                           TTYPE88 = 'nsa_elpetro_th50_r' / label for column 88                            TFORM88 = 'D       '           / format for column 88                           TTYPE89 = 'nsa_petro_th50'     / label for column 89                            TFORM89 = 'D       '           / format for column 89                           TTYPE90 = 'nsa_petro_flux'     / label for column 90                            TFORM90 = '7D      '           / format for column 90                           TTYPE91 = 'nsa_petro_flux_ivar' / label for column 91                           TFORM91 = '7D      '           / format for column 91                           TTYPE92 = 'nsa_elpetro_flux'   / label for column 92                            TFORM92 = '7D      '           / format for column 92                           TTYPE93 = 'nsa_elpetro_flux_ivar' / label for column 93                         TFORM93 = '7D      '           / format for column 93                           TTYPE94 = 'nsa_sersic_ba'      / label for column 94                            TFORM94 = 'D       '           / format for column 94                           TTYPE95 = 'nsa_sersic_n'       / label for column 95                            TFORM95 = 'D       '           / format for column 95                           TTYPE96 = 'nsa_sersic_phi'     / label for column 96                            TFORM96 = 'D       '           / format for column 96                           TTYPE97 = 'nsa_sersic_th50'    / label for column 97                            TFORM97 = 'D       '           / format for column 97                           TTYPE98 = 'nsa_sersic_flux'    / label for column 98                            TFORM98 = '7D      '           / format for column 98                           TTYPE99 = 'nsa_sersic_flux_ivar' / label for column 99                          TFORM99 = '7D      '           / format for column 99                           TTYPE100= 'GASS    '           / label for column 100                           TFORM100= 'J       '           / format for column 100                          TNULL100=               999999 / blank value for column 100                     TTYPE101= 'AGCnr   '           / label for column 101                           TFORM101= 'J       '           / format for column 101                          TNULL101=               999999 / blank value for column 101                     TTYPE102= 'SDSS_1  '           / label for column 102                           TFORM102= '19A     '           / format for column 102                          TTYPE103= 'PLATEID '           / label for column 103                           TFORM103= 'I       '           / format for column 103                          TNULL103=                16959 / blank value for column 103                     TTYPE104= 'MJD     '           / label for column 104                           TFORM104= 'J       '           / format for column 104                          TNULL104=               999999 / blank value for column 104                     TTYPE105= 'FIBERID '           / label for column 105                           TFORM105= 'I       '           / format for column 105                          TNULL105=                16959 / blank value for column 105                     TTYPE106= 'RA_1    '           / label for column 106                           TFORM106= 'D       '           / format for column 106                          TTYPE107= 'DEC_1   '           / label for column 107                           TFORM107= 'D       '           / format for column 107                          TTYPE108= 'zSDSS_1 '           / label for column 108                           TFORM108= 'E       '           / format for column 108                          TTYPE109= 'Dlum    '           / label for column 109                           TFORM109= 'E       '           / format for column 109                          TTYPE110= 'lgMstar '           / label for column 110                           TFORM110= 'E       '           / format for column 110                          TTYPE111= 'expAB_r '           / label for column 111                           TFORM111= 'D       '           / format for column 111                          TTYPE112= 'model_r '           / label for column 112                           TFORM112= 'E       '           / format for column 112                          TTYPE113= 'merr_r  '           / label for column 113                           TFORM113= 'E       '           / format for column 113                          TTYPE114= 'ext_r   '           / label for column 114                           TFORM114= 'E       '           / format for column 114                          TTYPE115= 'petrR50_r'          / label for column 115                           TFORM115= 'E       '           / format for column 115                          TTYPE116= 'petrR90_r'          / label for column 116                           TFORM116= 'E       '           / format for column 116                          TTYPE117= 'petrR50_z'          / label for column 117                           TFORM117= 'E       '           / format for column 117                          TTYPE118= 'lgmust  '           / label for column 118                           TFORM118= 'E       '           / format for column 118                          TTYPE119= 'CINDX   '           / label for column 119                           TFORM119= 'E       '           / format for column 119                          TTYPE120= 'INCL    '           / label for column 120                           TFORM120= 'E       '           / format for column 120                          TTYPE121= 'NUVr    '           / label for column 121                           TFORM121= 'E       '           / format for column 121                          TTYPE122= 'lgSFR_tot_median'   / label for column 122                           TFORM122= 'E       '           / format for column 122                          TTYPE123= 'SFR_best'           / label for column 123                           TFORM123= 'E       '           / format for column 123                          TTYPE124= 'SFRerr_best'        / label for column 124                           TFORM124= 'E       '           / format for column 124                          TTYPE125= 'SFRcase_best'       / label for column 125                           TFORM125= 'J       '           / format for column 125                          TNULL125=               999999 / blank value for column 125                     TTYPE126= 'HIsrc   '           / label for column 126                           TFORM126= 'I       '           / format for column 126                          TNULL126=                16959 / blank value for column 126                     TTYPE127= 'HI_FLAG '           / label for column 127                           TFORM127= 'I       '           / format for column 127                          TNULL127=                16959 / blank value for column 127                     TTYPE128= 'xGASSDR '           / label for column 128                           TFORM128= 'I       '           / format for column 128                          TNULL128=                16959 / blank value for column 128                     TTYPE129= 'zHI     '           / label for column 129                           TFORM129= 'E       '           / format for column 129                          TCOMM129= '(roundDecimal(v50/299792.458D,6))'                                   TTYPE130= 'W50cor  '           / label for column 130                           TFORM130= 'E       '           / format for column 130                          TTYPE131= 'lgMHI   '           / label for column 131                           TFORM131= 'E       '           / format for column 131                          TTYPE132= 'lgGF    '           / label for column 132                           TFORM132= 'E       '           / format for column 132                          TCOMM132= '(roundDecimal(lgMHI-lgMstar,3))'                                     TTYPE133= 'HIconf_flag'        / label for column 133                           TFORM133= 'E       '           / format for column 133                          TTYPE134= 'weight  '           / label for column 134                           TFORM134= 'E       '           / format for column 134                          TTYPE135= 'group_id_B'         / label for column 135                           TFORM135= 'J       '           / format for column 135                          TNULL135=               999999 / blank value for column 135                     TTYPE136= 'NYU_id  '           / label for column 136                           TFORM136= 'J       '           / format for column 136                          TNULL136=               999999 / blank value for column 136                     TTYPE137= 'env_code_B'         / label for column 137                           TFORM137= 'J       '           / format for column 137                          TNULL137=               999999 / blank value for column 137                     TTYPE138= 'Ngal_B  '           / label for column 138                           TFORM138= 'J       '           / format for column 138                          TNULL138=               999999 / blank value for column 138                     TTYPE139= 'yang_shred_code'    / label for column 139                           TFORM139= 'J       '           / format for column 139                          TNULL139=               999999 / blank value for column 139                     TTYPE140= 'logMh_Mst_B'        / label for column 140                           TFORM140= 'E       '           / format for column 140                          TTYPE141= 'lvir_ratB'          / label for column 141                           TFORM141= 'E       '           / format for column 141                          TTYPE142= 'Separation_1'       / label for column 142                           TFORM142= 'D       '           / format for column 142                          TUNIT142= 'arcsec  '           / units for column 142                           TCOMM142= 'Distance between matched objects along a great circle'               TUCD142 = 'pos.angDistance'                                                     TTYPE143= 'lgMH_Mst_pred'      / label for column 143                           TFORM143= 'E       '           / format for column 143                          TTYPE144= 'GASSID  '           / label for column 144                           TFORM144= '10A     '           / format for column 144                          TCOMM144= 'GASS ID number'                                                      TTYPE145= 'SDSS_2  '           / label for column 145                           TFORM145= '19A     '           / format for column 145                          TCOMM145= 'SDSS ID number'                                                      TTYPE146= 'RA_2    '           / label for column 146                           TFORM146= 'D       '           / format for column 146                          TCOMM146= 'Right Ascension (degrees)'                                           TTYPE147= 'Dec_2   '           / label for column 147                           TFORM147= 'D       '           / format for column 147                          TCOMM147= 'Declination (degrees)'                                               TTYPE148= 'zSDSS_2 '           / label for column 148                           TFORM148= 'E       '           / format for column 148                          TCOMM148= 'Redshift measured from SDSS spectroscopy'                            TTYPE149= 'distance'           / label for column 149                           TFORM149= 'D       '           / format for column 149                          TUNIT149= 'Mpc     '           / units for column 149                           TCOMM149= 'Luminosity distance (Mpc) assuming H0=70, OmegaM=0.3, &'             TTYPE150= 'magB_g  '           / label for column 150                           TFORM150= 'D       '           / format for column 150                          TCOMM150= 'Bulge apparent magnitude in g-band (mag)'                            TTYPE151= 'magB_g_err'         / label for column 151                           TFORM151= 'D       '           / format for column 151                          TCOMM151= 'Error on bulge apparent magnitude in g-band (mag)'                   TTYPE152= 'magD_g  '           / label for column 152                           TFORM152= 'D       '           / format for column 152                          TCOMM152= 'Disk apparent magnitude in g-band (mag)'                             TTYPE153= 'magD_g_err'         / label for column 153                           TFORM153= 'D       '           / format for column 153                          TCOMM153= 'Error on disk apparent magnitude in g-band (mag)'                    TTYPE154= 'magT_g  '           / label for column 154                           TFORM154= 'D       '           / format for column 154                          TCOMM154= 'Total apparent magnitude in g-band (mag)'                            TTYPE155= 'magT_g_err'         / label for column 155                           TFORM155= 'D       '           / format for column 155                          TCOMM155= 'Error on total apparent magnitude in g-band (mag)'                   TTYPE156= 'abmagB_g'           / label for column 156                           TFORM156= 'D       '           / format for column 156                          TCOMM156= 'Bulge absolute magnitude in g-band (mag)'                            TTYPE157= 'abmagB_g_err'       / label for column 157                           TFORM157= 'D       '           / format for column 157                          TCOMM157= 'Error on bulge absolute magnitude in g-band (mag)'                   TTYPE158= 'abmagD_g'           / label for column 158                           TFORM158= 'D       '           / format for column 158                          TCOMM158= 'Disk absolute magnitude in g-band (mag)'                             TTYPE159= 'abmagD_g_err'       / label for column 159                           TFORM159= 'D       '           / format for column 159                          TCOMM159= 'Error on disk absolute magnitude in g-band (mag)'                    TTYPE160= 'abmagT_g'           / label for column 160                           TFORM160= 'D       '           / format for column 160                          TCOMM160= 'Total absolute magnitude in g-band (mag)'                            TTYPE161= 'abmagT_g_err'       / label for column 161                           TFORM161= 'D       '           / format for column 161                          TCOMM161= 'Error on total absolute magnitude in g-band (mag)'                   TTYPE162= 'B2T_g   '           / label for column 162                           TFORM162= 'D       '           / format for column 162                          TCOMM162= 'Bulge-to-total flux ratio in g-band'                                 TTYPE163= 'B2T_g_err'          / label for column 163                           TFORM163= 'D       '           / format for column 163                          TCOMM163= 'Error on the g-band bulge-to-total ratio'                            TTYPE164= 'reB_g   '           / label for column 164                           TFORM164= 'D       '           / format for column 164                          TCOMM164= 'Bulge effective radius in g-band (pixels)'                           TTYPE165= 'reB_g_err'          / label for column 165                           TFORM165= 'D       '           / format for column 165                          TCOMM165= 'Error on bulge effective radius in g-band (pixels)'                  TTYPE166= 'reD_g   '           / label for column 166                           TFORM166= 'D       '           / format for column 166                          TCOMM166= 'Disk effective radius in g-band (pixels)'                            TTYPE167= 'reD_g_err'          / label for column 167                           TFORM167= 'D       '           / format for column 167                          TCOMM167= 'Error on disk effective radius in g-band (pixels)'                   TTYPE168= 'reT_g   '           / label for column 168                           TFORM168= 'D       '           / format for column 168                          TCOMM168= 'Total effective radius in g-band (pixels)'                           TTYPE169= 'reT_g_err'          / label for column 169                           TFORM169= 'D       '           / format for column 169                          TCOMM169= 'Error on total effective radius in g-band (pixels)'                  TTYPE170= 'reB_g_kpc'          / label for column 170                           TFORM170= 'D       '           / format for column 170                          TCOMM170= 'Bulge physical effective radius in g-band (kpc)'                     TTYPE171= 'reB_g_kpc_err'      / label for column 171                           TFORM171= 'D       '           / format for column 171                          TCOMM171= 'Error on bulge physical effective radius in g-band (kpc)'            TTYPE172= 'reD_g_kpc'          / label for column 172                           TFORM172= 'D       '           / format for column 172                          TCOMM172= 'Disk physical effective radius in g-band (kpc)'                      TTYPE173= 'reD_g_kpc_err'      / label for column 173                           TFORM173= 'D       '           / format for column 173                          TCOMM173= 'Error on disk physical effective radius in g-band (kpc)'             TTYPE174= 'reT_g_kpc'          / label for column 174                           TFORM174= 'D       '           / format for column 174                          TCOMM174= 'Total physical effective radius in g-band (kpc)'                     TTYPE175= 'reT_g_kpc_err'      / label for column 175                           TFORM175= 'D       '           / format for column 175                          TCOMM175= 'Error on total physical effective radius in g-band (kpc)'            TTYPE176= 'nserB_g '           / label for column 176                           TFORM176= 'D       '           / format for column 176                          TCOMM176= 'Bulge Sersic index in g-band'                                        TTYPE177= 'nserB_g_err'        / label for column 177                           TFORM177= 'D       '           / format for column 177                          TCOMM177= 'Error on bulge Sersic index in g-band'                               TTYPE178= 'nserD_g '           / label for column 178                           TFORM178= 'D       '           / format for column 178                          TCOMM178= 'Disk Sersic index in g-band'                                         TTYPE179= 'nserD_g_err'        / label for column 179                           TFORM179= 'D       '           / format for column 179                          TCOMM179= 'Error on disk Sersic index in g-band'                                TTYPE180= 'angT_g  '           / label for column 180                           TFORM180= 'D       '           / format for column 180                          TCOMM180= 'Position angle (of disk if model is 2-comp) in g-band (degrees)'     TTYPE181= 'angT_g_err'         / label for column 181                           TFORM181= 'D       '           / format for column 181                          TCOMM181= 'Error on position angle in g-band (degrees)'                         TTYPE182= 'axratT_g'           / label for column 182                           TFORM182= 'D       '           / format for column 182                          TCOMM182= 'Axial ratio (b/a) in g-band (of disk if model is 2-comp)'            TTYPE183= 'axratT_g_err'       / label for column 183                           TFORM183= 'D       '           / format for column 183                          TCOMM183= 'Error on axial ratio in g-band'                                      TTYPE184= 'chisq_g_1C'         / label for column 184                           TFORM184= 'D       '           / format for column 184                          TCOMM184= 'Reduced chi^2 of 1-component model in g-band'                        TTYPE185= 'chisq_g_2C'         / label for column 185                           TFORM185= 'D       '           / format for column 185                          TCOMM185= 'Reduced chi^2 of 2-component model in g-band'                        TTYPE186= 'elapsed_time_g_1C'  / label for column 186                           TFORM186= 'D       '           / format for column 186                          TCOMM186= 'Time taken to perform 1e4 MCMC iterations of Bayesian fitting on &'  TTYPE187= 'elapsed_time_g_2C'  / label for column 187                           TFORM187= 'D       '           / format for column 187                          TCOMM187= 'Time taken to perform 1e4 MCMC iterations of Bayesian fitting on &'  TTYPE188= 'magB_r  '           / label for column 188                           TFORM188= 'D       '           / format for column 188                          TCOMM188= 'Bulge apparent magnitude in r-band (mag)'                            TTYPE189= 'magB_r_err'         / label for column 189                           TFORM189= 'D       '           / format for column 189                          TCOMM189= 'Error on bulge apparent magnitude in r-band (mag)'                   TTYPE190= 'magD_r  '           / label for column 190                           TFORM190= 'D       '           / format for column 190                          TCOMM190= 'Disk apparent magnitude in r-band (mag)'                             TTYPE191= 'magD_r_err'         / label for column 191                           TFORM191= 'D       '           / format for column 191                          TCOMM191= 'Error on disk apparent magnitude in r-band (mag)'                    TTYPE192= 'magT_r  '           / label for column 192                           TFORM192= 'D       '           / format for column 192                          TCOMM192= 'Total apparent magnitude in r-band (mag)'                            TTYPE193= 'magT_r_err'         / label for column 193                           TFORM193= 'D       '           / format for column 193                          TCOMM193= 'Error on total apparent magnitude in r-band (mag)'                   TTYPE194= 'abmagB_r'           / label for column 194                           TFORM194= 'D       '           / format for column 194                          TCOMM194= 'Bulge absolute magnitude in r-band (mag)'                            TTYPE195= 'abmagB_r_err'       / label for column 195                           TFORM195= 'D       '           / format for column 195                          TCOMM195= 'Error on bulge absolute magnitude in r-band (mag)'                   TTYPE196= 'abmagD_r'           / label for column 196                           TFORM196= 'D       '           / format for column 196                          TCOMM196= 'Disk absolute magnitude in r-band (mag)'                             TTYPE197= 'abmagD_r_err'       / label for column 197                           TFORM197= 'D       '           / format for column 197                          TCOMM197= 'Error on disk absolute magnitude in r-band (mag)'                    TTYPE198= 'abmagT_r'           / label for column 198                           TFORM198= 'D       '           / format for column 198                          TCOMM198= 'Total absolute magnitude in r-band (mag)'                            TTYPE199= 'abmagT_r_err'       / label for column 199                           TFORM199= 'D       '           / format for column 199                          TCOMM199= 'Error on total absolute magnitude in r-band (mag)'                   TTYPE200= 'B2T_r   '           / label for column 200                           TFORM200= 'D       '           / format for column 200                          TCOMM200= 'Bulge-to-total flux ratio in the r-band'                             TTYPE201= 'B2T_r_err'          / label for column 201                           TFORM201= 'D       '           / format for column 201                          TCOMM201= 'Error on the r-band bulge-to-total ratio'                            TTYPE202= 'reB_r   '           / label for column 202                           TFORM202= 'D       '           / format for column 202                          TCOMM202= 'Bulge effective radius in r-band (pixels)'                           TTYPE203= 'reB_r_err'          / label for column 203                           TFORM203= 'D       '           / format for column 203                          TCOMM203= 'Error on bulge effective radius in r-band (pixels)'                  TTYPE204= 'reD_r   '           / label for column 204                           TFORM204= 'D       '           / format for column 204                          TCOMM204= 'Disk effective radius in r-band (pixels)'                            TTYPE205= 'reD_r_err'          / label for column 205                           TFORM205= 'D       '           / format for column 205                          TCOMM205= 'Error on disk effective radius in r-band (pixels)'                   TTYPE206= 'reT_r   '           / label for column 206                           TFORM206= 'D       '           / format for column 206                          TCOMM206= 'Total effective radius in r-band (pixels)'                           TTYPE207= 'reT_r_err'          / label for column 207                           TFORM207= 'D       '           / format for column 207                          TCOMM207= 'Error on total effective radius in r-band (pixels)'                  TTYPE208= 'reB_r_kpc'          / label for column 208                           TFORM208= 'D       '           / format for column 208                          TCOMM208= 'Bulge physical effective radius in r-band (kpc)'                     TTYPE209= 'reB_r_kpc_err'      / label for column 209                           TFORM209= 'D       '           / format for column 209                          TCOMM209= 'Error on bulge physical effective radius in r-band (kpc)'            TTYPE210= 'reD_r_kpc'          / label for column 210                           TFORM210= 'D       '           / format for column 210                          TCOMM210= 'Disk physical effective radius in r-band (kpc)'                      TTYPE211= 'reD_r_kpc_err'      / label for column 211                           TFORM211= 'D       '           / format for column 211                          TCOMM211= 'Error on disk physical effective radius in r-band (kpc)'             TTYPE212= 'reT_r_kpc'          / label for column 212                           TFORM212= 'D       '           / format for column 212                          TCOMM212= 'Total physical effective radius in r-band (kpc)'                     TTYPE213= 'reT_r_kpc_err'      / label for column 213                           TFORM213= 'D       '           / format for column 213                          TCOMM213= 'Error on total physical effective radius in r-band (kpc)'            TTYPE214= 'nserB_r '           / label for column 214                           TFORM214= 'D       '           / format for column 214                          TCOMM214= 'Bulge Sersic index in r-band'                                        TTYPE215= 'nserB_r_err'        / label for column 215                           TFORM215= 'D       '           / format for column 215                          TCOMM215= 'Error on bulge Sersic index in r-band'                               TTYPE216= 'nserD_r '           / label for column 216                           TFORM216= 'D       '           / format for column 216                          TCOMM216= 'Disk Sersic index in r-band'                                         TTYPE217= 'nserD_r_err'        / label for column 217                           TFORM217= 'D       '           / format for column 217                          TCOMM217= 'Error on disk Sersic index in r-band'                                TTYPE218= 'angT_r  '           / label for column 218                           TFORM218= 'D       '           / format for column 218                          TCOMM218= 'Position angle (of disk if model is 2-comp) in r-band (degrees)'     TTYPE219= 'angT_r_err'         / label for column 219                           TFORM219= 'D       '           / format for column 219                          TCOMM219= 'Error on position angle in r-band (degrees)'                         TTYPE220= 'axratT_r'           / label for column 220                           TFORM220= 'D       '           / format for column 220                          TCOMM220= 'Axial ratio (b/a) in r-band (of disk if model is 2-comp)'            TTYPE221= 'axratT_r_err'       / label for column 221                           TFORM221= 'D       '           / format for column 221                          TCOMM221= 'Error on axial ratio in r-band'                                      TTYPE222= 'chisq_r_1C'         / label for column 222                           TFORM222= 'D       '           / format for column 222                          TCOMM222= 'Reduced chi^2 of 1-component model in r-band'                        TTYPE223= 'chisq_r_2C'         / label for column 223                           TFORM223= 'D       '           / format for column 223                          TCOMM223= 'Reduced chi^2 of 2-component model in r-band'                        TTYPE224= 'elapsed_time_r_1C'  / label for column 224                           TFORM224= 'D       '           / format for column 224                          TCOMM224= 'Time taken to perform 1e4 MCMC iterations of Bayesian fitting on &'  TTYPE225= 'elapsed_time_r_2C'  / label for column 225                           TFORM225= 'D       '           / format for column 225                          TCOMM225= 'Time taken to perform 1e4 MCMC iterations of Bayesian fitting on &'  TTYPE226= 'magB_i  '           / label for column 226                           TFORM226= 'D       '           / format for column 226                          TCOMM226= 'Bulge apparent magnitude in i-band (mag)'                            TTYPE227= 'magB_i_err'         / label for column 227                           TFORM227= 'D       '           / format for column 227                          TCOMM227= 'Error on bulge apparent magnitude in i-band'                         TTYPE228= 'magD_i  '           / label for column 228                           TFORM228= 'D       '           / format for column 228                          TCOMM228= 'Disk apparent magnitude in i-band (mag)'                             TTYPE229= 'magD_i_err'         / label for column 229                           TFORM229= 'D       '           / format for column 229                          TCOMM229= 'Error on disk apparent magnitude in i-band (mag)'                    TTYPE230= 'magT_i  '           / label for column 230                           TFORM230= 'D       '           / format for column 230                          TCOMM230= 'Total apparent magnitude in i-band (mag)'                            TTYPE231= 'magT_i_err'         / label for column 231                           TFORM231= 'D       '           / format for column 231                          TCOMM231= 'Error on total apparent magnitude in i-band (mag)'                   TTYPE232= 'abmagB_i'           / label for column 232                           TFORM232= 'D       '           / format for column 232                          TCOMM232= 'Bulge absolute magnitude in i-band (mag)'                            TTYPE233= 'abmagB_i_err'       / label for column 233                           TFORM233= 'D       '           / format for column 233                          TCOMM233= 'Error on bulge absolute magnitude in i-band (mag)'                   TTYPE234= 'abmagD_i'           / label for column 234                           TFORM234= 'D       '           / format for column 234                          TCOMM234= 'Disk absolute magnitude in i-band (mag)'                             TTYPE235= 'abmagD_i_err'       / label for column 235                           TFORM235= 'D       '           / format for column 235                          TCOMM235= 'Error on disk absolute magnitude in i-band (mag)'                    TTYPE236= 'abmagT_i'           / label for column 236                           TFORM236= 'D       '           / format for column 236                          TCOMM236= 'Total absolute magnitude in i-band (mag)'                            TTYPE237= 'abmagT_i_err'       / label for column 237                           TFORM237= 'D       '           / format for column 237                          TCOMM237= 'Error on total absolute magnitude in i-band (mag)'                   TTYPE238= 'B2T_i   '           / label for column 238                           TFORM238= 'D       '           / format for column 238                          TCOMM238= 'Bulge-to-total flux ratio in the i-band'                             TTYPE239= 'B2T_i_err'          / label for column 239                           TFORM239= 'D       '           / format for column 239                          TCOMM239= 'Error on the i-band bulge-to-total ratio'                            TTYPE240= 'reB_i   '           / label for column 240                           TFORM240= 'D       '           / format for column 240                          TCOMM240= 'Bulge effective radius in i-band (pixels)'                           TTYPE241= 'reB_i_err'          / label for column 241                           TFORM241= 'D       '           / format for column 241                          TCOMM241= 'Error on bulge effective radius in i-band (pixels)'                  TTYPE242= 'reD_i   '           / label for column 242                           TFORM242= 'D       '           / format for column 242                          TCOMM242= 'Disk effective radius in i-band (pixels)'                            TTYPE243= 'reD_i_err'          / label for column 243                           TFORM243= 'D       '           / format for column 243                          TCOMM243= 'Error on disk effective radius in i-band (pixels)'                   TTYPE244= 'reT_i   '           / label for column 244                           TFORM244= 'D       '           / format for column 244                          TCOMM244= 'Total effective radius in i-band (pixels)'                           TTYPE245= 'reT_i_err'          / label for column 245                           TFORM245= 'D       '           / format for column 245                          TCOMM245= 'Error on total effective radius in i-band (pixels)'                  TTYPE246= 'reB_i_kpc'          / label for column 246                           TFORM246= 'D       '           / format for column 246                          TCOMM246= 'Bulge physical effective radius in i-band (kpc)'                     TTYPE247= 'reB_i_kpc_err'      / label for column 247                           TFORM247= 'D       '           / format for column 247                          TCOMM247= 'Error on bulge physical effective radius in i-band (kpc)'            TTYPE248= 'reD_i_kpc'          / label for column 248                           TFORM248= 'D       '           / format for column 248                          TCOMM248= 'Disk physical effective radius in i-band (kpc)'                      TTYPE249= 'reD_i_kpc_err'      / label for column 249                           TFORM249= 'D       '           / format for column 249                          TCOMM249= 'Error on disk physical effective radius in i-band (kpc)'             TTYPE250= 'reT_i_kpc'          / label for column 250                           TFORM250= 'D       '           / format for column 250                          TCOMM250= 'Total physical effective radius in i-band (kpc)'                     TTYPE251= 'reT_i_kpc_err'      / label for column 251                           TFORM251= 'D       '           / format for column 251                          TCOMM251= 'Error on total physical effective radius in i-band (kpc)'            TTYPE252= 'nserB_i '           / label for column 252                           TFORM252= 'D       '           / format for column 252                          TCOMM252= 'Bulge Sersic index in i-band'                                        TTYPE253= 'nserB_i_err'        / label for column 253                           TFORM253= 'D       '           / format for column 253                          TCOMM253= 'Error on bulge Sersic index in i-band'                               TTYPE254= 'nserD_i '           / label for column 254                           TFORM254= 'D       '           / format for column 254                          TCOMM254= 'Disk Sersic index in i-band'                                         TTYPE255= 'nserD_i_err'        / label for column 255                           TFORM255= 'D       '           / format for column 255                          TCOMM255= 'Error on disk Sersic index in i-band'                                TTYPE256= 'angT_i  '           / label for column 256                           TFORM256= 'D       '           / format for column 256                          TCOMM256= 'Position angle (of disk if model is 2-comp) in i-band (degrees)'     TTYPE257= 'angT_i_err'         / label for column 257                           TFORM257= 'D       '           / format for column 257                          TCOMM257= 'Error on position angle in i-band (degrees)'                         TTYPE258= 'axratT_i'           / label for column 258                           TFORM258= 'D       '           / format for column 258                          TCOMM258= 'Axial ratio (b/a) in i-band (of disk if model is 2-comp)'            TTYPE259= 'axratT_i_err'       / label for column 259                           TFORM259= 'D       '           / format for column 259                          TCOMM259= 'Error on axial ratio in i-band'                                      TTYPE260= 'chisq_i_1C'         / label for column 260                           TFORM260= 'D       '           / format for column 260                          TCOMM260= 'Reduced chi^2 of 1-component model in i-band'                        TTYPE261= 'chisq_i_2C'         / label for column 261                           TFORM261= 'D       '           / format for column 261                          TCOMM261= 'Reduced chi^2 of 2-component model in i-band'                        TTYPE262= 'elapsed_time_i_1C'  / label for column 262                           TFORM262= 'D       '           / format for column 262                          TCOMM262= 'Time taken to perform 1e4 MCMC iterations of Bayesian fitting on &'  TTYPE263= 'elapsed_time_i_2C'  / label for column 263                           TFORM263= 'D       '           / format for column 263                          TCOMM263= 'Time taken to perform 1e4 MCMC iterations of Bayesian fitting on &'  TTYPE264= 'gicolB  '           / label for column 264                           TFORM264= 'D       '           / format for column 264                          TCOMM264= 'Bulge (g-i) colour (mag)'                                            TTYPE265= 'gicolB_err'         / label for column 265                           TFORM265= 'D       '           / format for column 265                          TCOMM265= 'Error on bulge (g-i) colour (mag)'                                   TTYPE266= 'gicolD  '           / label for column 266                           TFORM266= 'D       '           / format for column 266                          TCOMM266= 'Disk (g-i) colour (mag)'                                             TTYPE267= 'gicolD_err'         / label for column 267                           TFORM267= 'D       '           / format for column 267                          TCOMM267= 'Error on disk (g-i) colour (mag)'                                    TTYPE268= 'gicolT  '           / label for column 268                           TFORM268= 'D       '           / format for column 268                          TCOMM268= 'Total (g-i) colour (mag)'                                            TTYPE269= 'gicolT_err'         / label for column 269                           TFORM269= 'D       '           / format for column 269                          TCOMM269= 'Error on total (g-i) colour (mag)'                                   TTYPE270= 'lgMstarB'           / label for column 270                           TFORM270= 'D       '           / format for column 270                          TCOMM270= '(base-10 log) Stellar mass of bulge-component (Solar Masses)'        TTYPE271= 'lgMstarB_err'       / label for column 271                           TFORM271= 'D       '           / format for column 271                          TCOMM271= '(base-10 log) Error on bulge stellar mass (Solar Masses)'            TTYPE272= 'lgMstarD'           / label for column 272                           TFORM272= 'D       '           / format for column 272                          TCOMM272= '(base-10 log) Stellar mass of disk-component (Solar Masses)'         TTYPE273= 'lgMstarD_err'       / label for column 273                           TFORM273= 'D       '           / format for column 273                          TCOMM273= '(base-10 log) Error on disk stellar mass (Solar Masses)'             TTYPE274= 'lgMstarT'           / label for column 274                           TFORM274= 'D       '           / format for column 274                          TCOMM274= '(base-10 log) Stellar mass from total magnitude/colour by adding &'  TTYPE275= 'lgMstarT_err'       / label for column 275                           TFORM275= 'D       '           / format for column 275                          TCOMM275= '(base-10 log) Error on total stellar mass (Solar Masses)'            TTYPE276= 'lgMstarS'           / label for column 276                           TFORM276= 'D       '           / format for column 276                          TCOMM276= '(base-10 log) Stellar mass from summing individual component &'      TTYPE277= 'lgMstarS_err'       / label for column 277                           TFORM277= 'D       '           / format for column 277                          TCOMM277= '(base-10 log) Error on summed stellar mass (Solar Masses)'           TTYPE278= 'lgmustarT'          / label for column 278                           TFORM278= 'D       '           / format for column 278                          TCOMM278= '(base-10 log) Stellar mass surface density of total galaxy (Solar &' TTYPE279= 'lgmustarT_err'      / label for column 279                           TFORM279= 'D       '           / format for column 279                          TCOMM279= '(base-10 log) Error on total stellar mass surface density (Solar &'  TTYPE280= 'lgmustarD'          / label for column 280                           TFORM280= 'D       '           / format for column 280                          TCOMM280= '(base-10 log) Stellar mass surface density of disk component &'      TTYPE281= 'lgmustarD_err'      / label for column 281                           TFORM281= 'D       '           / format for column 281                          TCOMM281= '(base-10 log) Error on disk stellar mass surface density (Solar &'   TTYPE282= 'B2T_M   '           / label for column 282                           TFORM282= 'D       '           / format for column 282                          TCOMM282= 'Stellar mass bulge-to-total ratio (calculated from B/T = &'          TTYPE283= 'B2T_M_err'          / label for column 283                           TFORM283= 'D       '           / format for column 283                          TCOMM283= 'Error on stellar mass bulge-to-total ratio'                          TTYPE284= 'B2T_Mratio'         / label for column 284                           TFORM284= 'D       '           / format for column 284                          TCOMM284= 'Direct ratio of bulge stellar mass to summed stellar mass &'         TTYPE285= 'B2T_Mratio_err'     / label for column 285                           TFORM285= 'D       '           / format for column 285                          TCOMM285= 'Error on direct stellar mass bulge-to-total ratio'                   TTYPE286= 'Model   '           / label for column 286                           TFORM286= 'K       '           / format for column 286                          TNULL286=               999999 / blank value for column 286                     TCOMM286= 'Best fit model (0: double-component [bulge+disk]; 1: &'              TTYPE287= 'ModelFlag'          / label for column 287                           TFORM287= 'D       '           / format for column 287                          TCOMM287= 'Model quality flags (1: impossible/highly-disrupted; 2: Caution &'   TTYPE288= 'Constraints'        / label for column 288                           TFORM288= '36A     '           / format for column 288                          TTYPE289= 'Separation'         / label for column 289                           TFORM289= 'D       '           / format for column 289                          TUNIT289= 'arcsec  '           / units for column 289                           TCOMM289= 'Distance between matched objects along a great circle'               TUCD289 = 'pos.angDistance'                                                     DATE-HDU= '2023-02-02T08:21:25' / Date of HDU creation (UTC)                    STILVERS= '3.4-2   '           / Version of STIL software                       STILCLAS= 'uk.ac.starlink.votable.FitsPlusTableWriter' / STIL Author class      END                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   )3703                            10517-3703                      1-78688                         v3_1_1                          v3_1_1                          v1_9_1                          v5_5_36                         v2_9                            APOGEE-2&MaNGA                  MaNGA dither                    @bÈrò:fü@z$¥¦Â@mG'9€\å@EÎ7ã3¾	@bÈrï
+å6@z$€€Ä?—ğİ»1š       @ÅŒÌÌÌÍ        @;j…‡“İ˜@IK×Ûôˆma105                                                        5                                     +)@bĞeè’%@WÏ"èbU?ò&••şÚf?òŸKâCW?ó¢Ûa»û?ôÌxéö©??õìkÎ…3±?şR*o?Rü?æ"çöô¾ƒ?ì¼©iv?ìúô'„©H      ãJ      ãJ      ãK@áä÷eı‹@ì¯öÓ0”@Ôèû ½@	 'RTa      @                       plateTargets-1.par                    ¬J100103.36+043709.4       %       %        ?‹¦3ÛÏŸ?‘“ÇÈ²?™¥"cØ­?¢?MéDÓ?¤oèÆ'—?†™4@€? ©¨ÛUüŒ?åÀY!…ÆÀ8     À8     À8     À8     À8     ?âÇ²Jj‡?Úwİ‡/4?Û¤¬ó²       Ò      M       v1_0_1     EØÿÿÿÿÿÿü?‹¦3ÛÏŸ?[I¿KÀ']¿HË’À,
+	Ş ÒÀ0¢ñ©ûçmÀ2šÔ,<ŸÀ2§ï²-À2ñhr° ÅÀ3¼ÓZ…ˆÀ)"\(õÃÀ+fÏAò×À0uÜÆ?À1Û…¸QìÀ2{]ÌcñAÀ2É7KÆ§ğÀ2øXy=Ù?ùëJw—@_º^5?}@TzŠqŞi­@¢ïp£×
+=@£:ÌÌÌÌÍ@£8™™™š@z¿/Ÿ¾wAè‘gä   Aæ£êâ   ?êÂV)ØA@c½ÊÀƒo?Èi¾	»j¥?ÈÎxwO?¾\‘ÑN;Í?¶Vş–µº?°3ä3ß?¨’oíJ?¡l ZşS@3EŒÒ
+ú@™ÅXd?ôûµsê³@(Ik¹Œ~(@exõÂ\)@…ÎÙ‡+@“€ë…¸R@šç\(õÂ@ ªB\(ö?¹Á/	ØÆÖ?ò¡laR*o?pşªëP›y?Ç¼ä!}(J?½Öøj	‰?­øjàHª”?#ÒMrØa@˜:S¸ä¸@*n.±Ä3@ezáG®@„ç° Ä›¦@“=fffff@šb
+=p£×@ ¸Që…?¹TË3o™?ñ@N¤¨ÁU?q‘2şt:?ÊÈ£r`o¬?¿º4CÔk'?°K<¤?)e+ÓÃa?èMÊ.+Œ@éÜr\=î@cÔ1&éxÕ@Rv‰Ê?şçl‹C•@1†šÔ,<Ÿ@h¬ƒn—@ˆu©ûçl‹@–’£×
+=q@…33333@¡ÀB\(ö?Õ [À6ã?é+sKQ7?Êó4?¢­??ÕWÑx-8G?ÁÕÃ“åû?²'›ı÷è?‹â ñèH ­º    J100103.36+043709.3<  ÌA@bÈsš¿@z!ê5“`<]1ÉBi™šA™0?è‡•övêBAiß¤;»™=ƒ¯¸@‰™šA?×
+@ˆõÃA…@2\B$  @¡ë…¿‡–“=™Å       	  c         @ÿSø¿×l‹ÂÆ  ?ân˜ ÓW ß              ÂÆ  ?¥¬V¤û¿€ÏGASS110010J100103.36+043709.3@bÈsš¿@z!ê5“`<]1É@M6 TÍs@02ã¢u?¢¦ÌF”ø@0 €qÊ?¦	'qG@.ÑÄLãƒj?
+{£ÊŒÀ1¢SÑ7“?¨ş’ÑDè©À1´·l±Ì?«[)æTÀ2lULİ´á?¦şĞ ã?Şñm·T?Š&üTï-@;j_Ç“?¢°l„aÓŞ@40‡ŒA_?•¡0Jb@(WfÔ«?yb‹?å*ı_¼ı‘?Îâfü‚ø@¢öÓÌÙ¦?ÁqÍhRÎ>?õC0œÑó!?«Ì¼ìed@M{’3q’?¡G!ÒÂ°¥?ğ      ø      @Qÿqá³Ê?ŞÔˆe£[?âá¤ á?šÇ/
+Û2Û@ßp?÷#Aûçí@«½$}( @ªÆ`  @/?›JMU?¨¨±–5@.ØÁ&>3?¹@3<Å˜Ö@-ˆ>uê“?­Áh†rÍÀ25®¥ªOì?­¿Ãê³M:À2hÖê<W|?º–ÓæY™À3i”L?±çÕÆ,†?İ==fã?™©ÉÆ1q@;j_Ç“?¢°l„aÓŞ@3ÛFM ¾û?˜JØJ`@)F\×ÚÍ?iÅG‰Ú-²?å*ı_¼ı‘?Îâfü‚ø@X}ÉÊÆã?Ãù¤ ‹÷:?õéLöI©R?ãê›ã¹@M{’3q’?¡G!ÒÂ°¥?ğ      ø      @Qÿqá³Ê?ŞÔˆe£[?âá¤ á?šÇ/
+Û2Û@WÃ›0¨?ü–YüïĞ@¥ö–x§ÿø@¸±<‰` @.œ­=ÁO?€bû¶Yy¹@.	¥£9à?ƒô?]XÉ@,ÌÿcËì?z°dµïÀ2†àÔÄ•î?¡#q%Q
+óÀ2Ğd¡ÆY¦?¡_‹ÍŠäÀ3n·ã ? ù‡äé¥?ÛÊê·/'ñ?g^Ê1ÙŒŞ@;j_Ç“?¢°l„aÓŞ@4µt£.ë«?g‘i‘à?™@*m©’/?r‰…ü‚«?å*ı_¼ı‘?Îâfü‚ø@OÇ«?¤)M$˜~U?÷#bV
+ú?¢º5¬üã@M{’3q’?¡G!ÒÂ°¥?ğ      ø      @Qÿqá³Ê?ŞÔˆe£[?âá¤ á?šÇ/
+Û2Û@æ,óïœ?øAX¦›<„@«>˜  @ªh7ëØ ?ì‘ q²‹p?£íV¶rİ?ñºÓQUM ?¦—æ2%Üº?ğ&)kı»ğ?Ì.)S¶Ç@"fNóª} ?©âNÌ@@#Ë”ñ¢?±%›6:â§@#ZàÑ| ?¦á3ÎğÉ›@#dEÁ3C?¨Äw¾ù@!Ğ‚>v?¨Ãü6¡?•@ ¸EßOè?·t”u·?Ò‹h|3½ô?ÀÚß%–‘?ÔlËµŒ²?¥6cAv+                n2 = 1                                            *ÿ3704                            11007-3704                      1-456698                        v3_1_1                          v3_1_1                          v1_9_1                          v5_5_36                         v2_9                            APOGEE-2&MaNGA                  MaNGA dither                    @hQ}:Š¸@:S«²ÓÙ@VïsÃÙ£@V‰$:§.@hQy|Ã @:S«¸€®?‚“Ê¢¦       	@¿¤Å¸Qì        @9Æ$İ/ @H•ÅÖ8†Yma117                                                       %5                                     -€@hTÜHjÒİ@;SJ˜ª†Q?ğ(Âz?ğG:¼”pe?ñWÑx-8?òİëÙ?ô%e¶™…?ÿ¬Ïkã}é?êdoa‘?ëˆÈ%:?ìúd×ğí      äæ      äæ      äç@9	k¹Œ~@%®æ1ø¡@Ov_Ù@ş($x                             plateTargets-1.par                    7J125807.53+261936.6       %       %        ?“z÷‘z?êºÔó?™A ¼×?¡ÎÁ™’ã?¤šdÚò?–c‰Öó? ä‹…YÆ›?åÀYA9Ü?ıƒb:‡»K?éIšHB‡?ë8¡Åg~À8     À8     ?ã®Ô(á ™?Û>œ]nE-?ÜT!4x®       ”      û       v1_0_1     ^&ÿÿÿÿÿÿü?“z÷‘z?“é`¹ ˜À&Elr"À)ëH² yÀ0KKÆ§ïÀ1ÖB9`sŞÀ2˜-¾,0À2è<}^ĞpÀ3!Cá `xÀ)SMß†ã´À)µÁÆmÀ0aÃiv¼À1›kã}é:À2QæOTÒÀ2Ÿ"9æ«›À2ÜÑ ¤<@AoB_ !@axO QC¿@RA [À@ R±Şi­C@¢ŞÌÌÌÍ@¢/õÂ\)@İëÙAìuk €  Aæ½ä   ?äº‚S¸@`‰M© >ê?²)/àS£|?±ëjn]×?¦–
+¡w<*? ^ĞDü^?˜?ÃÜ°’?’Gx ¶Õ{?‰ë›foÂş@Z‘Ù±·@Ÿ$RÅŸ²?Ö Ì~HZb@‹-$ü8Ë@S‘¶ş.n¨@s	Èó#@‚ºüPH@ŠI{J#:@ûÇâ‚@¸@ôt–ªÑĞ@1m¤z+Ğ?–ßDÀñ™­?Æyøêb	?Èã2ªLDQ?©÷øA9±?gÕ„Iv"@	rü\‘@Ø1ğ=^@Q"¸à†½õ@rv7ş®û@‚rÓZ…‡”@ˆû%œàv@ñ_0çÿ@5°ĞíÄ@1„LœÄß?—ƒ1 ¼á?Åÿ) ?ÎÂèé­?¯ô|âè ?zí,¤ßÚ?à/ßÁœ@/÷¤ç«@`yÓEŒÒ@Îß´u?çü¿n?x¼@³{?D@T¹¸€®@v×j_„ÊÕ@‡ÏH´9X@Aö_Ø­¬@”o¬VÕÏ«@%!ÅXdE@4Û)‚<†?¬IêêEY?çıv]b?ÑÔ]á‡š?¾FĞ^|¸?•+'öê¼ µŒ    J125807.54+261936.6Á  Ó™ |@hQd„@:S¬q²–<›Ğ¨B¥ffAñÏ?áüé_ªŠƒAwo;K)_<ÇË@z=qA*ff@eÂA®@.{Bfff@­¸¿şÑ<$+J       	  c         Ab¿×
+=ÂÆ  ?å¸  C¦ "0q           AGO¿-|?¬o}Î¿•4ZGASS112012J125807.54+261936.6@hQd„@:S¬q²–<›Ğ¨@T©½n¬@2®ãyb?ĞÑ]¬M°@0{ÑHu„?±4Á¢²U.@0YH“¥˜Œ?°ô†J/À/ĞòTÒ´?Ğ)D(×aÀ2D”.r§?²3w¥+À2<ÍHş^0?±ög}$˜›?½éIÕd7?™T’Ñäk?ñï‡ò}á˜?µi}KgìW@.õ8e+ó?¡¸xÄ3Y@*Œ1bô"?Ÿ,“¼á‹y?Åí$[2¹?èU?h@@ìIp:?Ô4ğètsÅ@ :+a‹¡?ÑÅÀô«6?÷İç¿ÓÔ?À•õòµ?÷ÿ¿«E½?IPzwÚÅ@B+Õ:“Ş?áKÒ°µ¯¡?àÓOÄùKº?{=ìô›Q?ğïáò`!x?ğKjù_×Ã@±ú0 @¿î{ß«ÿÿ@2šêäZñ?Ã;­Ÿ@	Ï@/
+DÑ])?š¥¸,§7@/>¬Qo?œ¼V«aÚvÀ0’zñ¿›Ë?ÃuÛdX‡ÒÀ2Öº;H(?¡ŒªÖ_ÚÀ2÷ÏÍÎ?¢¡§~L	_?¼@Ø:wŸ?Œ9{œÄÓ?ñï‡ò}á˜?µi}KgìW@-mËo7¦ø?Ò10O9@)|.ºpÎ?r_<ñF?Åí$[2¹?èU?h@@ı4ä7ê?³,cÑŸÖß?ÿ'Îv›3Á?§à½‚L­?÷İç¿ÓÔ?À•õòµ?÷ÿ¿«E½?IPzwÚÅ@B+Õ:“Ş?áKÒ°µ¯¡?àÓOÄùKº?{=ìô›Q?ó¸ğİc™-?ñy9ğ£@±Ğäø @È}C1¨ @1ŠÖNÌBÕ?—Õòü»@.µŠ¤Šïë?‚Úšv@g@.oø[äM¾?G…§ıÀ1?×³ç? Ğ‹„àígÀ3;PŠ^~Æ?™‡	›ÓbkÀ3^®±Ïİ?™K„}/£X?¾t
+6’é?cš™ü$›?ñï‡ò}á˜?µi}KgìW@/2Ãªi“‰?r"¹{kŒ@*¸ÇÒâ¯b?‡)K>XóØ?Åí$[2¹?èU?h@@çÖ¿¯C?¨Œ,ÕİI@ Uls1ãî?ºó’ÈZ?÷İç¿ÓÔ?À•õòµ?÷ÿ¿«E½?IPzwÚÅ@B+Õ:“Ş?áKÒ°µ¯¡?àÓOÄùKº?{=ìô›Q?ò««*şÆ\?ñ<}zğC@²¯5UKÿı@À\œÍD ?ò3JÔ¨Ğ?Ğ)n•Ã?ò¿c Áø?±]â/\!Ò?òÆ[7Ğ?±º˜Õ€H@!§ç_‡Ş?ÓÓ¢˜CÙ@#s œÿã?´¥Sh§ ñ@#–•¬Ö\?´`¶Ü„ä@#?QØØ?´>;|¡Ì@!f¯ÖôÙ?µ9Ô:C@!Rš?µï!ƒ¥ö?¼Ù\y]z÷?Í¢D¬.Ì?¼Ñİƒt€?²8I;ÄRÁ                0                                                 +12705                           11014-12705                     1-456339                        v3_1_1                          v3_1_1                          v1_9_1                          v5_5_36                         v2_9                            APOGEE-2&MaNGA                  MaNGA dither                    @hO?ó@;}š³luì@Gº"€ Æ@V!+—‘wN@hO?‘æFñ@;}š¶ĞF?ƒPÓØâ       	@¿¤Ü(õÂ        @7ƒg ù	l@F'ªÍƒäma144                                                       $5                                     -‡@h%†`Ô@;Ğ¾è»¶?ğÜÆ??ñÙı6÷ãÒ?ó®Hè§ç?öFˆzdØ?÷M© >ê!?û,GG„#?é÷·Ç‚
+1?ë~¿"Ài?ìèÎör¸„      äé      äé      äê@ÇØåó@'æšÔ,@8Ú<!~@A÷QÕR      @                       plateTargets-1.par                    J125754.36+272926.2                      ?‘{òÑ?’ÆÈÑÀ}?™ëµ<¯« ?¢˜À‘ç/?¤¼5ûºv?ÄÓë5T?œ“âAöfñ?åÀYA9ÜÀ8     À8     À8     À8     À8     ?ğº?–îÄn?â‚—‰ôàè?ã™!nåé       ”      û       v1_0_1     \ÿÿÿÿÿÿü?‘{òÑ?‘ïİlÆìÀ+N»%}À-cİTÚLèÀ0ç!Z³À2L·^¦~„À2ù´ÜëşÁÀ3O>h›À3…¾ ºKÀ)\&»U¬À,0´Ş'À0h”+äŠÀ1òğà¨KäÀ2!áÒÀ2æ5¤À3$¹Z)A@wO{@‚O3:}ª@Jé3 @|È@‰û{µsë@¡=“œ¾à@¡ç©xÔıô@†·rGE8ïAó“kÿÀ  Aéˆ:   ?åx"ñœî@Nlm?{?´?—oÇ§?³úÏiŠ2H?©.©‹ªÁ?¢‡d|›ğ?šà›z‰!ì?”a[9·†¿?ŒæWYĞxJ@#$ïg+ˆD@ ÒCÜÎ¢@cµ¿j»@*HJ/Îú¤@c;-b8Ú<@€8ñıŞ½@=o²-@”xÁ½¥@™Y“©*0U@TA…ğoiD@O'¨?NÊh?sê¸á‘o?u.ÁÅ˜â ?›7ævA$ã?“	eHH?LF‘ò¡Á³@ØF¥Ö¾¾@+]ÑÃ¬’›@\eİ—ö+k@ŒÎ;Í5¨@ŒŠ†¸ºÇ@“ø¦€IR@™…Hğ@S”ç¯·é@M{™Üµx?wE¦`#¶?wšÀ?ˆœ•?›:Š¦Ê<?”V:Ê+\Ğ?Npr»$‰?à²Çhş@á>fmc@M¥[[Õ@2‚üŞãOÆ@"à]RÁmô@7ÎO"}Š@f¢S;wG@…¾úKâ@”í/Ÿ¾w@s¶E¡Ë@¢!ä%®æ2@7‘¾‚bE@?_‰¤Y=?”Ğ}äåĞİ?Æ\ÊÆ¸5¼?µ’`?Zß?¢&µø?g]ÄA¾k µƒ    J125754.36+272926.3À  Ò? u@hO?¦Şüz@;}š•B<ˆùB33Aé€?ßƒ/ÊÈæApü;K)_<Ô,=@ô(öAhQì@æ{A×
+?ó33BzÌÍ@š=q¿aàV?)       	  c         A¿×+ÂÆ  ?å¸  Cc "8o              ÂÆ  ?¡hèÍ“¿_u¤GASS112003J125754.36+272926.3@hO?¦Şüz@;}š•B<ˆù@RK˜¬û@2Ê·uÌ?¤#)×÷Q@0%”#J?‰r"Ì™{[@/ËÍmj?ˆ¦9„A†¾À0EıÓÏÎ@?¨F~À—PÀ29¢İcÂÂ?ó…Ò;w¥À2d@
+Ğº×?ÈÅ”×n?Â1±8†-?rùQ»ÊX@Ó›Â®X?–gQ^&V±@:Ú|ğ‰Y?cI£Ù^@7²î€·&¡?…ÊÛ6:¶S?Ò¼Õ(S©?Æ3O²W_@ÀòZÌ-F?©T/·Ş@	`>Ê”Zx?·ä|b—òÙ?ô¶ËÆA?®U
+n`‚?à-æœH?•…wÜõú@c4É!€¥M?å‰½è—3Ø?æİ6ß»#?pón*D@£ÍQæ^?ü‡E7ES@µ+Å
+t  @´hán¯ÿû@1TWıù?“#@.ÔXEœj±?ŠÿPÌß¼@.|MVtÌ?‡´ü bÀ0õ¸Š<? d“3yÀ2ßœN¹´?I÷8)À3¡ÆLŞ?—§ÑõâĞ?Â¿«‚²?e|oeo@Ó›Â®X?–gQ^&V±@:IC´eX?m—ó’<©@7à· ?ië=8u?Ò¼Õ(S©?Æ3O²W_@%rA–#æ?«GL°T@¹%^ÕÏ?§·w¢]T?ô¶ËÆA?®U
+n`‚?à-æœH?•…wÜõú@c4É!€¥M?å‰½è—3Ø?æİ6ß»#?pón*D@]ÎHo[@ ß“ŠT@³QÊ @¿È^Ëà  @0ûT´CMÇ?‘ŠñÔ@.	ê‰Lx¡?€Ön_ƒ@-µuãí¯¦?~~é.Üó<À1Ns½CöE? "á9À3DÓ,á¼?œd@î˜«À3ol9?œ*†ƒà?Â
+œ¡˜ƒÇ?aõùù(@Ó›Â®X?–gQ^&V±@:ã»‰]Ë?e(ƒ7ĞE@7Âeš×µö?•%Fgt”D?Ò¼Õ(S©?Æ3O²W_@ÊØk=Åw?©z|»^­´@	pÎ}³?Å‘l æ­?ô¶ËÆA?®U
+n`‚?à-æœH?•…wÜõú@c4É!€¥M?å‰½è—3Ø?æİ6ß»#?pón*D@ Ø`ò•çè?ı¹…M›é=@´ü…ÚÏÿş@´NL\«ÿı?ğ‡^—B€P?¥á3¯•÷Ù?ğ³÷ÔO˜?ƒ+6¨µ ?ğ¬×Kû ?Œû÷^îDÛ@!¹náH¯{?ªíc‰Ş5+@#G¨½’—f?˜å[Fï@#iû£?˜#ª{|U@#iöri0M?–®ğxÚ¾‰@ uªšJŞ.?›“xR‰2[@ ¬ïšL ?œ?eó:?ÂOşâÕ?±G_—]?ÂL†Ÿ\B?½<²½                0                                                 .06101                            11824-6101                      1-83393                         v3_1_1                          v3_1_1                          v1_9_1                          v5_5_36                         v2_9                            APOGEE-2&MaNGA                  MaNGA dither                    @kä²?ÓŞ@.û4ìE?Òë2 G	@J¬Ÿqúã@kä²B@.û8"Á?¥Iå&_æ       @Ås3333        @8µsê³@LıŠÚ¹õma177                                                       4                                     /@l	±m@³‚¡ Ï?òI¥e¶š?ó.}Vlô?ôĞïÜœM©?÷3R¨C€ˆ?úş†ƒ<`?ÿ£×
+=p¤?ëêW!O!?î:Q Äe?ğŸ”…]¢s      å
+      å      å@[0HA@üPHğ@æ‹¤ô@° Ä›¥ã                              plateTargets-1.par                     J145235.22+043245.1       =       [        ?B“ *ûµ?›ôK…©;’?¤v=Ò|?­ĞZ?°T=X?™r”Çø§œ?¥Dƒg©Ÿ?åÀYA9Ü?ß—?LF)°?ÌW»}ÄüÊ?Îm|…6¶ À8     À8     ?ÖRàw¤|L?Çä¯®m;?É[­zÌúÅ       e      Æ       v1_0_1     Y,ÿÿÿÿÿÿü?B“ *ûµ?œÿ¼ô;À.·[åÙäÀ0Mß†ã´pÀ2¹ÅoÀ4kÏÃøõÀ5G±s.À5¯¿¤Æ†À6g{9\BÀ-FÁãd¾ÆÀ/Ÿº#|ÜÊÀ2s™åóíÀ4/ãóYÿÀ4âá& %9À5JêÙ'N#À5—’áïsÁ@]Ô–»™@}c¸ä¸{İ@rtÊ˜ñÔ@£+ˆe”¯O@£Y«]Ìcñ@£OûdZ¬@€_£9ÀëîB%P|Z   BÔò=   ?ç½nB@WûŞi­BÄ?Öÿ€SLƒ?ÕÍïwÀP?Ë{lˆÌÃ?Ä8˜ÍÁ¿S?½Tÿá¢ô?¶=Ø¾°»?¯Š?³o@3ŞÒê@Û0r’Õ@‡¼'c@1|
+(wîN@n;ÜÛ7É›@’Î;Í5¨@¤Å>š@¯¨>BZîc@µÉJÀƒo@5\º:@dàM/^?–õ#>Y¾?¼,g1*Å?¥(ÅFÁw?ÚÚêõ?NB®}c@¨q£±K@2¬E®_ú@m9ø"»ì«@’êJŒ@¤´%ãS÷Ï@¯‹:’£@µ¬dÂø7µ@JË |âª@®½çX?˜é5¹pß?¼h!Á4¬õ?¦øÒşÙÔ?Vg°8?çèUğª?æJ7[¶ßû@6¯á»v@WÇ:ÿ°Nè@(&oKè6@*®”‰`[@>|p†zØä@rvÈŸ@¢‡@˜û©“àß@­p@ŞÒˆÎ@¶šÒñ©ûç@¿Û4ıó¶F?ÿr]šåÉô@
+0Şlïí?³Ù#¯1±?³v—¶ëd?”õx½€ÿo?‚j*Â«ê?_Ú¹t  '8 ° J145235.22+043245.1L  ËM@kä²VÿÁ@.û*®)t<ê5“Bú33A/¾w?æ‘§\Ğ»oA^â‚;o=êJŒ@ÁG®A‚£×@¬(öA\)@,ÌÍB933@¥¸¿[‹V>È•6>P‚     c         A¼j¿øbÂÆ  >ËÆ¨   ¯M           AWÁU¾.VØ?¤M«¡3x¤¿¦PGASS10040 J145235.22+043245.1@kä²VÿÁ@.û*®)t<ê5“@_HCÓàû@0SˆÎ?Øz0Ò@.@}	Ì?!"™ç|@- ûë½a4?¸œê°†=À3)‡^#q6?Ø¹{w XÀ4\—\õu?¡VïÖ‡À4¬ vÕIj?¸îƒW½†§?ÏÚ_-Z?°Ÿj²²@}éM?”ëYé>Rı@<nUî–~{?xÂşĞUÔA@4åß_jËh?f-±9Û?â@x €!?Ñÿ? ¶°@Ò†š½õ?¸²®(DX@ûPõÂí?ª}(¼–A@ SÁ<nÛĞ?”¨÷ßAb?ég2r®i?†ôÑ¤??÷H6Äîı€?Ã=Õ~µåQ?âİbÅ½¼1?]†-B§@ÕAIµ­?ğƒåê“/@·¥
+€óÿı@´ü¯˜cÿş@.ÅÙÚ3Mˆ?‘5öÂÚ÷™@,©Ğ€K…;?|à–LÑÊ@+÷\ğw
+‹?|7Å$¼À4±šS@?—m¤¦ß–À5'¶,7f?‘uFmÀšÀ5€ïôxt¾?‘cø„ ±h?Ñ’ØÜ´ò[?kdWğR
+@}éM?”ëYé>Rı@:¼Üö,±?h
+ƒĞ18@2½‘wék?WzÊIĞã?â@x €!?Ñÿ? ¶°@HÒ‡°Ò?¯OİäÕk @`_ƒ=?£S£‘—J<@ SÁ<nÛĞ?”¨÷ßAb?ég2r®i?†ôÑ¤??÷H6Äîı€?Ã=Õ~µåQ?âİbÅ½¼1?]†-B§@+¶·fFì?ñ½b-»Õî@¶v·v÷ÿÿ@Ãüz—ÿû@-Ğ?g€¾#?‘
+Pè§ô@+«ópÏ?™(°ùÔîé@*ûÁg<nu?”ï«|†<À4”~¸óšò? ÈÉğ4ÂÀ5¦¤´Lkx?Â‚ÒdÉÀ5ş½¹ÂÊ?™«QïÂ?Ñb„8Ã”´?|L;&7:Ñ@}éM?”ëYé>Rı@;tJœ¬_=?X–kvä@3Wt8«£?`Û¼]!&ö?â@x €!?Ñÿ? ¶°@ïl„ÚÚú?ªZÙg9Ñà@‘$‰ZÜH?¦YÀ†iäı@ SÁ<nÛĞ?”¨÷ßAb?ég2r®i?†ôÑ¤??÷H6Äîı€?Ã=Õ~µåQ?âİbÅ½¼1?]†-B§@(SCDÿ?ğï£åÛÑ@·˜]ø @µ$ü ?ö¯u­›È?Ø"¨qÃ?ô Õuoe¨?£ G˜h?õ)Ô$•ø?¹µ–<Û¡@% ö-|?Ûñ%$$ê@%¬gèÑè?§Ö%ı¢‹@&™mÇzZ?½H¸‹´<@&m{F?ÃÑ…Áz ’@"…
+zºp?½Y´Ê—š@!‹ÌW{{?¨@ù³Ÿ"E?Õˆ
+êP%?È'dI›à…?ÖAˆ¾ÈŞ?ÍZ²Ó|                0                                                 ._9101                            11871-9101                      1-456399                        v3_1_1                          v3_1_1                          v1_9_1                          v5_5_36                         v2_9                            APOGEE-2&MaNGA                  MaNGA dither                    @h*ä¹™6@:\…‡¿¬@tÄ†»a6ô@VG¿&ÙÕ@h*ä¶0©@:\…÷Yh?ƒƒÇcÈ|       	@¿¤®záH        @:ÉîËû@Mû)^	ma170                                                       6                                     .ú@h+÷øË@9‘î$5in?ğ÷øÊ™?ğ]!ê5“?ò[l7`¿?ö~+Uï ?÷êt}€^_?üRÇ%Ãß?ëMryš ?ìù=¼?ìgÕfÏAò      å      å      å@„|0Ó£@v îõ@N1PÚãç@-­ê‰v                             plateTargets-1.par                    CJ125321.67+262141.1       [       =       [?“ÈIZfş½?ì“ü™?˜,då ? ‰Ô¡ú³‡? À$%µ‚?z•%P+?9yÀ­§?åÀYA9Ü?şÚÿË&Ú_?ûğŒtíè¦?üE«Û»}À8     À8     ?ë_©]ÜÕ?ê)œ±|n?êN²_ä@             û       v1_0_1     \Îÿÿÿÿÿÿü?“ÈIZfş½?”¥¢jÀ$ºÙ‹÷ğgÀ*WwÀ*ıÛÀ/X\FQóéÀ11}àÖoÀ1ÙkÛmjÀ2 †&öÀ2&„'AiÀ"SÚr§½À*¡$¿ÒéGÀ0³AáKàÀ12“­Õ‘À1×±|å-íÀ2"§›ºÜ
+À28(§ü3?«Zâ#Ì	@l’¡7óŒ@Eæ^T@š2{²şÅ@¡…Çy¦µ@U¤K±¯:@‚TŞ~¥øA×à   AÖP]¹   ?ÛÍHÏD@e®×
+gb?´+…Øœ?³æ•JÕfN?©*ß|§Æ?¢t¢>XÖ0?šÅe¥KS?”L¹8’ºû?ŒÉT]–@¢J­£;Ú@kÍşûô?¼ck4VsÕ@y´V´A¼@PÎbwÄ\¼@jlÕfÏAò@w°˜Çâ‚A@€(½¥@‚4°O‹Y@’áı¶z@,a9†3‹H?t¸ge?(3Yt]?Ã… :İ÷m?:ıš®m??p'!é?¸_{š—@,ƒEW@N°ñıŞ½@iŞÊl @w#ôœõn­@dgƒù@NJŒL˜@Ë©¢üë@.RĞÃÒRH?ƒ‰aèş1?ÂÃtßP)?ÈNI9.ö?;uË¡è^?söFBÚp#?É¾­Õ@qäSÒ@e½>ÿP3@«&|k‹i?ÔÚ*ÃÍõ—@|N¡MÃ@Fq¯d9Ö@hâQÎ_@wM*™0¾@wÄ\»Ã@€<_¤?åÉ@:wÔ{í·(@7`/aíZâ?ãå'lU“°?òùD†AÎ?ã¦f˜?³~ú ´YÓ?¤œâ¡ÓØ µ    J125321.68+262141.1À  Ò? Ñ@h*ä%®æ2@:\†hÍ<BKB¨  A:|?ÕE¶ÃvöA}ç;-à<Ö¡b@j=qA,Qì@[…A\)@<(öB”™š@›…¿µä <±³¼       	  c         @ÿ÷Ï¿Áë…ÂÆ  @ó¶ W« "0Q              ÂÆ  ?¨Æ•0½ğ¿wˆ<GASS112016J125321.68+262141.1@h*ä%®æ2@:\†hÍ<BK@TıéÂ0rïø      ø      @0Òn†á™‡?šòW9QV@0Òn†á™‡?šòW9QVø      ø      À1Ìn.—?¡…¢xaa±À1Ìn.—?¡…¢xaa±        ø      ø      ø      @-0AÁ&<?¬%UŒ—ì@-0AÁ&<?¬%UŒ—ìø      ø      @`Î1XQ?ÃêØF‹@`Î1XQ?ÃêØF‹ø      ø      ?üİ@ëŸK½?‹ÏwGo‰Â@TôL4?ÉòwBBX"?Ó•.Î?t÷Ş`˜9?ğ"™jÑüñ?ğ*°#B½@®Vx•Oÿÿ@¯±ç¼ßÿûø      ø      @0uØW?~Ó@Ú±&©@0uØW?~Ó@Ú±&©ø      ø      À2€f½üÙœ?˜™¦±PÚÀ2€f½üÙœ?˜™¦±PÚ        ø      ø      ø      @.k	}w?qáAS‚>-@.k	}w?qáAS‚>-ø      ø      @à»ĞO#?¨,9°|û@à»ĞO#?¨,9°|ûø      ø      ?şç+÷ähÀ?xeo
+•@TÂñD=p?Ä SãùNÅ?ÓWG×m ²?l§CE`¿?ğDcÊbÃ?ğD•†Ö@¬rÍ9@ @»Â}ÿÿø      ø      @/±‹oX(ƒ?‰d¶§ @/±‹oX(ƒ?‰d¶§ ø      ø      À2ÆŞd\?š–Ú2²À2ÆŞd\?š–Ú2²        ø      ø      ø      @,¿  l¬?xãÄÒØ6†@,¿  l¬?xãÄÒØ6†ø      ø      @×z˜şÚ?¯RĞ	Ó’@×z˜şÚ?¯RĞ	Ó’ø      ø      ?ü²šk³T?­<ÀKšX@T
+Ú¯'F¿?Èwš3?Òï8üåá?x< Èà]?ğ’“Ø•x?ğŠ­ÅÍô\@®:À£H @¯—+h ø      ø      ?ï5æ°¨°?*rt?ï5æ°¨°?*rtø      ø      @"ÒíÏ‰2İ?¢ŸÇÍx‹E@"ÒíÏ‰2İ?¢ŸÇÍx‹E@"ÒíÏ‰2İ?¢ŸÇÍx‹E@ V“›Ç*Ò?¤±/yóK²@ V“›Ç*Ò?¤±/yóK²        ø              ø                     0                                                 .¿1901                            11967-1901                      1-335441                        v3_1_1                          v3_1_1                          v1_9_1                          v5_5_36                         v2_9                            APOGEE-2&MaNGA                  MaNGA dither                    @lşRàL@#?÷]+U¡@.+áàU á@H¼F@lşRç-¡#@#?÷\ÃOv?¢Ä-ÁÚ+       	@¿¤Š=p£×      p @3=—ö+jè@E$1&éyma132                                                       6                                     /Ø@lä£D=F²@$nÈ´9X?ñ²7Š°ÈŠ?òZîcŠ	?ô#D=F²l?òfWÑx-?óï*ZFs?ö	éÍ³}?é'»/ìVÖ?é|¨“1¡?éèöÎşÖ4      æ‰      æ‰      æŠ@í=…œŒ“@ç»/ìVÖ@³ïñ•2@Š˜ñÓí      €                       plateTargets-1.par                    ÷J152747.42+093729.7                      ?Ÿî4„»¶?—M¾ØKÎ?_P>ÿ¹?¦ÂPœûxİ?¨ùc>úÍÍ?•Ë`ˆxV? ¤C_ó}?åÀYA9ÜÀ8     À8     À8     À8     À8     ?èc¢Aˆá?Ú	³İè~?Û£mÃQùÈ       »      6       v1_0_1     jˆÿÿÿÿÿÿü?Ÿî4„»¶?ŸÕœàÀ.®‚”šVXÀ0rİßCÇÖÀ1ÃšZ‰¹RÀ3np~]À43Kaş!ÙÀ4I^Zÿ*À4„ÆæÙ¾MÀ.qbŒ½EÀ0TwFˆzÀ1ÇŠÉÕ¢À3$^	}À3ØW£UÀ45'Í»àÀ4{Š;WÄã@Ï2½ÂmÎ@\»„#Ï@urÔ`ªdÃ@£Eô`ªdÃ@£aıcˆe•@£dAaä÷f@ª»²şÅmBù¹1   B»P=À  ?äë`ÖÚlÉ@X2dÂø7µ?Ó¬DÁûã?ÒÒß )?Ç¹©Äßîh?Átñ„G%?¹R€@LÜ?³3|[ª ?«:Gy‘;|@×#gä@	oZÎ@ C€ˆPœ@2«Ê¸–@]æÍÈuO7@zó¹¡vİ­@‹ğoiD@”KÆ§ï@™å	k¹Œ~?hS„)á?Îßu¬?Ê.A§?òdÔ•îê?å:Wê¢ ©?Î`¿]x?\w«´Ùxó@$˜^=¢ø¾@;‰Ëy¶V@[	R }ÔA@z4mÚÎî@Š“Ù×Æü@“u7KÆ§ğ@šFÂ&€?Ÿ+^¨éĞ?Ì"i6ze?Ï*·y(Šä?ô	Óˆ¨°?á3æ·Y?Ğä%®æ1ù?‡:ñ1tÛä?ÙˆÄ_@@õŞœ)¦@W„•şÚf@±yámmÂ@&ÜàTiá@? ,Âã@YßPÚãæÅ@)ü@É@’VOv_Ø®@•4·éùr@›)°U2a|?±ÆaÎ§‡?¿uGª¹|?çf]­[?îA9»ãp}?Õüû¾§Æ?Ëó]DÔ›M? ÷«â`K´  š 
+èìJ152747.42+093729.6¹  Òa`@lşRç-¡#@#?ô4ã <ÿ‚,CÌÍA) ?àİô<}^ĞApŒç;*dÃ=Ì/ƒ@DzáAÌÍ@6ffAQì@G
+=Bpff@\)>ÜHb?½š>C!é      = C¦  Ap¤¿ÍOß    ?"MÓ R² û#          A?CÀ|Íî?¶g&³p¿…EGASS39567 J152747.42+093729.6@lşRç-¡#@#?ô4ã <ÿ‚,@a³ót:Ï@1³°›cÑ?œ´aılœ@0h>,”?ŠÇØV@/áş}ï™€?•¯¿S†×À2˜_Ôÿq? ']ã#À3EÔè¨¾? yæ÷,çÀ3½F£’?š$v3ìoÖ?ÖS°h^×?<]¹¼@øJ¦è&y?°Cóòf@3fËKi¨?‘Ş·.kù`@%Øú-9?¥N}Îß„?å³m³3€?î–âîb]@)û9kĞî?Ğğgi£	
+@”:r??ä6÷)¾D?ôTc¯$?¸<†ŠÄƒà?ğ      ø      @eSUkû‹İ?á—¥¿Óïm?â}>€ª£?‰oC5/?óÑäú/)Ç?ü–ì³G"u@³kÿû@±L’•»ÿü@0Aè]3ìê?¬†™,K´@/e¸ÀSAµ?²úãSÓ§@.a>°-‹b?ª
+èåÃpÀ3l+(fèh?­løÛÓ–âÀ3û7%q4x?³SæÉéUÀ4}t-„¡?«Õg`2ß?×ñOüÈ´?”y¹%Uµà@øJ¦è&y?°Cóòf@4ç ¹¶Ÿ?™[_ü@%F1 %À7?pÛqy;×˜?å³m³3€?î–âîb]@NvÍJ¼ô?×±§Ggµ°@‚JúÓB?°ˆ6†¦\?ôTc¯$?¸<†ŠÄƒà?ğ      ø      @eSUkû‹İ?á—¥¿Óïm?â}>€ª£?‰oC5/?õĞÒf@äL-.‰@±î]}”  @À6Ûÿı@/‰¸<ù¿?¢áR8óf@.X¶ƒüÒ?æ …E=@-†YeØ<à?Ÿ,|Ï·À3é7gõÈ?¤=÷õ?¸À4^ç*XÖé?ë¡±ç1À4êæÒ®¶â?•…)jZ?ÙS)	€?Øª…íz@øJ¦è&y?°Cóòf@4Võ×‹±’?xèhµ$ 2@#£‘ÂM Á?rÚùv”?å³m³3€?î–âîb]@4üË%G?¹Oğ@f1cv×?±{Né&8@?ôTc¯$?¸<†ŠÄƒà?ğ      ø      @eSUkû‹İ?á—¥¿Óïm?â}>€ª£?‰oC5/?ô0LoÕ€@ììb@³ŸŒÄh @±)¤ü0 ?õy!èDx?§·L¢ÍPÊ?ñ‘$#òâ°?ÁxcÔ ?òİ(Àºå ?šÖÃV„Ë@$YH™÷H?®†™¨Zş@$JªÙ
+u’?¨iÆ‘iÎß@$âàNàÖ¦?£ö”|à¶@$ì9N[?£±ß™Gü@"6Û\š`ƒ?¦Âc‹2¹!@ y$°+"?´KìÁ®·(?ß¹Sâd¥?²Oq;í²è?à†’/à?¦yë8"                Re1 < Re2; n2 = 1                                 .À12704                           11968-12704                     1-335271                        v3_1_1                          v3_1_1                          v1_9_1                          v5_5_36                         v2_9                            APOGEE-2&MaNGA                  MaNGA dither                    @l¸sÕ'—Ò@ G]e/µ@&»€q½M@I"l¯J*Ó@l¸sÕº²@ G]””? Â”e       @Å€           @;:™0¾í@IFÙ‡+ma042                                                       "1                                     /Ù@l”0#Ì@¸ß“²?ñš€If{_?ñ×süPH?ò¥;K‡¾?ò³¦‹¤?ó¬q²•ê?ù·ª%Ø×?êšÉ¯áÚ{?ë6IÓˆ¨±?ë±Èdˆ?Õ      æ‚      æƒ      æƒ@`Õùœ9@Äïˆ¹w…@§¦76Íò@¡7óŒT                             plateTargets-1.par                    ùJ151903.38+080819.4              ©        ?¡K!—n5?şóC¡H?§€PxË?±A]B{O­?²÷|ù¥ÈÒ?”<©ÿm]ü?ª	˜@dZY?åÀYA9Ü?Ñ «[¸ãa?ÀÏ´Sw÷?Áú×â‘†À8     À8     ?Äj²V)?¸÷¥p‡@?º;¿â”	       ä      E       v1_0_1     iÓÿÿÿÿÿÿü?¡K!—n5?¡9wÅßGÏÀ/·
+Ã¨aÀ0y”PXŞÀ2ñÀ¹™bÀ4¤ƒ§ŸíÀ5~Ü fèÀ5ímã2iàÀ6=‘hr°!À.r·VC´À0t¢Ûa»À2×3ü†Î¼À4wÛô‡ü¹À5?¸Ã*ŒœÀ5¦íx=ÿ?À5àø@@XºKâ@z•Ô`ªdÃ@eÒKâCW@£"÷eıŠÛ@£H“İ—ö+@£DÓœ¾à@p¢É[ÿWB*ñÊö   B$[mú   ?å@0XÖ@Zëfù3]%?Ğ†³B¸u?ĞN;¡ì¤?Ä•>ëù?¾>ØWğVë?µïÁÄ[D?°¢B4Mº?§–Q ëN@$…º² @!:,fWÑ@ Ós¯û@9üvÄ@r@d„@’ªâMÒñª@¤Œğ Ä›¦@¯på`A‰@³4ş5?|î?ü¼7SSd+@:;šàÁv?pjÌôİ.‘?¸á{Ûm¤s? ægÂJ×ƒ?…}õ¤1x>ñ‡‘Ú2÷@!\
+Jİ@9õÛv³»„@n/Âej¾@’ß,¥zxl@¤šÀIQƒ@¯o]cˆe•@´¼~($?üi
+ lòr@¢sış ?yàŸÎ£!ê?¹ßZîãù? âš”k\o?‹`#EQÊ>ğv½§_]?â¹‹§i@&HÕB½@Z7Š°ÈŠ@.©—×¿@'ë"Ğå`B@:l³=¯ø@p‹2şÅm]@•ü…S&Â@©ÍxDĞ©@´!ót¼j@»Îƒä&?ıÆ0¶0í@×@GD?«ŸP:U?¾x^¢!Ó?l¿ÕÔš?‹ğÚü˜õã?ZOá1   š- ÒeJ151903.38+080819.4¹  Òa%@l¸s–Ğ‘}@ GYò»=
+RiCffA1÷Ï?â6bıüÁA_xl;o=°‰ @Û×
+A©G®@¹G®A=q@E¸Bdff@˜£×¿V%?Ğ£>ôZ     c         A´9¿ê¬ÂÆ  >-V  
+ ¼          AK
+¦¿]I ?Å€AÉ~?„¿œUæGASS39469 J151903.38+080819.4@l¸s–Ğ‘}@ GYò»=
+Ri@b‹Çik^&ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ?òN£ZÅ?óù¹3e­d@¶Ù[î @·Xãÿûø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ?ó	\ƒù´?öréç@µ/˜Ğ @ÆèÎœÂ ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ?ñòÆ1p?õ¿¯+ 2@¶zQBÿı@·
+•\ ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ÿÿÿÿÿÿÿÿ        0                                                 /312705                           12083-12705                     1-116725                        v3_1_1                          v3_1_1                          v1_9_1                          v5_5_36                         v2_9                            APOGEE-2&MaNGA                  MaNGA dither                    @u…Ç’A‹‘@* ÙåTœ@U.t6d”ÀD¡™œõà@u…ÇŸj”@* Ù×wJº?±5WĞ¡m£       @Å            @@:ó¶E¡ÊÁ@FĞØDĞ©ma075                                                       $3                                     0º@urÊÀƒo@+à;>šo‚?ñn—P?òÊ¡!B?ôBzcslß?ñÖ”î9?şmqóbbÌ@ FÂ&€I?ìk1˜(€?íñ,'¦77?ïKQ7*8¹      å˜      å™      åš@¢#á†˜5@hÆ’÷@,LYtæ\@o÷¤ç«                             plateTargets-1.par                    ?J225726.69+130006.0                      ?šM¾Wq´?˜D¯eƒ?Ÿ²s/L¿?§Ï‚3Ì`@?ªLÿsNg?”¾r³ıÒ?¡|i*–¬?åÀYA9Ü?ó‘Kí>\?Ş4Íıygö?àW4Ïëe>À8     À8     ?ãØn½Lı?Ö¾¯?×k;!ê
+        Ï      
+       v1_0_1     âÄÿÿÿÿÿÿü?šM¾Wq´?›áœ½oÀ-4+
+oÆÀ/…äKjbÀ2é8yÄÀ3“®>lÀ4XI˜ĞEşÀ4·¬æ}wûÀ4ù¹„¬TÀ-IÛeìÃãÀ/¦\³_=}À1úı q?À3fû]VÀ4õƒ¥<À4qÖ¾¾QÀ4·‘êy@RìéÌ·Ô@xùõD»ô@Vv:Ñ%î@¢¾2äŠr@£	ã½@Y$¸ù±1f@š©ûçl‹BÎë!@  B
+MÎû   ?åà­Ta@Vš=ÿ?à?ãÌŒÖ<¸?ã‰K¾DsÍ?ØŸ–Ş©C0?Òäq¯?ÊGçuD¥¡?Ãíç™VÔ?¼B%êJa"@#áŸÂ¨‡@ ¡Boç¨@C¼ôèu@18°á´»^@fmàŞÒ‰@…rºÇË)@–ô¢3œ@ ´¦Â&€@¤ÃÌÌÌÌÍ@cœRæW@¶¼ÀO?r½"¡ßˆ?»¢ôâ²•?¥Œ§mÂ¦-?'ı½"’S?BÁ®"Í@;å–È.@1^j"³‰/@bàâ‚@·€@„EîËûµ@•+Ğ©*0@ŸfR¼£@£gæšÔ@!["Ì´@RT†@?x‡éú…?ÅO¸ºq*?°* „Š=Ü? 	~T&òU?aW»Ó«8S?âa°Ÿ¶5@¬mŒ?@V›÷øÊ‚@*€À­Ù©@…3më•æ@0C;wFˆ@d§KÆ§ï@‡œ÷!Õ<Ş@š°"¶®}V@¤ä÷eş@«kŸU›=@Äâi÷ë@\PÎN­?Ä¹à6?Ú$MœëŞ‹?ÅN<#ä?’«˜¨5œM?‚×s€—¹  +? åbJ225726.69+130005.9å  Ì% 7@u…Ç£˜ @* ØDĞ©<Ò^İBà33A(å`?âEØQeMbAgn˜;*dÃ>=p¤@â\A‡\)@Ç®A×
+@õÃBc™š@‘G®=OAl?7¿:>7      <ÒåCp  AJ¿ÆÈ´    ?"MÓ  „ Ô           AS
+¦¾ë	W?²½—ı¦•¿bGASS11071 J225726.69+130005.9@u…Ç£˜ @* ØDĞ©<Ò^İ@\	•ŸW[@2àyşÃbò?š‡táç$œ@.ó{ÓŠé?‚²MŒ7¥D@.ÛÂ¶%Nl?‚P¡˜îÀ0_Cî€ó8?ŸŞo¨/EƒÀ3Æ J¶?“û®}âÀ3ÑÜ’1®ô?“ÔñÿŒ“?¥cß<ŒÓ3?P—ÿl	?ëŞÖ2º#[?Ş”ÒSylU@=_8KÏ,?rÂ¡
+¿\İ@;ÿ_O^¬ ?•,Ò@?ÆÑ	@”@Òÿ@Š	6?³ZK¨ù…#@ë§Ã<Ñª?Ğšôm+?ş:+2_9?Ùn¤º#æ?õãàöj²?”Åßî[@¦ı\q¢y?ÊëSâIvğ?áã3aB>˜?€Ğ*ÆŸä?ô7’i=%?ğÒv#X{@µ)úA| @µ·>D @1èeÌã?à@£ÏŸ@-Œ¼—­B?¦Ñ	m“â@-n‰këÊ?©ˆuß{À1WX!'s?à¬Î`ñÀ4y_ìx‰?¨w /_¯GÀ4ˆy7NÏÅ?«<„2Ä?«2CÜ?—Ñ¹B$â9?ëŞÖ2º#[?Ş”ÒSylU@9ë°üİú?y„qÎø_Ú@8`yt ®ì?ió3«d?ÆÑ	@”@Òÿ@8cicÀû?¶¶C¿B %@ôÖÙ€î=?­A-˜)B?ş:+2_9?Ùn¤º#æ?õãàöj²?”Åßî[@¦ı\q¢y?ÊëSâIvğ?áã3aB>˜?€Ğ*ÆŸä?ü¾Ï¢VôŒ?òr[™@µD¸OÀ @Ä‚\Â @1k©9!îÉ?œÄ}¦š@,¸1ÜòüO?zvŞ3™ú@,—ûQC]ö?yÂµ§Ï‘À1Ô´"ga? ƒ™‹°tÀ4ã¤şÊØ?’Ûƒ)0‘¶À4óÀD¢§/?’Ëà¸v¾°?¬ÓxÊ¤õ?VŒÉ„rR/?ëŞÖ2º#[?Ş”ÒSylU@:ªH0ÿ?a1M•Wy@8k§âìJ?s·7Ú ?ÆÑ	@”@Òÿ@YEu?ª[P¾ÇñX@ııñPY?¼õcµ…?ş:+2_9?Ùn¤º#æ?õãàöj²?”Åßî[@¦ı\q¢y?ÊëSâIvğ?áã3aB>˜?€Ğ*ÆŸä?ú{Ó°^ÊÄ?òf_šk¦œ@µ|¯ÿÿ@·+`úcÿÿ?÷333333?£LDì?ñÚO´¸ÔĞ?†ç¼…E4?ò;'ƒ°?†-P.â‰@"ş‡8l†?Êa³ıµ@$º-R‹¤J?šÕ¯Æ«J@$Ğ7=K?œ)»Í¤å±@$Ö‡<&?¡KCv·Y@!ÃoE~Ñ?òÔüÎ9™@ Õ‰5??®pYï‘?¸rñ M<?´Jßadt?¾¥6æ<Úû?©Ï·•Í¾Ï                0                                                 /56103                            12085-6103                      1-117014                        v3_1_1                          v3_1_1                          v1_9_1                          v5_5_36                         v2_9                            APOGEE-2&MaNGA                  MaNGA dither                    @uŞø²È„@+ÚbÁ³l“@UÆcf`?ÀDª\w†\@uŞüz9‚@+ÚbË§2ß?Ãz^ØÓk       	@¿¤Ï\(õÃ      @&"¦óõ@;ÜÆ?ma104                                                       5                                     0¼@u™1&éxÕ@,7¨q£±K?ñIf{_ï?ñô¤Ò²À?óÉÏVêÈ`?õxÃ7!Õ?÷AiÂ;yS?ø—Xâe,?èˆ‹T\x§?èóqäSÒ?éRT`ªdÃ      æ–      æ—      æ—@V.	ş†ƒ@†`ÔV.@ËrÅz%@ê%™í|                             plateTargets-1.par                    AJ230343.06+135535.5       =       =        ?›¶6Ş8…?˜|2€…Ì]? RÜ,!‚?¨Ã÷¼º?ª[âİbúª?—ôÕ:À¬i? RÜ,!‚?åÀYA9Ü?òme?İGıZ3R=?ß¬Fû-ĞÀ8     À8     ?ñŒÌ—ç—?Ü¶4osUb?ßùiãÉi       À      	Ë       v1_0_1     ä ÿÿÿÿÿÿü?›¶6Ş8…?œŠæèÊËÀ/åo/Ó,À0Ê
+A¢a¿À2KênëÀ3wcä«çÀ4A óEÀ4˜c¾ì9zÀ4ãz_A®÷À0WB»früÀ0*A*À2N	Ş ÒÀ3Ši'ÄÀ4-Õä£ƒ'À4eDş6ÒÀ4¸¼ÆÅL@sdÛ[Õ@yõÀ>-b@iÊ«ŸU›=@£ÖE¡ÊÁ@£Rgy¦µ@£GÛÀ6ã@ÏCFÜ]dB%x;   BïiÀ  ?İUVÿ@<†@W:>Õ'å?óàÍù¦J?óGËÂâ?è¸ÆOÛ	¦?â0¦á€¸ø?ÚbÈâ‡t(?ÔòŞÚ@~?Ì_>ó@½Ş€i@k¼ç|{@#±“Õ4z[@3w@OÁß@`ı6z—@¨Š	Ş@‘%BIº^@™âu%F
+¦@¡%O²-@‘ãd¾Æz@xl*Ë†?™îb|T—å?Û«&>®Ÿ?Á»§5‚9?±¹eûĞÆ?yÈrb,¡È@.²ƒ{á"@3QĞúX÷@`+çW’@é_oÒó@‘ Ë’:*@™´½ÈK^@¡…¾ß¤@@«‘cj2¤@I›¥”c?¿hFv˜?àÖtK+w}?ÌúÚšê?µs4*)\?€AFé•Ò²?ÖU”òjì?ùˆ<åcœˆ@W,·ş®û@+ş]h‘@$ÕÏ‰?¯B@6 †hÍ@`šu%F@€4Î!–R½@’HXâe@›û†ö”Ft@¤Go i@‘ºyãò@éAw™•?Ó`¹=ÎÂ›?æv¾7Ş“Ÿ?ÌÀÓÚ³j?»á_ ¥?ŒóïÔ‰&  +p bJ230343.06+135535.5æ  Ì' t@uŞüz9‚@+Úcslß&<İ¬ïBì™šA&zá?×€ßÖ•Ao{J;*dÃ>ÖR½@xQìA#®@c×
+Azá@(õÃBff@\(ö>8Qú@ é›>_–      <İğCâ€ A1'¿²MÓ?€  ?6E¢ l `          A>¬qÀy„ç?—f9âwAø¿Qd”GASS11120 J230343.06+135535.5@uŞüz9‚@+Úcslß&<İ¬ï@]“ò|"@3kÚ¶µî?Ì/ÊöŸ@/u†íù?¤À+E×“@/bÕ¡Eš?¤hbó[ézÀ/ãZãˆÜ?ÌCº¼Êø›À3¢á!»x?¦a­jˆ7À3«ş“…#'?¦qSŒ? „¦ìeíJ?z_b f€?Ù™Ïæyˆ?Ñå_‡ãÉ@0ZyÃ¢?£¹–°@/ëµ\ÒÎ?€è…'º/?¶Mm‡ró@eÌÄ"@­
+C!²c?ßËÆÎ°C@
+º[ëé?¼U.7è?ô€	¤şÇ?Òñ¯føÕ?óào©H?€:–Yğ@ ÷Á–J(?Å´N*™?ÖYU+¶é˜?oòÔÙÔ??ö¢İÔ}mr?ó™S×&P@±k³—È @Ñ«/ÿõ@2PxGa?ÕA¶'sæ@-ÕáÅù:^?˜ñ†$½~û@-¾Ïä‘æ?›ÔäX™ş!À1ñ"Qg?ÕG´s³À4rx+E?Ma~÷À4~aü5i? ?ˆXÊ#?¥z®L«P?‰>­ô?t(?Ù™Ïæyˆ?Ñå_‡ãÉ@/f509?o’PA¡@.e°²¬?[Â9$¥¥y?¶Mm‡ró@eÌÄ"@!Ş©Ó¶è?­(Ø”¾Ó@	ë6à|¢?¡^}Dgê?ô€	¤şÇ?Òñ¯føÕ?óào©H?€:–Yğ@ ÷Á–J(?Å´N*™?ÖYU+¶é˜?oòÔÙÔ??úŒc“öÅ?õù^Ë˜}@±}°"P  @â;m¹€@1ºEŸ¶#I?–æ
+w"]@-%»'ó?°,M‹Å@,è4qÅ®º?€øcnTIÀ1£#Äq+?œbË¾3öÀ4ÛVáJz?’öÆšùéÀ4éO+DÛ?’Ì›p‰ºİ?©ô:<º)?PÜßp$ùK?Ù™Ïæyˆ?Ñå_‡ãÉ@.q1?aBÚWí@,~BÖaï?e!Ìˆ¥)?¶Mm‡ró@eÌÄ"@	æ!ëÖèó?£&²Iñe@‰şÀãû?¥@%‚N‹æ?ô€	¤şÇ?Òñ¯føÕ?óào©H?€:–Yğ@ ÷Á–J(?Å´N*™?ÖYU+¶é˜?oòÔÙÔ??û„&²N?õØœ¼é$@±»2ˆ @ĞåÃÿø?÷333333?ÌTæ‚Dû?ó‡\ö00?¥7dº+ûO?óÕ	{û ?¤Ø3HZ\@"Ã››¨À?Ò|Gîı‚g@$ò´v{£²?ª"ñìÔ@%wûÛD?©Å·îu;á@%õìúŸ?ª…y[9ü@!ş&}?ª0ŒõÙü@!Õ	¹éË?«ª®È3¡?¶Ò®p(è7?Ã7NfÑâ?³u…`®ë?§ãÀM{                Re1 < Re2; n1 < 10                                /76103                            12087-6103                      1-117543                        v3_1_1                          v3_1_1                          v1_9_1                          v5_5_36                         v2_9                            APOGEE-2&MaNGA                  MaNGA dither                    @u¾ÍŞÎ4´@.8¥=ÙØ¹@V‡ƒeéF‰ÀD¨ğb":ç@u¾ÍİnÀ@.8¥H#…@?¹|Yí²¢       @¥záG®      @Å¡ÊÀƒ@!ÊA_Eàµma151                                                       6                                     0¾@uÅıó¶E¢@,¿h7÷¾?ğÿ¶™„ ä?ñ7AJM+,?ñ„š¿3‡?ôó×Ûôˆ?õ&Şüz9‚?õC•$İ?ìá*Qã!£?ìëç¯§"?íµ™ªa      å´      å´      å´@ğt§qÉq@È`VìÕ@«&¿‡iì@%™í|p                             plateTargets-1.par                    CJ231142.05+150638.2       =       =        ?¤~ièQ¸?…Òß­Çp?¨lÕB¥?±âHM÷…?³¬Şğ»¿^?šµÁ¾ü«?¬+ÍÁÇé—?åÀYA9Ü?ÎÈ‹ßò™e?½«|,Ñğ?¿º»A"ùÄÀ8     À8     ?Áş$Ş†´?µb`»õ?¶n¼Ì#¯ˆ       á      Ë       v1_0_1     æ7ÿÿÿÿÿÿü?¤~ièQ¸?¤êCD@´À0jôœõn­À1@,^,ÜÀ3Ac™,ŒPÀ4ÛZÙjjÀ5¬YÙ)®À6DR?gõÀ6ZEMçê`À0ı‚w>%À1W™ÅXdÀ3@:§›ºÜÀ4¯>FŒ¬KÀ5]šMô€À5¹öÛ”íÀ5ğ˜ú7i@sÁDĞ©*@€Eôá¼©@oz¬†h@¢–‡+@£C2¼£@£/ıp£×
+@z'l‹C–B-]ùAà  B&3Cü0  ?êëE=¡Ì@`üÅ‚U°6?éÕ©JÅJ?é}ç¡åB?à˜¾ş-?×¤Â -?Ñ%mÂüŒ?Ê ½Õ{?Âo¶q@´ü@x€€Ãß¾@º²@YŒc@(§ùµc#¼@7°¢ÊšÃ@fr´xB0ı@ˆœqu@šG®zá@¤Ss×Ûõ@ª°öE¡ÊÁ@m‚Ÿ‚ç@A (Cì?–(5ÂôJ¯?¸öùÇ Úñ?¥éÈ†/?—{‚=˜£?`Yäİ@¶Ÿ@)GŠ ’§@8C
+â´–@eÑôÛßG@ˆOÈ´9X@šQSt¼j@£ø:û~‘@ª>Ÿb¶®}@ß¹EÅ@İ]=È¸?šî»_2‚?¸„Å÷ñh¸?³O~B{%?™Æ€FP5;?a¹:¢'®?ë@'7|n@	éšbí5@`«¥øL­X@!oŞµ,@%ï³•Ä"@6}vF®:;@e(§íåK@ŒJG¡8@¡aG®{@ªËèÛ‹¬q@²Ü~ùÛ#@õùŞıQ@õHìÙ?½šøi]¼Ÿ?Æ=P ìŠ?ªãÈ^J…‚?•ŠÏı-èœ?n -vI¢  , 	xJ231142.06+150638.2ç  Ì&k@u¾ÍİnÀ@.8¤~Ïé¸=#ìC0™šA1&é?êØ{,ÇAeJõ;-à>Œ/ƒ@¯®AQp¤@   AG®@QìBÌÍ@†ff¿0$?"ı>}è     c         ASø¿î—ÂÆ  >6E¢  p bZ      	    ATOß¿£§?•€SìÊ/W¿ŒqhGASS11267 J231142.06+150638.2@u¾ÍİnÀ@.8¤~Ïé¸=#ì@fYjLKõ@1oÆLV¡?³Ğ¡_Ò;@/2/&*?–!ÊÚ¼¾'@.­AxÓßn?–"jH÷À2Ì|×2Å?´+õöÀ4º)ÂŸÀÁ?˜ëMg&ûÀ4å¢Ãä?˜ëÛ °í'?Âˆ%»–Ól?‚ÄÔİšJÅ@„½[Zı?À°‚Ø’¬@3#’%˜éÒ?ˆå¶À¡’@0>3kÆ¸?‹$>d;Õ?èzQNC·Š@D|$÷y@ uÅ .Í?Íy¿Â¯²@^¸Æí-¹?Ğ”SGj#?úyª%jª?ÂZ¹N±½?ğ      ø      @KŸŠV?äÅ¥‰Iñ?êc¿åƒ?{ñÇgÎ¿@éâ¢…„?ú
+tU½İ @¶qûÌGÿü@¶¿/ø'ÿı@0JQx¶%?ĞátÉ@-]§Y\˜?³@½6è@,ë°«×*?³µğ5ŒUÃÀ3ññb±?ĞòØ™IÀ5oW%Š?³vKI”êYÀ5Æj„BEA?³êâÇ:“õ?Ç¹Í/lj?¢³—M®C@„½[Zı?À°‚Ø’¬@3ƒ‡¤•°Ü?	Èüyµ§@/7".x)Œ?eçÆKR·?èzQNC·Š@D|$÷y@xÌåöß?Ó™AD®Î@’Ãñ“aÀ?®
+aJ±?úyª%jª?ÂZ¹N±½?ğ      ø      @KŸŠV?äÅ¥‰Iñ?êc¿åƒ?{ñÇgÎ¿@"ÑCè 6?ûé6§Ñƒ@³‘V @Ä_?0Ÿÿì@/ƒ9
+†À?—Pª~@,q§¢å–ó?†“1W[D@+úòØf’?„zÎ¿ÜÀ4t=¨v?š#¨ç¶²À6o»\?×18…À6>ÉmúË?kª-7pc?Èœ¢—W®?m¸D:k@„½[Zı?À°‚Ø’¬@3Ûo»a)A?`Ü7¢å@/jç´?„®©ôRC?èzQNC·Š@D|$÷y@ç
+ÚÌGñ?«T;Ülô@²©×ê7?É\8\c6W?úyª%jª?ÂZ¹N±½?ğ      ø      @KŸŠV?äÅ¥‰Iñ?êc¿åƒ?{ñÇgÎ¿@b¾VŠÈ™?ø3HÕ¹Ğ@·"ıx  @¶L¥k›ÿû?÷333333?´ª¸épÃÂ?ô”Ta´y¸?˜½ÔF††z?õ’unnà?˜Jş¬Luf@%ÎŸ‘åÈ?Á¨TÃ¯R_@%ûùâ™!n?¦  &Qv@&NPp¼@v?¦,ğÁR&w@&?	Vöç?¨˜e>Xq@"nu„Ã?¦Î¾H„Ø¼@!×óö‘·?¯ZÊû6?ÓÎU°ø£?¸á<Ü&ƒ¦?Ğ©¬_{-H?°htr÷                n2 = 1                                            0Ú6102                            12506-6102                      1-82382                         v3_1_1                          v3_1_1                          v1_9_1                          v5_5_36                         v2_9                            APOGEE-2&MaNGA                  MaNGA dither                    @kR‰ ½ç@P©âd”@vŞ=†ß@L®õ°_@kR‰"S@P©Ş‹;2?£QA;3²µ       	@¿¤ºáG®       @3× ù	kº@DÃa@Oma072                                                       3                                     2@klnÖwpz@}ÁBá&?òP°ò{²ÿ?ò†¸ºÇ?óúáG®{?ó=1¹¶o“?øY×ÆûÒ?ù÷1Å?êäïº€?ëil?Ä;.?ì
+ˆïş*=      æ      æ      æ@órSÍİ@@·€4mÆ@+øvÂÎ@Tów[                             plateTargets-1.par                    1J143419.01+033951.8       =       =        ?¡0ÇüŒ
+Ã?œ˜¦Ä>L±?¥>}5­-?¯:$¦¸?±º«7%Ü?›:WƒY8?¦Û¨Ãê6P?åÀYA9Ü?Ú(÷»7ùì?Èââ7î?ÉÇ2„½ÎÀ8     À8     ?Ñùt·€_?ÃâoÌ@µÓ?Å×C:h       ô             v1_0_1     Töÿÿÿÿÿÿü?¡0ÇüŒ
+Ã?¡ÀTŞÀ-t™kvp À/Öo?Rü&À2Ál‚à±À4”8:Ùğ¢À5iÑÃ¬’›À5Ç.ğ®SeÀ6GZ1¤¾À/`ÀßXÀ‹À0iz$‰LÀ2´¶¦ÚÀ4Oß\òI^À5¥H#…@À5jğZpŞÀ5©Pes!`@ow@öjU@|@‡~äâm@pXm=…œ@£/„o i@‰"¦L/ƒ{@£r9XbN@‘Ìç¯¸B(?p  B!2ˆ P  ?ä«Tâ°cà@>µª÷îö?ÓêdBŞg?Ó¦½Äq3Ÿ?ÈÄ³£°ôª?Â9m‰ñ0?ºoƒà8©.?´š ák.?¬l½B–'Ÿ@âà4ˆ@[õÿËıš@.‡…r›(@;ÈŠ&_Z@m
+GØåó@‘-/ìVÕĞ@¢HÆ?@ªğÄZ¬@±+G>«6z@ÁÎl	=–@¹¦[*?“ùO¦u9?¾ß0§’¬?.çé^*;?¨°©p|??g¹’C $	@+¥*ÇSç@8ÑÍåÑ€‘@jÉZÙjj@^B©“á@¡w$İ@©»³&Á¾@°Èæffff@±•+v@	s2&Ã¹?“ÛÃEö•„?Ã¾¾l6à?2TÙŞœš¸?¯ËÒ¦Ön?p!xÿ"èì?á>˜ÂE@€Ó!z¤@@úëÄ	@(SÖbwÄ]@RgbèÑ@-Ä
+Jİ@k’CV–åŠ@”Ãú)Çy§@¨.UY³Ğ}@±Êœ£n/@¹7è´9X@U¸d„@!B‡N=?À+å¡„õs?»ããê ?ŸBªœ?’vÚõ%ÿ?jNã#6¢  %q ­ÄJ143419.01+033951.7I  Ë; K@kR‰7KÆ¨@P¦v î=	€²C€ A0—?âJ§Xı‡A`í‘;o=Ô•@ QìAƒÂ@
+=A£×@R\Bc™š@„(ö¿“¬'?³ì>>Ú       =	ÂÂD@ A-¿ÓSø?€  >6E¢   of          ARo ¿&]j?§ ¾ î¿ŒGASS9585  J143419.01+033951.7@kR‰7KÆ¨@P¦v î=	€²@bn÷K‘ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ?ù™¯*‰â?û—¾ˆ@½ÊÉÔ( @ËcoŞf ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      @ -sŠĞy@-ƒ>¾@ºu±±;ÿı@ÈIû`  ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      @|¦yz½­@ùµßÂ@½õ¦l @ÊÕdr² ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ÿÿÿÿÿÿÿÿ@      0                                                 1œ6101                            12700-6101                      1-120103                        v3_1_1                          v3_1_1                          v1_9_1                          v5_5_36                         v2_9                            APOGEE-2&MaNGA                  MaNGA dither                    ?ùNÌàEµú@,§¨TMr@Z°Îo1wÀG¾ÃP2„?ùNÌì­<å@,§¨ùã†?¼ìˆ3?È       @Ås3333      @0MæšÔ,=@H[ñA [Àma122                                                       6                                     2¡?óÀ€ø@-íc#»Æë?ğŞNÛË?ñ11eÓ™p?ò8\gßã*?òú$‰LD|?ûw…r›(@ •loT?äû°åæy?èúØä2D ?é´ ½¨      æÂ      æÅ      æÅ@c>ÿP3@ºˆ&ª@«©Ñöy@[=ÈK^                             plateTargets-1.par                    LJ000619.61+141938.7       =       =        ?’œ£4Íè?‚G‡Aìù?˜šrBÎÂ×?¡‰ƒÕj´?¢0€#(­?ÊàI½t{?œ‡Œ„eŞ_?åÀYA9Ü?şWûêÇŠ?òÊrêÙ'N?ó¹ÛŞ¸‡›À8     À8     ?ñóı“>6?éaA(¿<?ê8j?8úó      ?      
+       v1_0_1     ğÆÿÿÿÿÿÿü?’œ£4Íè?’zÊ‡´PÀ)‰Ò¿UÀ*®ÂÎFIÀ0Ã‚¡0À1„‚à°«À222]J]òÀ2‚M]€ä—À2¿'E¿&òÀ)»ˆ êâÀ)Æô½±§À0ğ„aùğÀ1V¼èS;À2	4Á©À2U*:ÁÀ2ŠO—íÇï@Š¢i@6 :Ùğ¡¾@W…27Š°É@Ÿ;˜_ö”@ 'l‹C–@¡iíBÃÉï@v)1&éxÕAâÌ˜   AßkVˆ   ?İêEP—@c,O7u¸?î*ş[e+?í¶à!tL?â¹Ñ²åšú?Û~H{?ÓüÆ>=R?ÎOb~OfE?Å}€ò„A@—ù“Õ4z@¸­¿ÁK?ñ5°ÖÍ Ï?û¸…	¿œ@IÉ=Ç @fë‘¼U†D@xïS;wG@‚™u?|í‘@†&ôá¼©@úGfÆŞv@’ştå…?«+°‡ò¨)?Ğ÷vC©"#?ª…zÂ‚µÁ?¬¼æa·+?BØ‹áêƒ?õt¨H‰?ş¯'ÖŞò@G\’w@gyñ.ğ®@y_Aò×s@‚DñŞi­C@‡ù1ø .@1¾+IYæ@h•Ğ·=?±j?ÕT…=l3?µpy@?²'IğäÚ
+?QºX ?Ø[ŒÑ@ÜybÂl÷@c)Œ SâÖ@\§BÏˆi?üg<O;§v@záG®@Fˆ]_V¨@k§ıŠÚ¹õ@}lÆûÒsÖ@…zç ù	l@ŒüÏAò×@!z‹ó¾©@&chDŒø?ÖV½[À›?èßÊjò½!?Õy"@FÂ?ÇÃŞÁï#?ÁVA‘V äi    J000619.61+141938.7ï  Ì Û?ùN¯%;@,§¤ç«ud<”à½BÌÍA€?Ù>t¯ÕEAA|t¼;—$>Ÿ!-@tzáA2¸R@aG®A
+{@:áHB‹ff@¨£×¿‰Ål=ŸyÈ=²     c         @ş‡+¿ÙÛ#ÂÆ  ?ân˜ k5 ò              ÂÆ  ?À¶¯ªı€¿Œ¢GASS124009J000619.61+141938.7?ùN¯%;@,§¤ç«ud<”à½@S» Ş‚ @2éH\gj?§&†riÑ”@0Û3Öãõš?­…Dâ“=@0´2=é"w?©dF*zÀ/&BÁ^ ì?ªCæY=Û„À1¡5åÏÂF?¯&#İÄÀ1È7~Ê•i?¬BşÂş‰t?ÀÂr,Äj¢?YxÏu?ùÇË—GE?°Ÿ–)‰B@5	‹iôlä?›óÒó|±N@1«Öª¦\…?§C8üôÎÃ?Î$î@ï@?â	˜Ğ	ˆ•@™%/7 T?Î¬PŞóÎ@©”tU/?ÙPûLœB@’Ì;Øv*?´ñê8wX?÷ÿ]™áS?uvÄš«ÇN@OëNu\3?ÅÎ¿@î»?Ô_-R\Ğ†?„«EÆ6º“?ğ‚TØ,-ù?ïüÂJY@®Ã(nWÿù@µƒÜÛØ @22­#?½M]HlÅ|@0yN¹¬?—MŸz6@/íğ ?™A½&óÀ0IÛ²ª½?½óœD¬é¬À2_gCdş4?¡£øÀ2…qu£w^?¡³°²©z¬?À_B@Š„?ˆ4´|H?ùÇË—GE?°Ÿ–)‰B@2×Ö¯!½4?DZ‹B‡m@/ÓR­°?=¡êğÖ)?Î$î@ï@?â	˜Ğ	ˆ•@\BûyÂ?´o”­nÃ@›3mùaÍ?³ïÒ¦Ê"ä@’Ì;Øv*?´ñê8wX?÷ÿ]™áS?uvÄš«ÇN@OëNu\3?ÅÎ¿@î»?Ô_-R\Ğ†?„«EÆ6º“?ñš‚«ø±?ğ¦lL“Bd@®6R  @Áfkì•ÿÿ@1ÒŠ=”.M?’9ŠcU@/y|m¶|u?\ÏWmü@/-x[Xò?|¨·ow[À0©ß‰“?¹7“ëÁÀ2¿«…Øy¦?š ›<³À2å­¬ç?™ÓTÎ&M?À[û5ÿ?`1‚êSô?ùÇË—GE?°Ÿ–)‰B@1ÿğÛ~:?q“åš|B@.j4ÒØ?ê±0;‰ã?Î$î@ï@?â	˜Ğ	ˆ•@y²…Âù?¨¡'BÃø¡@È\ ‹®?ÁJM,ı|@’Ì;Øv*?´ñê8wX?÷ÿ]™áS?uvÄš«ÇN@OëNu\3?ÅÎ¿@î»?Ô_-R\Ğ†?„«EÆ6º“?ñŞÇ9!?ğ¸¯÷Ö@¯‘ŸóÀ @µÆà˜8 ?ñkáç‘Ğ?¨Üèm ??ñçZ ‹uø?­Dâ„„4]?ñ×aÑwà?©¤ı.Ü~@!Pı¶R?²üMN¿Ü$@#¯˜\Åœ?±…}‘¯@#)ÎÈKˆ?¯(.‰ÆÓ@#)é„°é?¯C†‹!˜¾@ ³æD×?±DZ##!c@ L›Üª‰÷?²´½À|d¡?¾iªÑ+ŞE?ÇĞëæW.\?¾„Èõ!öÓ?™É'×)                0                                                 *6104                            7978-6104                       1-115377                        v3_1_1                          v3_1_1                          v1_9_1                          v5_5_36                         v2_9                            APOGEE-2&MaNGA                  MaNGA dither                    @tÙs˜Uˆ@+è ™M@RÉs…ƒ™À@ûîøW1n@tÙs–Ğ‘}@+è !ïA?°A{ËRyJ       @Ås3333       @7ÿoÒòå@FPË’:*ma093                                                       4                                      Å@tÌñıŞ½@)ˆ2vtÑc?ğèÍJ¡?ñNp:û~‘?òîõì€Ç?óR½<6?üCa@N¥@ êà"'?àWóy³?ìK)^	?í@RÖf©‚      å£      å¥      å¥@º^5?|î@M÷¤ç«u@&…Ûv³¼@ÓØYÈÉ      @                       plateTargets-1.par                    sJ221421.77+135711.2       =       =        ?š¸Ç\Jƒ²?šøE ›€ú?¢ D®…¹é?«×u;Ê?®w½¦¿
+?šøE ›€ú?¢ D®…¹é?åÀY!…Æ?äëÄØì–?Ò€Aÿ?ÓoÁXûCÙÀ8     À8     ?äñóbbË§?ÒÏ¦›àœ?ÓrmæÎ       q      	Ë       v1_0_1     İÿÿÿÿÿÿü?š¸Ç\Jƒ²?›‹bŸ1‰À/dM:’£À0’ÃÉîËûÀ2—†Â&€À4!|ÚQÀ4ëšu%À5OË’:)ÇÀ5¥¡ÊÀƒÀ-ÎHè§çÀ/Úu%FÀ2xè§æ›À3î!–R½<À4¯Ÿ¾vÉÀ5?|í‘hÀ5VOv_Ù@q}ß;dZ@€i=p£×
+@pŸxÔıó¶@£(áG®{@£saG®{@£1£×
+=q@©ë…¸RB\œÑ€  B(Ú¤€  ?í*I¥Ò@D
+T`ªdÃ?àæœí0¶?à­4±B-?ÕİµR\Ä?ÎîcŠ	?Æoa‘?ÁÍ9Úa?¸5Om%@B®Ñ9C@±]öU\S@ óË>WT@2²Ğå`A‰@p¾Z¬1@§=p£×
+@¢L(õÂ\@«ôB\(ö@²7¡G®{@"³|™®’@$–È´9X?Šê#õ¨)?¼ØU—J?Àéÿºù?‰ÛsX½0x?UElEÎk]@ ”‰LD|1@3ŞŠqŞi­@n"\(õÃ@r×
+=p¤@¢)õÂ\)@«Í½p£×
+@²Y™™™š@!bÚ/­m@#¡§\Ğ»o?|O÷Æ?Á`¦3?ÀÙjj%š?‹ÖĞ[Í†?V¹µ˜Ó ü?ëöİ¬îàô@“àŞÒ‰@DæOv_Ù@! çW’@10ÿ—$tT@B}¨Xy=Ù@pÃdZ¬@“ÒzáG®@¦`õÂ\)@±”záG®@¸‹:áG®@--Ëeé@&É?Ï1vš‘^?×9%»{k±?¼ê7.jw?¤ş6Ò$$¢?1Â#•JC_  *¦ â^J221421.77+135711.1à  Ëı @tÙs¡LìB@+çü¹#¢œ<Õä¤Bä33A,~ú?ëƒW£U>Aa×;	 '>2ä@¥ÂAtzá@˜õÃAáH@<ÌÍAû33@Â¾ÉÆ‹> ¡>jü     c         A²¿ç
+=ÂÆ  >úáH   P 
+ü¥       G    A`üP¿-…¯?¸äg²¦šˆ¿œnGASS10918 J221421.77+135711.1@tÙs¡LìB@+çü¹#¢œ<Õä¤@\„¬ŸÈé@0r#â!?Va©4N@.È®å#½?Ÿ"‹3J@-á†3Zÿ?•EÒnyÉGÀ3,´¬¶S‰?—Ù5³{~À3äÏOHW?¡Ò@p¼À4Xc¨,î*?›w;Ùä~ú?ÕÅ÷®#±j?}2"^,Ç@Z¢wÃ?¶AÒl@8Û ñkò?ŒñZ¼mpÁ@0¬)Yå6¡?¥h,úµÛ?ğôÄŠ+›?×NNM2¢@®'e¬	æ?ÇW*N„y9@½´@U1?àÏÛŒ{¡@Ğ˜íX@?˜$MfôG?ğ      ø      @a|7Çê½?äa0QE?ê;cFZ/?j·À¾l?ğ¯R¾¾8^?ğk(õ+ê@¹r‰“ÿş@·Á~&¤ @.…xÿ„ï?­ñËË)~{@-…+x÷? s¤-pÍ@,u\R:TØ?·àÖCX"À4jB+2?¯-Ö­‡‰À4†úy.?¢š±Kz@À5x˜½>?¡¥=œ$‹Õ?ØÀ@rÓ9‚?Ú{Ñ5¬@Z¢wÃ?¶AÒl@4¦&M–?rÉ%L}3@*îb¸€m?l…]‰‰J‘?ğôÄŠ+›?×NNM2¢@-Á¬]?±IQ£ö§N@g¶'ûe­?©I>Ë¬É@Ğ˜íX@?˜$MfôG?ğ      ø      @a|7Çê½?äa0QE?ê;cFZ/?j·À¾l?ñ;øƒ‘o?ñµn
+ÿ-@ºåKÿş@Äª²V @-q¼i
+!?|iò©¼@,Oš–Ù¬i?‡]â”]ï@@+L¢iŠ(?.\„ÍRÀ4HN0š?’ÄúTv?À5!Yvm_v?”ïÂ×XnÀ5¢Õ.–?“
+Ähy¨?×ÕwØûU?g‹ï“œò@Z¢wÃ?¶AÒl@8ÉÙ|¤µ?qÑduéó@/…:ÓÃ(	?xcıÑù‘?ğôÄŠ+›?×NNM2¢@Ÿ\ÜrŒ!?±²¸áh9@
+9\YŞ?´U¤0²@Ğ˜íX@?˜$MfôG?ğ      ø      @a|7Çê½?äa0QE?ê;cFZ/?j·À¾l?ğş}M}ù?ñW.Ü0l@¹vğ›h @¸çWëÿş?ö9>	}Ñ?‘Ğ“„vP(?óÈ¢rP… ? Ÿ—:æ?ô§N„¸?–§ëH_õ÷@% är?¡a¤[ôZ@%8É“Qø?¥“®?Å>;@%™SÓN? /fOñ;@% VĞ€sÉ?›àá‡ãQg@"Ğ—ÇŞ¡?¡ü'ğ8@!…<oDh?¦®{T2?Ş	ëÇ†0‘?°zq¹5İ?ßÂ¢×¸?Ÿß÷İ·Á                Re1 < Re2; n2 = 1                                 +12702                           7979-12702                      1-115158                        v3_1_1                          v3_1_1                          v1_9_1                          v5_5_36                         v2_9                            APOGEE-2&MaNGA                  MaNGA dither                    @tÕoW°@*ßz¡íE@R uf(ÀA&Ã«@tÕo
+å6P@*ßz‘–•Ù?°VwÛÚ       @Å€            @7>ùÛ"Ğå@KuÏªÍ„ma078-ma172                                                 3-5                                    Æ@tãeÉä@*ŸŒ¨?ğõÍ¶íg?ñÅË¼+”Ù?ót4ã ?ò¼ıKğ™[?÷§ï²-?üBEõ­–§?ëŞ Ñ·Y?í~¿"À?îÈZå      ŞE      ã³      ã´@JAc@©*0U2a@€IQ‚ª@^i­BÃÊ                             plateTargets-1.par                    tJ221321.50+132611.2              [        ?œ¹úb1M€?˜6ëN˜ˆ?Ÿ«w¯U?§¿k»9ıR?ª3kgW'?—ÔCécÜ? Ã7!Õ=?åÀY!…Æ?ó3rSÍİ?ŞLŠÅÁ@?àe'¢xæÀ8     À8     ?ñ&A³(·?Üå>³™õà?ß'Ã\â       o      	Ë       v1_0_1     Ü-ÿÿÿÿÿÿü?œ¹úb1M€?Šõ‘çôpÀ*%+ÓÃaÀ-“t¼jÀ1‘A [ÀÀ3IùrGEÀ4?Aò×sÀ4šÀ4®.±Ä2ÊÀ,¿|í‘hsÀ.Ø­«ŸVÀ1‰Ş Ñ·À3AÊÀƒoÀ4~($xÀ4nvÈ´9XÀ4ª³g ù	@\+çl‹C–@t¼j~ùÛ@2ØDĞ©@ 133333@z(õÂ\@¢€uÂ\)@„$İ/Bô†   B3¾e   ?æ‘Ï5\Ù@a¹hr° Å?à®¾Yl‚à?àv@tdV?Ô¿aª?K?ÎˆGä?Æ$å’–p?ÀÊ’_ét£?·Ïxx·¡Â@'|EË¼@-w1Å@÷¹à`ş@\£n.²@[¬¬1&é@€0§ï²-@‘ÅáG®{@›RQë…¸@¡)”záG®@"3	AÈ!@-)Çy¦µ?…£Ö3}ÛÎ?²—ÖœYg?„fYPST‘?”ˆnÎê´>?böƒTˆÃ@@æ¯ÌáÆ@{\|Ø˜³@Uñ!–R½@~†ùÛ"Ğå@‘†áG®{@šqzáG®@¡[záG®@ Áü28@)ÜÆ??hg_µ0R?®«¡ÙÙû‰?}€Œ€ˆ§?’ğuHy?_‰ŞÀ<q?å'Ai
+@ëJw@dv~ùÛ"Ñ@"œoTK²?õº
+RiY`@1.Æ¼èS@V~…‡“İ˜@FÔıó¶F@•£×
+=q@¦™™™™š@¡¸Që…@C¸Hğ@E10¾í)?ĞáPK?ÓyÔØ4	?»c<æ:\?¨]ÔÎú?‚è+M
+Ê´  *x å<J221321.50+132611.3ß  Í'Y@tÕo hÛŒ@*ßzNz·V<æ1ùBõÌÍA'®?åVO—íÈAnø¡;0ò|>1&é@›33AS®@’=qAÂ@.¸RBHÌÍ@‰ë…¿ª®®=›øô       	  c         A¶F¿ß¾wÂÆ  ?6E¢   P 
+÷º       G    A`üP¾‘È¸?¦/ãi<_¿€-GASS10872 J221321.50+132611.3@tÕo hÛŒ@*ßzNz·V<æ1ù@^¼%©eÅ¡@0í#VX?«Ø·’Ò}@0›zpØ£?—Ïë­R¦@0 tYy?›hNÍJù¸À2…«[;˜/?¬şÿÍ_!À2×¯õ!™?œÇhgÙ øÀ3rZo1?ŸÒºj¾ï?ÛPuí×"?‹KaÆt¬ö@–íqˆ?°t“EP€@7Lêpûœ?„İ†ª›Ñå@+œX1¢Ô?ƒaÜ(õA?ğš´U5ğ?ëÑT¢\M@•Jõ²è?ÂY#¡v@©}nn‹?À©›~ÏÌ@`Ğˆ=¡?¤D¯z#Y‡?ädÃH…?¨|êä|h@Mÿõš›ª•?­‹¤ÕAU´?äJA”?è¸É¡îÕ?ñê?5(81?ó<$ÀäG+@´- 5gÿü@µ\?7ÿÿ@0œ	}?»¯Î¾5Ç@/uPG¯ğ?º	Qõ:ÊÀ@.:Æv#¸4?³{ñ©À3l2fâ$?»úî£H¿SÀ3¸&KºjD?ºY&à·À4Uk4€"?³qÈ>K**?Û§¡ò·çë?¡-ş~|à@–íqˆ?°t“EP€@8‡¹Ú7q?ÒãeYø‡@,A5‚Ñ5?xl†Y¡?ğš´U5ğ?ëÑT¢\M@é³ˆÃR?Ën¤àfú¶@	uôYGH­?µ’q”>@`Ğˆ=¡?¤D¯z#Y‡?ädÃH…?¨|êä|h@Mÿõš›ª•?­‹¤ÕAU´?äJA”?è¸É¡îÕ?úœó®“ø9?ù]›Å7@³„L$à @ÂßÒÏP @/7Æ0WÛ?„EŸÎÈ@.x^”¼?Uª3Ks@-Nf]®…?zZE%äØ<À3ÖëWfcÎ?“è÷’¦ÆÀ46Á@G’6?’X§Vt¿À4Ë›Aú?‘u4ØB9?Ú‰Šµ«kR?gÙÇ¨ld@–íqˆ?°t“EP€@9¨•£›ó?jôzhæÔD@.1ßâ›?€³ó#…¥?ğš´U5ğ?ëÑT¢\M@i§ ¬…?¯´#P9@
+Ï…?¼Ä”©åw(@`Ğˆ=¡?¤D¯z#Y‡?ädÃH…?¨|êä|h@Mÿõš›ª•?­‹¤ÕAU´?äJA”?è¸É¡îÕ?ôy¦´?÷®(=Ü1@µ"±jgÿü@µJ×}Sÿı?õÿÂ¬¹ø?¬MĞÄ¶B*?õñ²g©È?™VWKI$¬?õ”®Êœˆ?œ0+ø@$Z?öàG~?´\Dr@$¶üi÷æ~?ªrÆ¦l6µ@%'Y94¢?§j-ÌÔÌ@%'‹Z×?¦}.™rE@"%öõ;É?ª5o2ñ@ Ä n×ág?¯¨˜­İ»´?ÙcgÜşaÇ?¸‰¥‹—?Ùl&íˆ?ª„_—w>                20 < PA < 60                                      +12703                           7979-12703                      1-115334                        v3_1_1                          v3_1_1                          v1_9_1                          v5_5_36                         v2_9                            APOGEE-2&MaNGA                  MaNGA dither                    @tÒÁ6Ôo@,'—L'ğ@R¸§˜ÚÏ;À@Í±g>ô@tÒÁ5Tu£@,')ùÏ?¯¾‘ ¦Ô       @Å€           @@8`A‰7KÇ@J¶®}Vmma077-ma143                                                 3-5                                    Æ@tãeÉä@*ŸŒ¨?ğäìé¢Æi?ñ¯#c²W?óTÔK3Û?ò¼ıKğ™[?÷§ï²-?üBEõ­–§?ëŞ Ñ·Y?í~¿"À?îÈZå      ŞE      ã³      ã´@°¸ºÇ@ˆ´9Xb@¢h	Ô•@ÈŠGìş›                             plateTargets-1.par                    tJ221241.31+140434.3                      ?™ÉjA½9²?—ØŒ°/?ŸŠı¤?§TÕDj“?©“RW»¨¸?•>H:+tù? â (zs?åÀY!…Æ?ôFs×Ûõ?ßÎl	=–d?á7“DZ£À8     À8     ?ç%‰&„Ï?Ø-àq?Úü*ˆiÆ       9      !       v1_0_1     Üìÿÿÿÿÿÿü?™ÉjA½9²?šœ-È'*À+Í‘hr°!À.÷1ÅÀ1ó÷ÎÙ‡À3{Iº^À49‡+À4’©“àßÀ4Ñ©ûçl‹À,„M;À.ÄtSóMÀ1·Ë)^À3DêJŒÀ3óş\‘ÑNÀ4WRT`ªeÀ4wâ‚@·€                @cêòQÂ@ ì£×
+=q@Ÿ©p£×
+=@™Èp£×
+=@†6º^5?}Bb­ª   B®â   ?é8OÒ¦*¢@b 1&éxÕ?àuy(á?àI}Œó˜é?Ô‡/3Ê1è?Î5qÑÔsŠ?ÅèîkƒÙ?Àü›Çq?·úf¼Í@" •loT@Å¶™„¡                @j¨‹C•@ƒçj~ùÛ#@“š…¸Qì@ıG®zá@Ÿ¸Që…                ?QOŒÊ~>?«íÒ tw?€	°‚ê+?[êL¡X€?9Bh§«¢}                @`*áG®{@ƒgt¼j~ú@“üë…¸R@d¸Që…@¢
+=p£×                ?AáèĞ'd?©hJl4Ü?Ñ)'í?XÆÀ™7Éñ?<¡$ÂÛ?éG§ÉŞ@Î’O"}@a@Z¬1@)ÜwškP±                @cÚE¡ÊÀƒ@‡¦Ôıó¶F@™m
+=p£×@¢Å33333@¨ÃõÂ\)?½{·0ƒUŠ?½{·0ƒUŠ?¬rö—¡qÕ?Æ~íEé?­§’æ÷ñ?—ó­â%úf?n'bÅr’  *Š âPJ221241.31+140434.4à  ËıF@tÒÁ [À@,'Yò»<Îp;BÜ  A%©ü?ëË­}|,¡AmO;7€4>.±Ä@µp¤A×
+@Ÿ\)A  @7
+=Aó33@˜õÃ¿€§m=«¯ş       	  c         AOß¿ÒĞåÂÆ  ?co   P gU       G    A`üP¾O@-?ÁO„?¿‰”GASS10890 J221241.31+140434.4@tÒÁ [À@,'Yò»<Îp;@[€æÁbĞ@1€^¡Â½÷?¡:ôĞ‡9@/ÍâÉ£&’?“¦ª'C3@/['ÖÅı?‘:Ñ‡zÀ1´¯$Fšg?£oÄ×ˆÀ3Na7Å?š¤(™q³À3‡yÚ¦YØ?˜è²vz¦$?ÇŞ§\ëS?v+úŸ»*Ã@L+¶ä>±?¦óŸ£õä@6€ö›ú:0?‚=ê%ñâ²@2áÈ×»à?¤‰#®à`?èZ™:ì#Ì?á\SP#Ü€@Íeôè?½L+¢ŞŸ@[šÅ?ß!ıˆ¿O@•Âş¢ …?¨¿/ ¸¹?÷ÿ‹V@ÍÚ?SÀ¢Ö ±@JfT ?÷‰>KñÑ?çİt¡_êÄ?xÖ"N%ƒ?ñÆÒ–pİî?ğ2‰B[¹¿@´ô ôÃÿş@¸9*È @0™km¡Šm?®ôË±“â@.Vãÿ®)?;kUmR@-ÒãÇÆî?‘øN%D… À2›¢XgÍñ?°Bà–NÀ4	›Æ‚J?—Ò?ÔãşÀ4K›â&Hg?™m4æ¹S²?ËUù÷?ƒ›'†²Kõ@L+¶ä>±?¦óŸ£õä@5ûC¶¶Ì›?Å:’)º±@1ùÚ3üƒ?~ÉvJÙî ?èZ™:ì#Ì?á\SP#Ü€@«Tü^?Èt ¨@@æ)XC¬›?¸“Ñ);µ°@•Âş¢ …?¨¿/ ¸¹?÷ÿ‹V@ÍÚ?SÀ¢Ö ±@JfT ?÷‰>KñÑ?çİt¡_êÄ?xÖ"N%ƒ?ônê,;?ğ[0†eĞú@²iyÂ@ @ÄÛrö @0%Pù\n¥?—X Ç=d@-b²ùÁñw?’×êãÙL@,á5ÅCìh?dtĞ5cÀ3¼Ì¬é¹?xšôœœ¼À4ƒ´I(_¢?š]±ĞfÀ4Ärãgb*?—ß¸K—æ:?Ê™ò’'?r1È€©@L+¶ä>±?¦óŸ£õä@7e´8Â?noßUä	@3¶éÆ@?‘¼§f—ˆr?èZ™:ì#Ì?á\SP#Ü€@Î-,¦Ò?®Í¸29~V@´ñT1"‰?Ë'`%o#Õ@•Âş¢ …?¨¿/ ¸¹?÷ÿ‹V@ÍÚ?SÀ¢Ö ±@JfT ?÷‰>KñÑ?çİt¡_êÄ?xÖ"N%ƒ?óX2‚ Ì?ğb|Îí¥Œ@¶yØ?ÿû@¸9_ÿı?õ°Ú†dõ ?¤ÏÃiÅ­1?óY~	¨Ø?›9Æ·ÂT	?óÏŒ… ?—N²+Ô°1@#Ê´VQ
+?¬D8@$˜.¸–?¡£ƒUéşÒ@$ŞäOıĞ?ŸZ‘M¹I@$âT|Ÿ‚m?Ü–n6Ûà@!¤V&º
+p?£°Ã¸ã´<@!ÿ´c£?ª ?Ÿ’î?ÑB+”xú?³áí™?^,?Ò%Û±V™v?ş•G÷                0                                                 +6102                            7979-6102                       1-115435                        v3_1_1                          v3_1_1                          v1_9_1                          v5_5_36                         v2_9                            APOGEE-2&MaNGA                  MaNGA dither                    @tãİ5AÍ¢@+C	†@R×	}?6ÀAY[.iJ@tãİ9–úƒ@+ª®d?²ç×Nk       @Å€            @7>ùÛ"Ğå@KuÏªÍ„ma072-ma102                                                 3-5                                    Æ@tãeÉä@*ŸŒ¨?ğôœõn¬†?ñØåó€?ó™Ã‹«`?ò¼ıKğ™[?÷§ï²-?üBEõ­–§?ëŞ Ñ·Y?í~¿"À?îÈZå      ŞE      ã³      ã´@ê@ºˆ'@±óbbË§@ŠÀƒn˜@TÉ…ğoi                             plateTargets-1.par                    tJ221657.95+133234.9       =       =        ?šÌ\d„ä×?–>×¬#ßÙ?.rÚ/­?¥ÁÖçØÂ?§îÑ“2w?•«3õĞÒ?š#,Tò¡?åÀY!…Æ?ø {5+?âÉêpKÂ?äWÿ›V2<À8     À8     ?õ-–¦ Z?áÔ•Ğ·=?ã9ä’¼/Ç       u      	Ë       v1_0_1     İZÿÿÿÿÿÿü?šÌ\d„ä×?›{İÆğÀ)¹e+ÓÃaÀ,9™™™™šÀ1ì¿±[WÀ2º~ùÛ"ÑÀ3“óMjÀ4Ğå`A‰À4X*™0¾À*~\‘ÑN<À+áo hÛŒÀ1‰7KÆ¨À2¹îËûµÀ3‰Çy¦µÀ3ò&€IRÀ4;²şÅm]?À*€JœÜ@Ré5¨Xy>@RïMjO@¢ Â\(ö@£#Që…¸@£”záG®@‹İhr° ÅBìÛ4   B)‹4   ?Ø‚Æ#@ŒL˜_?ã™^á6ç?ãVÍl.ıD?Ø_ñØf?ÑïIÏVêÈ?Ê÷…zÿ?Ãºµå)»?»ùdob@J¨ëF4˜@—•-#Nº?üøL­W¼@‡Œûüe@PÌÌÌÌÍ@u/²-V@ˆªÊÀƒo@“]¸Që…@šwáG®{?¤Cõù ó@&÷$tSó?—´¦±?Úƒ/ÊÈæ?ÆÄ÷ì5Gà?«Œ@Ã¤?VÈ¤?ûW¼w¯d@ª\|Ø™@MS"Ğå`B@t´j~ùÛ#@ˆgV“u@’÷=p£×
+@š?õÂ\)?ªUÆÛò@)G†Â&€? dÄ¥¶ŞN?á¸¶•Râü?Î¹©æï?²­j0öB?^å“˜"Ì?ĞâÅ\–?ôN…3±t@2òäŠ@­Ø/×^ ?òq!«Ks@
+‘4êJŒ@N¨l"h	Õ@tº›¥ãSø@‰*S÷ÎÙ@”¸Që…@œóp£×
+=?Ä[…aÔ0n@3îvÈ´9X?Òk;¸<òĞ?ñ_Ã´ö?ØºE
+Ìİ?Ã›²x°?mÉß²‚«  *È åGJ221657.95+133235.0à  Ëıú@tãİ/Ÿ¾@+Ebà <ÖŒiBäÌÍA'xÕ?ÑójÆGwAtTa;K)_>P©@ffA7×
+@G®A(ö@%¸BœÌÍ@°õÃ¿ºA=¯.=Ú¤‚     c         A
+1'¿ê=qÂÆ  ?6E¢   P 
+÷Ö       G    A`üP¾E(?—/¼ì¥¼¿ª*GASS10952 J221657.95+133235.0@tãİ/Ÿ¾@+Ebà <ÖŒi@\šêgÙìd@1å"°yR?K	¬@0Ip ˜ŠA?…;ãùgH@0~|tì?„lV¯¯÷¡À1eÀ„×ª?¡6Jö†*À3r™ï»?”Pú€3ÙÏÀ3:d¥Ş?”ãÿ^ì?Ç¶-à=?qS‰+¤¼‹@İ”‰ğş?x‚#é\@8uŠÙBš?g›1:&©e@4¶¦yQpP?Šªˆ„³ßå?÷?çNÂ“?É\Ù÷‹‰Ê@h­ñØ@€?¬[!rÜ	&@H“hä)?Åv3é¶Ñ¨@ Ù¤zoÖ?™G«8I?ï$¼Q§?‚•XşMöÄ@Z?Ö‘ÿ‹ü?µ–J®?ÉÛ‘9ş
+?tí1¥Æ:?ñÂwâµU	?ñEl[uäÒ@±Ÿ¡ ÿû@±›­ëÿû@0äl˜‘v¿?£¼i.ã	@.Ûòsè?ŠVtJ4}ç@.[|MŸH?Š€Iµ6DÀ2fvö=?¥{Ú\*À3ÜéØ?•ÂJìÉÀ4$sıÂX?•Îénï·?ÊhıÏƒ­?yœ*Qk@İ”‰ğş?x‚#é\@5Î®ÙØXœ?j.$mbE<@2P&€ó#?exÊLá•g?÷?çNÂ“?É\Ù÷‹‰Ê@2<pÅQF?¬¨;1ó'@GKÖ?§Kã‘/@ Ù¤zoÖ?™G«8I?ï$¼Q§?‚•XşMöÄ@Z?Ö‘ÿ‹ü?µ–J®?ÉÛ‘9ş
+?tí1¥Æ:?ôàh'4?ó{¢oµ‚Á@²Ş¤P @¾L0È¸ @0s^Aµ;?œZV¢D…@-ÚÏ}-X?“
+|Õæ<@-`^š9Ò?µ[k®°YÀ2×„XÒVù? œÕÍJÀ4]¡²ÈûP?š*Ê‹áZ†À4š³:u?˜é&í]?É?˜î¨a?t ›e@÷@İ”‰ğş?x‚#é\@5£ù`g9?h~e¿ª^@2ZÃš–?hE—G?÷?çNÂ“?É\Ù÷‹‰Ê@™3"Ø?«8„À†@ !=@®?¨ĞGsg|E@ Ù¤zoÖ?™G«8I?ï$¼Q§?‚•XşMöÄ@Z?Ö‘ÿ‹ü?µ–J®?ÉÛ‘9ş
+?tí1¥Æ:?ô‰¥z²¾r?òUÏj9ÏJ@²—·ïÜ @²]²¼ûÿû?÷=?³äğ?¤bfÍö¦…?õÂñŸ9P?–MyÅw?ö÷|óP?“”ó!Êe@@#ÔÓî?©æöÓt®@$Í¹<À?Æò7á@%
+§íï.?›fÍİ6Od@%^¹	ˆî?™ÿ& t2÷@!¸=ë~ˆ?`ÒGàdò@!-xŸHV?Ÿè†İÏ??Î®Ôó_Ä?±Ì›ã¶|Ï?Ïmn,á;ÿ?™‹’)Øñ                0                                                 912702                           7993-12702                      1-42184                         v3_1_1                          v3_1_1                          v1_9_1                          v5_5_36                         v2_9                            MaNGA                           MaNGA dither                    @@5üàJ_@+÷c°§ÈÉ@bÄ0â2\ÀF[é++(­@@5ù½Æ @+÷c¡ ?¸SN[­¦       @Ås3333        @5ÉXbMÓ@Kò{²şÅma058                                                       1                                      Õ@@Gè¼œ$@*–?¼?ğç¨mqó?ñJAc?òÍt’yè?ó¦Á½¥?õ Ñ·Xâ?û.záG®?í‹‘-ºMn?î	H¾H¦?îcŞaIÆó      â       â       â @d­ÿ‚+¿@c4‚¾‹Á@?‚+¾Ê¬@„ ä¶                             plateTargets-1.par                    ÕJ020939.47+135859.5                      ?©(Œç¯¸? ÚSÅá?­vx,aˆ?µm>Ç»ëÔ?·°„—©ÕQ? ÚSÅá?­vx,aˆ?åÀY!…Æ?À¼£n?¯íé}»Ü?±
+¢q›NÀ8     À8     ?ÀÆ"¦ô?¯òš¼¯HX?±LïœÛm             .       v1_0_1      ¯}ÿÿÿÿÿÿü?©(Œç¯¸?©w·ÒiÅÀ0yÇy¦µÀ1:^5?|îÀ3vfffffÀ5ô!-wÀ5íÌcñA À6JÍƒä&À6•fÏAòÀ0ş«6z‘À1Aò×sÀ3Œ"h	Ô•À4ölô!-À5«²şÅm]À6¹#¢œxÀ6@¸ºÇ@o¥V“@|³G®zá@h­`A‰7L@1…¸Qì@¢-\(õÃ@ ¼ÌÌÌÌÍ@¸Që…B2§×   B.£~’   ?ëÙn›¿Ç@an—Oß?é)GŒ†‹ ?èÓÏöLø×?ßJÏ1+7?×Fk\?Ğ³(é-V?ÉS?B5.¶?Áô±î$5i@"_gôÛß@!h±šA_F@'éã¼Ó@2£ˆe”¯O@e6§ï²-@„ö§ï²-@—w\(õÃ@¢iŠ=p£×@§fG®zá@ //˜t @ÛÂ¹M”?–Ê›p3?“ôÄüó?×ÆûÒsÖ?mi¡?Ö/?^Êl <K@*Š¦L/ƒ{@3:¬1'@bÈ›¥ãSø@„…A‰7KÇ@—1záG®@¡í™™™™š@§TŠ=p£×@É.3ğ@}€^_1?”Ö†‰ò\©?”³Ş¿=˜?’fpwa`m?kw/6ycÄ?]dI«š£?ê!Ùn›¿@ ¶0©8@aBn—Oß@'u!–S@ :}ªP@-¦µ'»@`“l‹C•@‡w9XbN@œ¸Që…@¦G\(õÂ@¯33333@,% …²@&^ÿ—$t?¶º	{©ÄŠ?£õ—Ç1‚Y?µrÆÆù?æìq­Â?tœ‡_°>Í  ¾ İÔJ020939.47+135859.4¬  Ê«§@@5!Bp@+÷d­ÿ‚,=IGCZLÍA5KÇ?êMÈuO7vAezx;#×
+>„oA¸A†ff@ôzáAÌÍ@G®B  @
+=¿_È?“êª>‡‘      =IŠ"Bö  Ap¤¿ŞÙ    >n˜  ø¦ U          ARçÀˆSó?›ìNí…¿‘ºGASS4030  J020939.47+135859.4@@5!Bp@+÷d­ÿ‚,=IG@kJŠ7…œ®@1ù¸ˆı¸ä?ÑiFûãş@/AşxÁÜ›?£¥.-@/d¾fdW?¦¾{A¡ĞùÀ2¸W¾§´?ÑkÍ×ˆÿsÀ5
+­rJ?¤2¿úE ZÀ5/]çÛ.l?§90äv¸‰?ºp±dÉ5Ó?—ÿ™Så¼@ši5Kë?½Îep‚@9q`…ô7}?†‚»×'ÒÎ@76ú–(?dïÜ´—?ñ/¥¸òHÂ@ÅáŒ­º;@#`ÌPâR…?Ñ#pFÙW@!®]L"á?²b¿y:?øÈ[˜¿ğ?À;jºì?ã„2¢ÔU?šaóš×é@B†šƒêÊç?ñ0–ãëÏœ?ìx	ûÆ?i£q\ôg?ÿû ú¹K?ñï¯;X@¹6ÅÙ—ÿı@¸n@Ö` @0ä‹ÙK6?ËåáäÉj@-|»hÆÔÚ?¦ë“>õE[@-4ÌAy¤i?¨EEğXDÀ3Í„mÃ*€?Ëì2¯ƒ$ÈÀ5ó²’ªö+?§e\cQ À6ª&Qd?¨¸&rWÛ&?¿·eeÓÏ?–a>,İX~@ši5Kë?½Îep‚@8½ğš!?sWlªgÙ|@6'dú%å?c_ì«fF?ñ/¥¸òHÂ@ÅáŒ­º;@"Ø"	H•ÿ?¿äşÖ—ò@ ßƒ¥iÜ?±ªë‰Âd6?øÈ[˜¿ğ?À;jºì?ã„2¢ÔU?šaóš×é@B†šƒêÊç?ñ0–ãëÏœ?ìx	ûÆ?i£q\ôg@&óçÈ¡›?ôŠOùÑXM@·U•Kÿû@Ä¯oA @0^ö¶T–?~â ÍË+@,‹Õ®«=?ll¦è¼@,@¤ş¸zº?iøf„ë3fÀ4S6X?ˆKÀ|·öÀ6l%pŠú?„f„¸-À6‘½Ç²#;?ƒİí£Ê1?À15ìÑë?K›N±ª¥@ši5Kë?½Îep‚@8Û$·MZ?U{ŠßùQ@6"ÆI‡?bà(9³TÄ?ñ/¥¸òHÂ@ÅáŒ­º;@"î`ûs.?«²°°€g @ Û}´õä?±[$ô”Â;?øÈ[˜¿ğ?À;jºì?ã„2¢ÔU?šaóš×é@B†šƒêÊç?ñ0–ãëÏœ?ìx	ûÆ?i£q\ôg@Ük‡µş?ô†ü„aŞ@¹8y{Ø @¹\zŒˆ  ?÷333333?ÑjæVn?õ±FUáŠğ?£¹³‹¡M?ö%ııoLè?¦ÍJ,wùƒ@$öª¨é#<?Ôí;aùtÉ@&vÿo¸?©x´×Ud@&¤¦|+ÿp?¬áœ¹$Q³@&›W.„#	?°Ÿ7¨E‚@!ñ·xügó?­	yÂs@!’íA Î0?ª³0e?ÇÂ»V 7?ÂA€À?ÃMyÄ6÷?¸÷pR‡8                0                                                 —9101                            8087-9101                       1-119212                        v3_1_1                          v3_1_1                          v1_9_1                          v5_5_36                         v2_9                            APOGEE-2&MaNGA                  MaNGA dither                    @vKÁDûª@0	SO9@YDKĞl®CÀFlØ×ƒE@vK¾"åŞ@0	R?v‰Ê½f       @µxQë…      @(Á£n.±Ä@1Ò° Ä›¦ma116                                                       5                                     !Ç@vTß;dZ@-Æµ'»?ğ·AJM+,?ğÊêt}€^?ñ'°³‘’d?ñ’·ş¯?ñ‹àŞÒˆÎ?ñïÒòä?ìQeMa²¢?ìn¢	ª£­?ìv§&J¥      å›      å›      å›@5IùHUÚ@¼e@Ìxê@&Ô€u@…‡“İ—ö                             plateTargets-1.par                    JJ234646.15+160235.0       [       [        ?¥Rj0‚|?¡?)
+»Då?®ÃT~–?¶6kÌ×´‡?¸”Ú8*ê?§³7ĞPæ?°Ÿƒ¾f½?åÀY!…Æ?¼tdUêî ?¬["e…•×?®C*÷ûNÀÀ8     À8     ?´¨/^’\?§İï3ÿáÍ?©4EHßm            Ë       v1_0_1     íÿÿÿÿÿÿü?¥Rj0‚|?¥½¥œàvÀ/¬VÕÏªÎÀ0¦s×ÛõÀ3§Xâe,À5DÖ¡aä÷À6(>BZîcÀ6…?|í‘hÀ6ÁN;Í5¨À0)‡+À1&Ov_ÙÀ3f_Ø­«ŸÀ4òIº^5À5º¬1'À6"Ğå`BÀ6\C,¥zx                @n\(õÃ@£.Ñë…¸@£Z\(õÃ@¢-¸Që…@~ëï²-B8-´5€  B/O]   ?ë¤»¡+^S@cÈİ/Ÿ¾?Î ÓI¾ó?Î8Éu)wÉ?Ã®‰ë¦­?¼)€,
+?´Sæ1!àû?®Óé Àiè?¥Ûv³»ƒÏ@ş=Á ç@lQ—¢H•                @q_t¼j~ú@’wÂ\(ö@¤5³3333@®c33333@³E                     ?J,ôÕªl?¼—é–1/M?§{|x £?cĞá²âì>õ)g?oĞŸ                @nÒ~ùÛ"Ñ@‘ñ\(õÂ@£Ã(õÂ\@­¡®záH@³TŞ¸Që…                ?ˆ µü¦¯?¿ˆXÿv?©·$¥Ñ¶?fƒ	_OEã?«ú	êç?êPÎN­=@      @e¨Iº^5?@*Ãä%®æ2                @s{×
+=p¤@—×záG®@­’®záH@µ›\(õÃ@»Ú«…¸R?®s­vÆ/û?®s­vÆ/û?«OËnf?µX–š
+Ø¡?–Zÿ**¿?„0‹ãùd/?[î)†Œ!  -ú J234646.15+160235.0ì  Ì	:@vK¾"åŞ@0Jw—=*y¼C7æfA4ñª?éZzJA`Š;o=¡ÿ.@®ffA„(ö@{A£×@Aë…BÌÍ@¥¸¿r	L?#±’>@O)     c         A  ¿÷PÂÆ  >n˜  Y iŒ          AT®}¿ò?¼»¡ŸÄC¿²ÄGASS11770 J234646.15+160235.0@vK¾"åŞ@0Jw—=*y¼@fı2ü0[ü@0°j„æ?Äğ˜<0…@.'š®8.?”~$Kz,@-¶u.®?¡•äÂA\ÒÀ3¢I¾^„?Äü09aWÀ5>æs}ef?—EqbÙ¡À5w¬Òå?¢mÜğV\?Ç¥âÿ½Ö‘?—i}¥ÖO@ïëúsä?‡gãİŸ›‰@7ó,‡ne2?‰:u“Ëæ@2P³Õ\±ø?„Wj?ë@©2ê‚?Í™ŸF³ä@-*ØÊ”?Ğû=ú‹@×rÊ½.?É¿J³²Á?ôXmÅD?–UjTåË?÷ÿ/óºãK?ƒ’ÎCpİ@RWğß½@ @ÄÊƒ¬?é¼éì+Z\?cõuh0?ó
+Š{?òÑacê@¸¹{O›ÿÿ@¹†#X @/mè¥’8?£}×9rÁ@,šœ„†´#?Š*üh&º@,ÅL¨?Š{ĞÃğìøÀ4›¿wĞ`"?¤A‡	M•À6eˆV"X?‘ïÒŒ¼PÀ6HQ$—¨d?‘:ë—m&­?ËcsÅ ?yz¹Ö‡&@ïëúsä?‡gãİŸ›‰@6”çU·Ô?qÂ·¿QL@0Nèò³?vKğqC¹¤?ë@©2ê‚?Í™ŸF³ä@d	Ğ…¢.?¸¡tâ¡añ@: m!=?½¬­Ä?ôXmÅD?–UjTåË?÷ÿ/óºãK?ƒ’ÎCpİ@RWğß½@ @ÄÊƒ¬?é¼éì+Z\?cõuh0?øèweY­h?õš¦f¶¡G@¶(!4Ÿÿü@Ãø£…h @.]¤`Ÿøè?“I?e5Z@+æBJ¾?yôF@«@+İ‘-Ñù?zJ9~œBÀ5#ášIö?–6íÒ„F…À6ŠÀ©‘W?‰•hD0+ĞÀ6ÎE“n?‰«_°µŞ?Ëš¹±çÚh?i\jô–@ïëúsä?‡gãİŸ›‰@8êX9 £?sÿ’xï@1ëg„?ş?‡üí|ãØ'?ë@©2ê‚?Í™ŸF³ä@ 7u1N8?»¤/Š7z@S5O¶!5?Î˜Oó:ád?ôXmÅD?–UjTåË?÷ÿ/óºãK?ƒ’ÎCpİ@RWğß½@ @ÄÊƒ¬?é¼éì+Z\?cõuh0?ô\|2³A;?öd”°)T@¹À¾ãÿÿ@¸ĞHß»ÿû?÷333333?Å ÷[Áu?ô½£a?P?•5ÖŒì£?õi‡"úå¨?¡ãÓ"fÆ»@%›¦°ó´Š?È…ÛÉÇ @&aëre¾Ş?œÁ|6„ô@&°PÇJüü?¥ìšš{@&®PÛŞi?®J5ö¤ß@"Ë‚¤GZ?§è3„]Aï@!ìp¸=ó™?Ÿ[S ÑŞ?ÓöCºOÅ?µ7gÛX½ÿ?Ò›î2€‡)?·‰²@z        @      0                                                  6101                            8096-6101                       1-42718                         v3_1_1                          v3_1_1                          v1_9_1                          v5_5_36                         v2_9                            APOGEE-2&MaNGA                  MaNGA dither                    @;U¨NÈï@*˜å)¢×)@aı(dÿø¸ÀG™´UßŞâ@;U¨G²F9@*˜å%ª´?³A®öøğA       @Ås3333      @0-ÅÖ8†Y@Eì¿±[Wma101                                                       5                                     !Ñ@:"n—Oß@+ğ:û~‘ ?ğøÔıó¶F?ñKSP	,Ï?ó) >ê ›?ïyœ8°J¶?ò
+ú/§	?óJl <K
+?ç1	¢@1?ë×bR¯’?ì±ÒàãG      å¥      å¥      å¦@tûTŸ”…@ºáG®{@ÀIQ‚ª@å!Whœ¢                             plateTargets-1.par                    YJ014920.30+131754.8       =       =        ?‘väbë‡£?Šv!ÅL¦?—&“è°º?–¢nTqq?›UõÕÚ’ˆ?‡ƒ1xH:?™Bá78?åÀY!…Æ@ :$‰LD|@ :$‰LD|@ :$‰LD|À8     À8     ?öéùrGE?öéùrGE?öéùrGE      H      p       v1_0_1      ±³ÿÿÿÿÿÿü?‘väbë‡£?’ An_Y,À'8ºÇË)À)è>BZîcÀ.“àŞÒ‰À0“÷ÎÙ‡À13÷ÎÙ‡À1ŠŸ¾vÈ´À1«6z‘À%úû~ÿ—À(€quÀ-ú^5?|îÀ0‡+IºÀ1&Á½¥À1¥öı!ÿ.À1Ælô!-        @!SUGZ1¥@àä¶0©@Ÿt¼j~ú@Vøÿ—$tT@ò•$İ@sÉOß;dZAÊ8Ğx   AĞ°Ä    ?æ¡³®î•t@eù™™™™š?âñ¾ôœõo?â±cºº{‘?×uSi3 ?ÑUæ¼b~?É%x_.Q?ÃQa£Ê?»	ØÆÖÇ@”ÄGÃ0@x¥Î[BF?éåóö@	”‰a=@H¥ƒä%¯@_‘ûçl‹D@l*=p£×
+@~¯ÎÙ‡+@u²-V@pEwÙUq@-:æ…Ûw?®ã­¹â?®v'¤‰·¤?°WVşêVK?{€Üq/˜?f0nî±¤Àâø7´¢4?øwîõì@6éîËûµ@[C•%@jc33333@v4´9Xb@ztZ¬1@YÃ‹«`@¶¦ YŸ?Š®luSi?°H˜Fe?d¬4{İ›ı?|…	Ïë?gİUÚ}?äjN½Ó4Æ?û'å!Wh@e‘$İ/@Ã$È6e?ë@§¨P@ü¤*í”@=ÌÌÌÌÌÍ@\©ûçl‹D@k¨Iº^5?@t7¾vÈ´9@vøí‘hr°@*­qu"@+!|ÚQ?ÉÊò×ùP¹?ÍËöã÷‹½?İƒÑEØ?ÆR¬u>p~?•ğh³GÀ‰ Š›    J014920.31+131754.5®  Ê¥;@;UªOÊB¯@*˜Ôıó¶F<‹·4B”  Aÿ/?å‹¼ôèuA‡u<YK>Sİ˜@’=qA3×
+@˜õÃ@ú\@p¤BD  @záH¿ğØ‘=»»ú       	  c         @ÿ¿‹çmÂÆ  @!&é  > Î           AP·é¿-a?İ>8«ÿ¿ä8GASS101019J014920.31+131754.5@;UªOÊB¯@*˜Ôıó¶F<‹·4@R€'>ıf›ø      ø      @1™15ğî›? “‚íĞ‡…@1™15ğî›? “‚íĞ‡…ø      ø      À0¿q>xñ?¥2‘¤Ë|À0¿q>xñ?¥2‘¤Ë|        ø      ø      ø      @(Gìµê?ŒD´?©d @(Gìµê?ŒD´?©d ø      ø      ?ú®vÆv•?½=ì0¿¥?ú®vÆv•?½=ì0¿¥ø      ø      ?ëµÁlÆŞ¹?’Ğ.¦©¬@S-rÒ"@n(mæ¨¢?æ˜PÇô— ?•†FêUõK?ğ"f²s?ğwu’@²hL­ÿü@³.€WÜ  ø      ø      @0æ£¸+ıÔ?“XZ††_œ@0æ£¸+ıÔ?“XZ††_œø      ø      À1qş»ßi¸? _#iÁÀ1qş»ßi¸? _#iÁ        ø      ø      ø      @(:ã„_?“`Òjy@ı@(:ã„_?“`Òjy@ıø      ø      ?úÏ|–F3?ÃäŞ-PM?úÏ|–F3?ÃäŞ-PMø      ø      ?õZã%ãàM?$eÂû@SñÉoZïŸ@$%ï§å?éÚo¦ÉÂ?ŸÈv$Å¤¾?ïøÿ;r[?ïğ=£Ï6ö@°‰'5Œ  @½!<Uè ø      ø      @0F*­M¯?±µå«ïïø@0F*­M¯?±µå«ïïøø      ø      À2wÆ½·ı?²æáJáJÀ2wÆ½·ı?²æáJáJ        ø      ø      ø      @1
+´ïéî?¥‚Ùï‘™@1
+´ïéî?¥‚Ùï‘™ø      ø      @¹¸Ó|Å?Õ÷/ü¼+w@¹¸Ó|Å?Õ÷/ü¼+wø      ø      ?ús”ÂŞô?¦-"
+²&@RÎk{U@™RÖÅ	Ô?åRXõü$[?—gŞ{?ïñMŸæÅ?ğ—£„Ø•@±Ï½“ÿı@³2ıFwÿşø      ø      ?õ0hŠ3ğÀ?³Í¿¶){?õ0hŠ3ğÀ?³Í¿¶){ø      ø      @"Ée¨~fû?·IöV§m@"Ée¨~fû?·IöV§m@"Ée¨~fû?·IöV§m@ ètÎÀñ?¿M›QÒ@ ètÎÀñ?¿M›QÒ        ø              ø                     0                                                 ¡3701                            8097-3701                       1-42274                         v3_1_1                          v3_1_1                          v1_9_1                          v5_5_36                         v2_9                            APOGEE-2&MaNGA                  MaNGA dither                    @;B²è(«—@)Úá]â
++@aÿ¯·¢2ÀGÉœ'ÀN¿@;B²ái<@)Úái<¼?´[ñËu       @Åfffff        @3©#¢œwš@F,¢3œ¿ma082                                                       4                                     !Ò@:Õ¡ÊÀƒ@+ÊŒL˜_?ñ˜ˆøa¦?ñæƒBÙ?òÂã>ÿ?ğólß&k¥?óî.±Ä2Ê?øˆÎp:û?äæŸê$Ì?îbäÑ¦P?ğkp&É      âº      â¼      âÁ@)Ür\>@&Ebà @ï·éùr@Êÿm3	B      @                       plateTargets-1.par                    ZJ014902.53+125539.0       %       %        ?‘Ê„0’o?‘˜®¸Ï§?™¨aP?¢Bš¯CO
+?¤sÛYğ?‘4‹"‘Å?š‘ÌE¾P2?åÀY!…Æ?ı¶ígw?è!h/”B?êl(²¦°ÙÀ8     À8     ?ø[0HA?æª®d+ú?èK§2ßP]      G      p       v1_0_1      ¯ßÿÿÿÿÿÿü?‘Ê„0’o?’L%r€PÀ'µÜÆ?À*G»/ìVÖÀ0ufÏAòÀ1íŠÚ¹õZÀ2§+IºÀ3$xGÀ39Çy¦µÀ%²òäŠÀ*Iº^5?}À0Dã¼ÓZ†À1¹á°‰ 'À2nÿ—$tÀ2ÊqŞi­CÀ2ö1ø .?ë6F @QJ«6z‘@3$µÜÆ?@ Î×
+=p¤@¢”záG®@¢G=p£×
+@Æ§ï²Aïã”   Aè%¨â   ?çsÿ¬*@4RIº^5?äšq›MÎÀ?äTu£KÜ?ÙŸ©~+V?ÒÚ‡ rÑ¯?ËY5ü;Oa?Ä¼Ï(ÇŸf?½gı?[_¢@J82vtÑ@YÈÉ2™?×aÇ›4¤L@»t¤Ò³@S=$İ/@s»Oß;dZ@„È(õÂ\@½¶E¡ÊÁ@’áG®{@)lÊ-¶@"øëF4—·?q…V¶Jª?¾DR?gôÜ?¿¹ËhH¿?¥©5îÏV?qÎ°§¨%?Øõ©dè·å@	Œˆ¤~Ïê@QV{²şÅm@sWï²-@„ohr° Å@j¡ÊÀƒ@’ìG®zá@?U›=È@!úcslß&?t/4KA'?ÈNY)g—?ÀßzNz·V?§;ñGÖXg?rûT‘Ò¦?ãit£@‰@O"}Š@2g€4mÅÖ@Õ*™0¾?çâ*,#ty@	¢£Y6@T¼4mÅÖ9@w>^5?|î@‰Iº^5?@’ø33333@˜×
+=p¤@0ß;dZ@,¢u%F
+¦?Ñ¥2?àD^Ô¡­d?ÉŸ˜?¹X<×ø?Œ£Úe;Ãû Š”    J014902.52+125539.0­  Êl /@;B±pOô4@)ÚãæÄÅ—<TB–ÌÍA4(?ä‰Ê½f'Ato ;D›¦>_òå@€QìA¸R@qG®Azá@{BN  @¥p¤¿ár¼<à(®       	  c         AA‰¿×PÂÆ  ?å¸  > É„           AP·é¾²›¶?ºáXKÔÃ»¿Œ·zGASS101012J014902.52+125539.0@;B±pOô4@)ÚãæÄÅ—<T@RÙáBLï@2ƒN*·…?«]›°@0c¥¯ïHî?7Èºr¤0@0>áX‰ Ä?›VOd|B4À/¿†<Uf?®hâ ×À1ÿk˜SıÊ?£éwM÷` À2$/ïº%ô?¢×§ïÅŞÖ?¿¸.Œão?yº€Æ¹?ù Æ@Böe?ÊjMr&çD@.Kš‚C?4=³š@)²ô
+İÅ?¼Şoà»Æ?Ì¬êÉ(ôÙ?ûc;RxÎ¶@ ò”o:B¬?ÎtËI0?üÁAífZ?í(ğ{Y'?ô]Â\U€?Ó¬ã×%é?÷ÿûë ù?‚‹/>PÈ@Z7`H}Á?ÚØ $ÛË|?ãè.Â–¥¹?Œ] É$€?ğœUŒVÌ?ğËZ§]u@±hÿÿ@±×!P @1»¤Œëil?ÖôhçA@/¼F,r?±ÔÎi©8@.ĞT š©Q?³ ›Â¦£À0§l»WİL?×¯Çq^À2Ø3%-¬?²ùLn‘ÌİÀ2úæ÷õò?´%{:6¾?¾ +m}?¡Ù$k
+w4?ù Æ@Böe?ÊjMr&çD@/8ÒQ!ä…?ı--²@*Àà7®”L?uJ »¥h¡?Ì¬êÉ(ôÙ?ûc;RxÎ¶@wŸæ8R?²è]|áØñ?ıïFÙÿv?¨ëñ¾ëN ?ô]Â\U€?Ó¬ã×%é?÷ÿûë ù?‚‹/>PÈ@Z7`H}Á?ÚØ $ÛË|?ãè.Â–¥¹?Œ] É$€?ñÛ/#sP?ññôk²@®HÃxGÿÿ@¼´Úàÿş@1Kè˜-T?_! à7Ã@.Hèóyzd?šÛSÒ·Š@.HÅŒHÊ?—±#
+:vwÀ1(°ò³?¬`Ü.úÀ3>œÎ†‰†?¢«%b³pÀ3blå}"S?¡«©Â¡?¾òÀÆº‡b?h¡6p]'D?ù Æ@Böe?ÊjMr&çD@.yfÇı6ğ?‚	¡”ß>ê@)ùQâÉ?†Z8³Wa_?Ì¬êÉ(ôÙ?ûc;RxÎ¶@ˆŸT”X?³Óê j2?ııÕ(¦Ñ?·ØzN+öÑ?ô]Â\U€?Ó¬ã×%é?÷ÿûë ù?‚‹/>PÈ@Z7`H}Á?ÚØ $ÛË|?ãè.Â–¥¹?Œ] É$€?ñà¥W©f?ò0±â0‚@±úš&ãÿü@²o0àOÿÿ?óvY¶8 ?¬²”/'•C?óóc(»À?¤6¬¢pm?óãÏ\/Åğ?¢e1k@!çhkÃÔ?ÄAwY™nL@#ºfÔn?¬˜‰I¤Æ@#Óì¡
+ª?«*àèYƒ@#ÓÉ&lÂ?ª÷Jrı?B@!¾pÈ?­‡S3WÊù@!`@T_b.?°'ÜY¤^0?»Êîeó'?Ä=‘Îwq1?»ö6ãÙŠ3?£?½ÊW~                0                                                 Ö6104                            8150-6104                       1-389509                        v3_1_1                          v3_1_1                          v1_9_1                          v5_5_36                         v2_9                            APOGEE-2&MaNGA                  MaNGA dither                    @bq?ò™»@@Èà]Ò¾à@huc#2W@IVArÏÓ@bq?¦Şüz@@Èà\Ì‰±?®¼g#ü       	@¿¤µÂ\)        @6ºW§†Â'@D&$İ/ ma164                                                       6                                     !ç@b„­W¼x@@At²G?ğ7¿`€?ğ­À˜$ ?òzö@c^?ò*dÂø7µ?ôÈ”ÄGÃ?øi×4.Û¶?èéêp‚?ëc®>l?ìDé>›      áë      áë      áë@ùrGE8ï@ÿ—$tT@˜ÜÛ7Ê@ş§°´                             plateTargets-1.par                    _J095009.36+333409.6       =       =        ?›¨
+Ş€S?™?QN§- ? ­ ~« Ê?©Èß¥?«k­Îq?–°g;x|?¡¬Æã#?åÀY!…Æ?ïÜ˜ë?ÙÉ±gìx?ÛŞ]	AÀ8     À8     ?ä «†+(?Õ ³Ô®B?Ö”À%       ‹      ¤       v1_0_1     J'ÿÿÿÿÿÿü?›¨
+Ş€S?›—'ÏQâKÀ+1A [ÀÀ.ÂZîcŠÀ2kô‡ü¹$À48ÁTÉ…ğÀ4ãa@N¥À5bZîcŠÀ5…µsê³hÀ.øbMÒòÀ0lcñA \À2;íúCş]À3¡aä÷eşÀ4R•éá°ŠÀ4®¤¨ÁTÊÀ4æµ'»                @v`¬1&é@£LÌÌÌÍ@£	záG®@¢Ü™™™š@Å33333B¯ˆ€  B¿ÅW   ?ê(Øf^ë@I_€4mÅÖ?¿•Ä"`?¿*k•ù?³£ûkp‘?¬çv¯‰Æ?¤öm°Ãi?ŸÊd<Àz¯?–Š<.„wÉ@¿±m@€öjUp                @q7ë…¸R@—\(õÂ@¾fffff@¥ªzáG®@©İ#×
+=q                ?¯ü,5èğ?ÂBĞ_(…? 5Om%?ƒ„l5Ş?lµH÷•£                @n89XbN@ã§ï²-@4™™™™š@¥"33333@ªwG®zá                ?±ŸÑÁÿq?ÃG„#Ï? £}™ˆÓ?‡*F$§5?jŠe<Öö?çüĞ57r@´)ˆ;£@H…ÈK]Ì@.ï hÛ‹¬                @qŞÙ‡+@™a33333@¨«…¸Qì@´áG®{@·vO\(õÃ?Ã±RóÂÚÜ?Ã±RóÂÚÜ?Å·Ïå†6?Ãzåykü¨?ª,-…tH§?“ÑÙ|¸[?u™ÎGÌ  ‚½ éaJ095009.35+333409.5™  Ğ‹S@bq?|í‘h@@ÈßÎ1PÛ<İnBìffA)Æ¨?æ÷7ÚaàÆAdhÜ;	 '=#n/@±ë…Ayë…@š=qA®@3×
+B533@¸R¿+çù>Áë2>6×4     c         Aó¶¿Ş—ÂÆ  ?6E¢ qÏ ÀË          AB6zÀºÀ?³áı*D£¿‡”TGASS33469 J095009.35+333409.5@bq?|í‘h@@ÈßÎ1PÛ<İn@]Š„‡‡+•@1:æ‘”’;?­ôøÀs@.mQ@ãœB?wÔ¯„Uƒ4@.°J\Ø?ƒ.P ˜çÀ2!áÉ1¢A?¯¥¢¦ÛDÀ4&ºTf[?‘Ñ±„èj>À4Np5˜(?“VÓÔç]…?ÁH(İÄÈ?yæø7˜¯^?õ;gÅ(Xì?°j_Úwfy@58eRÇDh?tcn…Ù@1ÈºÈ<ñ?hRhH©?ÒD;á©?ê«ß´É‹Ú@A~Ga×ë?²ÿØsç—@™n‘!(G?©,š«yf?õçêÃæ”?ÄoŒZÚÃ?ö_Pè)?è”VØ[À)h¾¯W€?æö0©´Ü?ç>M+ ©?jFü2…Ö@3¬Ğ¢Ya?öjñ#WhÕ@·….EÜ @·'S0ˆ @0Zã–?½Gfû[xı@- 4Oc6?šì†â¸ø@,£aYĞï?
+ßL2JÃÀ3·<âk?½”ÊfL×À4Ü®3ªa?Ÿ»i‡¯%À5®9L? Æ0K^E(?Ã¯2OX?ŒÎê$•è?õ;gÅ(Xì?°j_Úwfy@4O­TÄ?ƒ;<§Ç	@0„9fD×á?b ÙŠÁU?ÒD;á©?ê«ß´É‹Ú@yI•´?À>ís¡Ù:@khUUâ?¤¨Õ ]K?õçêÃæ”?ÄoŒZÚÃ?ö_Pè)?è”VØ[À)h¾¯W€?æö0©´Ü?ç>M+ ©?jFü2…Ö@«
+`€@V?ú<emõA@·E§±, @Ä) µ‡ÿş@/«ãÃ6¾è?”ÿÈØˆ@,7ĞË¬çš?+5ñõ¤.@+Ğ®{Şîb?‹µmû›bÀ3†Öy*Õ?š(T±¶À5@ßôïÀ¯?—OéG%"qÀ5tqÖ½K?•Å4]M?Å¬ºà*‘?j²ôT÷$¢?õ;gÅ(Xì?°j_Úwfy@5)LI¬:-?ar«]ˆ@0Â²Ï×?m˜Ì†üÅ?ÒD;á©?ê«ß´É‹Ú@4/½?§[5(°ü@Õe«²‚Í?¬.‘5|?õçêÃæ”?ÄoŒZÚÃ?ö_Pè)?è”VØ[À)h¾¯W€?æö0©´Ü?ç>M+ ©?jFü2…Ö@İ‚çšöÕ?ù}~\Ùjô@·S3Î  @·0Awóÿş?öOJÿ“,p?¯–OÇx´?ñ¬©µ¥@?‘;Bƒ¸Â»?ò`séK°?ÙháÂ¢Œ@$3và|˜–?µÿâ”`ì@%í
+—ÃN?šÕ[¥acÿ@%BO‹Â?šÜªM,#@%L°"&Kì?ŸnğÌäŒ@"Õ=Í¾?œ²øÈŠÁ@!t°Ô ˆ«?¢ qRÄçT?Ï§`G´K?°sâ(ÈÙ?ÒuçìA?¥uÒÔ™½                0                                                 "ä9101                            8932-9101                       1-457175                        v3_1_1                          v3_1_1                          v1_9_1                          v5_5_36                         v2_9                            APOGEE-2&MaNGA                  MaNGA dither                    @hèÎ¾@;÷2&vj@I"–aÑ@UÄ ×J3“@häy‘¼@;÷5X§a?ƒYıø=éÆ       	@¿¤Ê=p£×        @5]¿HË’@Dù&éxÔşma040                                                       1                                     %P@hnÁ½¥@:öÓbéd?ğf¥P‡?ğFÜ]cˆf?ğ¿gôÛß?ñŠ‘Syú˜?øğoiDg?ùÏ"}Š?ë;)¡¹ù‹?ëíiæ’q?ìÜ»Â¹M”      á¢      á¢      á½@cKÛ ¥@LáÅ‚U°@4.ÛµÜ@$i×4.Ü                             plateTargets-1.par                    QJ130407.96+275753.8       [       [        ?”GšÉD‚?“´„ « «?›šşôgF?£ºRvÅY;?¥ãÚ/‹ŞÆ?‘x‘UŸ?¥NÂR ?åÀY!…Æ?û‚É.4?æ5 İD?èG'Ü½ÜÀ8     À8     ?ï±ğ=]…?á!-w1?â+«êÔõ            ß       v1_0_1     `Nÿÿÿÿÿÿü?”GšÉD‚?”ˆçš®lÀ',1&éyÀ+_Š	ŞÀ0Ò¼£nÀ2u8ï4Ö¡À3#a@N¥À3yÇy¦µÀ3³óMjÀ%ƒ¯·éùÀ*ÏÅo À0…fÏAòÀ2Q½¥œàÀ2ù 'RTaÀ3PªdÂø8À3 hÛ‹¬?ö±Î¯%@dg®záH@_äıó¶E¢@¢PzáG®@š¦G®zá@¢dp£×
+=@Œ¬í‘hr°A÷ËVS   Aôæh—   ?ëêöƒ{á@J‡Ûô‡ü¹?³˜³ÀŒLª?³V#"C÷§?¨_Š:?¡î­È$Ç`?š4õ«?“¹d:<;ğ?‹ø&êş@ªòQÁ“´@MĞR“JË?Ş£¤µV‚@cFÜ]cˆ@_c×
+=p¤@€½&éxÔş@³p£×
+=@–Î(õÂ\@š}ë…¸R@pÍÈu@$ƒˆe”¯O?›„\³	­?Â:!cş?yAëôá?˜6ê‘?]v“/G@[?ß}Ëİ¹„@ê¡ô±î@WİF
+¦L0@€ªp£×
+=@­ë…¸R@–2£×
+=q@œtQë…¸@¯×^ FÇ@#_oÒ ?˜ĞÌ5Î&?Ãö#l?y7±È¢?˜%—i=±;?^¯ã²íR©?éX¶%ö@ë¹Œ~($@J¥œàv@!q4êJŒ?ğ¨—c^t*@R¼£n@_f‡+J@‚óZ¬1@’fáG®{@™¿¸Që…@ :õÂ\)@3‰è>BZî@)'ü¹#¢œ?ÂÑ™»'‰?Öˆ MŠ?“f”‰`[?­Çb)ÀÃª?ƒ`Câ‚í ¹œ    J130407.96+275753.8Â  Ó‰•@hºˆ&«@;÷Yò»<¢<ÂB¬33Aå?è;j¤¹ˆLApË’;7€4<Ôıô@¡ë…AhõÃ@¶¸RA\@8QìB'33@¯
+=¿¬"!<4g       	  c         A9X¿Õ`BÂÆ  ?§l‹    "R      ‹    Anšk¾€ä?³¶?o"ˆ¿|ˆGASS113052J130407.96+275753.8@hºˆ&«@;÷Yò»<¢<Â@U‡ûÓ¹@1e:û¡»@?’ŒèØ“¹@/ë{ˆdB?‘,ØÂ"w!@/h"ÉŠ?Œ8õ“ô”ZÀ1G¢Øã7?d$f6ŒÀ2·ÀÀ#?œ‹	áÌ	úÀ2øÌÒ nÿ?šÏ¶ŸÀõş?ÊğŠ%_ç?nóş{åèı@$xOJ ¶Y?»ù¶h=à@3{fÔ:ÍW?€ªæ¿@2<]ÌÓ%Ö?ƒ÷Mò5Xq?ú û
+	W?ğ0S„+³@Æb¨¾ê„?µw)ªlFg@0¬˜¶±"?¸íÔ@¥+@!ÒX_²…Í?Ã½LF7Ë?÷ÿò[q¥L?²_ÒÎºİ%@`öœ„cõ@â6l+V¢?èUÖà˜Ï?†›êR?ñŸ‡S—b?ğóğíR@·`Reü @·È¦wÿı@0›7AŒ-?Ë.Ÿüú@.‹Ãa§?É¬7K5@. «èö?ÄÃØ¯tœ˜À2¦’øç?ËT8¢ÿÀ3d—òøAp?ÉÔ”“26òÀ3¬‡àw÷8?Äõ«¢‡Ê÷?Í08öÈ‚›?¨?Kàöæ…@$xOJ ¶Y?»ù¶h=à@2×ÕpÊñÃ?‘ÛŒ‚8š@1—)?V¢?soz˜´Y?ú û
+	W?ğ0S„+³@öaüyÁ?ÅˆşĞ·û‰@^wQoô?«IïVè@!ÒX_²…Í?Ã½LF7Ë?÷ÿò[q¥L?²_ÒÎºİ%@`öœ„cõ@â6l+V¢?èUÖà˜Ï?†›êR?ò¾œ”3]ì?ñ‰‹ígê@·¬Æ–cÿı@Äj×ò™ÿì@0;=¬”=?‘Dƒ¿Hf¥@-ÃVkÙ×D?…Ü½<2Ã%@-6gb:á%?‚¥]ªõ-À2q¿–Ø^?œ™Mı‡U—À3Ë2˜¢?™H[ÆØ¨À4ª#g²?˜¡LÊ9c·?Ìª¤)5?j+†4P\E@$xOJ ¶Y?»ù¶h=à@4'@-º¹]?sîÿé9Ù@2³érpö¯?‹É/ğ-)?ú û
+	W?ğ0S„+³@	 ì-¼©?­_1ƒ‰`@È²®ƒºF?ÀñBQäCt@!ÒX_²…Í?Ã½LF7Ë?÷ÿò[q¥L?²_ÒÎºİ%@`öœ„cõ@â6l+V¢?èUÖà˜Ï?†›êR?ñÙ†±½´?ğ©Èur›@·wĞê @¶äN†  ?ò¡ËßRp0?™Wë<ÛÎ?ñAH}tgğ?”[Óˆ±Ú*?ñÕq+(?é²î8­@"êrÆ½a{?·Fôéë5§@#ÆÓÀn„?µ¸u+v¯ş@$=¸»üĞ?±À×/×?á@$İûDÃ‡?±Â·ËÈ×@!Cm‹]?²C˜9¦dõ@ à4V§éÂ?¹/¼İØ?Ğşi=Ó·”?Ç¸£‰?W?ÑV/çĞ?¬õıv³b                0                                                 "æ3701                            8934-3701                       1-456772                        v3_1_1                          v3_1_1                          v1_9_1                          v5_5_36                         v2_9                            APOGEE-2&MaNGA                  MaNGA dither                    @h@ĞĞgŒ @;­çW“@N’'Û;P@V5Ô³‹@h@ĞR“JË@;­nij&å?‚(ÅÆôÄ       	@¿¤Ç®zá        @:Èğ¹@E„µÜÆ?ma108                                                       5                                     %R@hm•¿ğEx@;Å‡lÒ‘?ğWÑx-8?ğ…]¢r†/?òS¢±pP?ô>«6z‘?ö‹‚¡ Ï?ıà,Âã?èÊßø"»í?î©é•öw?ïweıŠÚº      às      às      àt@‹ğ™Z¯y@N¯%;@€If{_@ûwFˆ{                              plateTargets-1.par                    1J125606.09+274041.1       %       %        ?àÿ‰¸{?‘0é¬×d?™ZX;*xz?¡êñ{şŞ?¤ïÕ‘m?‹¦3ÛÏŸ?™xÌN!Ì?åÀY!…Æ?ı^NÛË?é®d+ùƒ?êşE€<ÑBÀ8     À8     ?÷ğdìé¢Æ?æ×6Gº©µ?èr:îéW            ß       v1_0_1     ^tÿÿÿÿÿÿü?àÿ‰¸{?‘Ô¢„#æÀ0³¢œwškÀ1æšÔ,=À1ÆÜ]cˆfÀ2JŸ¾vÈ´À2£S&ÂÀ2›jçÕfÏÀ2¸FÜ]dÀ0s{J#9ÁÀ0Î Ñ·YÀ1v?¼À2<Æ?À2™b¶®}À2©º^5?}À2Ñ [À7@"|í‘hs@ƒ-Që…¸@w‘ß;dZ@”ÍG®zá@£C€    @£33333@fffffAÈØ°   AĞš”   ?äñ0Ydd@ezn—Oß?²Æ¯|Yí²?²†çæ-Æã?§Yë-àãÛ?¡.€F}?˜ìR¤Â ?’åÿ£¹®?ŠÌiĞ~25@¸ßzNz·@
+RƒBØÃ@]bMÒñ©ü@c¾vÈ´9X@sÔıó¶F@…®‘hr°!@§ï²-@Ë™™™™š@“133333?×‘OH<¯´?øÃş\‘ÑN?±Wğİ»2?t	m‘ÿ?Íøã¬bå?¹­…ß¨q¤?†Î»ºUÑÄ@`+Iº@fE¡ÊÀƒ@sUdZ¬@…E¡ÊÀƒ@Ø©ûçl‹@áG®{@“Qfffff?Ôbºà;>š?ôiÂ;yRÒ?´ÊC…Î?|ãá{£:?ÍÅÍÕ
+ˆğ?¹e 4Ù%¡?†Š •6^?äGIj­?ÿÁò×s@eÉÊÀƒo@ïùrGE9@dBñ©ûçm@kÉó¶E¡Ë@zÂ\(ö@†¿›¥ãSø@-V@—×
+=p¤@‘Â\(õÂ?Â´|sîå&?ãU¡ÎòA?ÂùÛ"Ğå`?ÜoŠÒVy‰?Ñd”Õº®?Æf4„E? ¤ Üš+ µô    J125606.10+274041.1Á  Ó™ ì@h@Ğ=š•B@;­˜ñ/<‡æB  AæZ?ã«ÉGNÏAr	;>í<Çâ‚@N¸R@ùë…@TzáA®@áHBVff?ØQì¾:|Í? ~¸>–ÿ      <…¼BÜ  Aıô¿.—    @Ğå I¼ !şU              ÂÆ  ?à—lÚŒ¡½°· GASS112116J125606.10+274041.1@h@Ğ=š•B@;­˜ñ/<‡æ@Qß^#Tøø      ø      @.çÛ¿Ë	œ?ı}ßå@.çÛ¿Ë	œ?ı}ßåø      ø      À2Ñu8>‚? JOêqÀ2Ñu8>‚? JOêq        ø      ø      ø      @!¾ıí5°?p©Oôğ?¢@!¾ıí5°?p©Oôğ?¢ø      ø      ?òÛÇè¶ »?¢Ø2şá?òÛÇè¶ »?¢Ø2şáø      ø      ?ó2è]µ·y?p¸\!ã4@S_Ù_L™?ÓMiF’>ÿ?ãİgÔë3?jzœ©)@^qJVU@çº@¶–LçËÿÿ@µš8•Ÿÿüø      ø      @.8¡ñKˆÕ?‚‘;`®¤@.8¡ñKˆÕ?‚‘;`®¤ø      ø      À3)\wşæ?œÛ@jx/À3)\wşæ?œÛ@jx/        ø      ø      ø      @"g<Æ9¹?reéÅiÙ@"g<Æ9¹?reéÅiÙø      ø      ?ó’Ã%É?£ÀåsCË9?ó’Ã%É?£ÀåsCË9ø      ø      ?ó\‡¸¦7?”ğ›„]•#@SD·Ùæ|@
+Nå» ¥?äE»ü/ 5?„UW(‹¢G@~÷O.@ÕªüZÌ’@¶¢#­Ïÿü@Ã—èMÿåø      ø      @-ócœ†B?|ãTKs@-ócœ†B?|ãTKsø      ø      À3K½†Ú¢B?œ4è‡Zf<À3K½†Ú¢B?œ4è‡Zf<        ø      ø      ø      @#+Ô{_?dÀÌSó@#+Ô{_?dÀÌSóø      ø      ?ô^¡Z<|?šD‰ËÂØ ?ô^¡Z<|?šD‰ËÂØ ø      ø      ?òú°ªv:‚?>-fÂˆ @SAİlu?Ô¶îä¶Z?ã­”…pZÏ?ef#…yNä?û³ò3³	.?ù×ôÁ×@·¢°sÿı@µØBÀ  ø      ø      ?Şh˜ğ ?’`ï]§¤ß?Şh˜ğ ?’`ï]§¤ßø      ø      @"3
+¶]eò?›T’û5@"3
+¶]eò?›T’û5@"3
+¶]eò?›T’û5@ Û:g·ˆ0?£–íB±¼`@ Û:g·ˆ0?£–íB±¼`        ø              ø                     0                                                 "æ6102                            8934-6102                       1-457009                        v3_1_1                          v3_1_1                          v1_9_1                          v5_5_36                         v2_9                            APOGEE-2&MaNGA                  MaNGA dither                    @h€¡—@;}¨ ±ù@Dy:W]@UÉF£¯¤@h€
+|ZÄ@;}¬%X?…ãnÏÁsÓ       	@¿¤Ç®zá       @@:Èğ¹@E„µÜÆ?ma102                                                       5                                     %R@hm•¿ğEx@;Å‡lÒ‘?ğìkÎ…4?ğj%™í|?ò.œË}A?ô>«6z‘?ö‹‚¡ Ï?ıà,Âã?èÊßø"»í?î©é•öw?ïweıŠÚº      às      às      àt@¾§°³’@ZîcŠ	@9gÊêt~@3rSÎ      @                       plateTargets-1.par                    1J130411.24+272925.5       =       =        ?’2Yï_Ì?’\Ä&5ï?š ×­¶?¢Ç¤nß±¬?¤ôò…Ãù¿?+œeü´?¸c‰<TD?åÀY!…Æ?üŒ
+Ğ=š•?ç°ğbÔ
+¯?é‘Ä¹­À8     À8     ?í«E((=6?á:ÀÆ.?âTûÚ×R             û       v1_0_1     _ÿÿÿÿÿÿü?’2Yï_Ì?’òXwZVÀ+’òäŠÀ-”¢3œ¿À0å2a|ÚÀ2.ÿ—$tÀ2åœàu÷À37ü¹#¢œÀ3…+ÓÃaÀ)øÇâ‚@¸À,¦
+¦L/ƒÀ0ju%FÀ1ó×
+=p¤À2£÷ÎÙ‡À2û/ìVÕĞÀ32ZîcŠ@\S÷ÎÙ@~ıûçl‹D@pØIº^5?@¢YÑë…¸@¢åaG®{@¢Øğ£×
+=@İ/Ÿ¾AñØæ¬   AëVl   ?ë£;ÙÊâ@A›33333?¶ÌÉqÎyu?¶V!tÄÎ?¬[2”§Â?¤İS¨Á?C£Ã¿?–òÍèU¿O?EO•i‰1@¸Â¤TŞ@Ì'¦76Î@q´xB1@+Ê	Ş Ò@]-V@|òMÒñ©ü@‹ËbMÒò@“±
+=p£×@˜+áG®{@ á¤½º
+R@*Ö“t¼?µ;÷'j?¾<1ßv½?¹$Ğ™àç6?¨&"»ë?q ¤;´@©9êİY@-ø_ö”F@Y]p£×
+=@|%ãS÷ÎÙ@‹K¸Që…@“3G®zá@—ñë…¸R@ ˆÀ>-b@)3&Á½¥?¸8¬ï·³`?Ìéö©?)?½k¹Œ~($?«ŠéÓmĞ¾?s½%•æ²?è‚BĞ_(…@bbË§2ß@BÁ [À7@ `WÑx-8@"Úêt}€^@7\(õÃ@cóçl‹C–@]›¥ãSø@‘L(õÂ\@—Ş=p£×
+@  úáG®@ES&Á¾@ô4ã ?Êæê…Dwÿ?ªÀÒÃ†Ó?Ç)¡¹ù‹r?´QĞ­,•?ˆ­
+¥úÑ ¹i    J130411.24+272925.6Á  Ó™@h€
+|ZÄ@;}yĞ¦v<‘’ãBš33AÑ_?ê._ú;šáAo×Ü;0ò|<ğØE@¨£×AV¸R@œzáA
+{@#33B™š@’=q¾ —?"Ö       	  c         An˜¿ÓoÂÆ  ?§l‹ IØ !şã              ÂÆ  ?‰R‹×â³¿kY¤GASS113001J130411.24+272925.6@h€
+|ZÄ@;}yĞ¦v<‘’ã@SIfĞ;@2GCÇƒË?·h‡7×Km@0ÚâÊÏT?œÄõ4NÙ@/ÚªÅg™Ô?›ú+Çæ¥ôÀ0]}?aL?¸@’	ªÀ2Xé ^ „?£-¡4êuRÀ2‚o uî?¢âebD¸?ÁÂüm…~È?…H•zR`?øÀFªíÌ]?Ëğûg`t²@0ƒg©r¦?£Ff×PË'@-”yÆT?“TwË5C?ÌOêAÄ?ı£¬êî„@ã ¯•Ô¥?Ô†1zQ@ êü¶îÈ?ÄÀ3^¼Nœ@#Óay†›‡?“7û'…Â?ğ      ø      @^fã/qY9?ñ‰í€í?éõ^øÀ¨?glı>Àm—@¬R'“?ô¤lÅD}=@´“ã»ÿş@²/Õ¸ @1á@
+ÆP?Á²¥Ï@.¼ä"äØn?˜WDÛşdŞ@.V:¶{¤Î?˜…~tbÀ1UãC	ˆ?ÁM·:†q‚À3Rq¶c¡?¡”1İÀ3D§'êıq?£ßTB¨?Å•™®a?‘Ù±¶_t?øÀFªíÌ]?Ëğûg`t²@0eYÏ& p?kŒ4ïí$Œ@,¦}œ?Í?e‰r],¸†?ÌOêAÄ?ı£¬êî„@Á?ß	×?¤],É³…¿@ UÏ¬ë?“? Óˆ¶–/@#Óay†›‡?“7û'…Â?ğ      ø      @^fã/qY9?ñ‰í€í?éõ^øÀ¨?glı>Àm—@Î+ß o?õİ"úY¥@²:åû @ÃÙûU| @0»*Ä„i?¥$-ÈÀÓq@.ö&åyH?}"qì@-^<…Ş?‚É
+×:Ş³À1´šdKo?¨§‰WÀ3mIo¶4?šdšİ<©À3¡dåà‘?›î®M¸?ÅÃ6ëAŠQ?vN>Nü"M?øÀFªíÌ]?Ëğûg`t²@0QõŠln+?n28Nã@,e‘õ÷t?rSì<|p?ÌOêAÄ?ı£¬êî„@«\êG?¥…
+½|uá@ =¾t™e^?¦Àû­\(@#Óay†›‡?“7û'…Â?ğ      ø      @^fã/qY9?ñ‰í€í?éõ^øÀ¨?glı>Àm—@ Ó?ŸåĞ?ô¼à*H{Á@´¨pNt @²¦Âcÿı?õqÔ /ö ?¹¯4Y¹7Ï?ñEüõ+ ?­N/dÈ?ñêdGÚ0?ƒç^@"¼_f‚KQ?ÀwÛ¾å©@#„¯
+N?£œ![{"¢@#Å†w¦Š?£àñN¾@#Ğ|åé?§—}ñü@!‰‚\ÍÉß?¥ë¼‰’@!<ïzßı?¥á|âmj?Ğ0% fz?¸¦>˜7?Ò|ô˜«@?°AI ìN        @8      Re1 < Re2; n2 = 1                                 "ë3701                            8939-3701                       1-298715                        v3_1_1                          v3_1_1                          v1_9_1                          v5_5_36                         v2_9                            APOGEE-2&MaNGA                  MaNGA dither                    @_W&ñ@8süˆ* +@hŞé,Ğ@=ëøkÓ@_W&Á½¥@8sü†Î»º? “cõrŞD       @Åfffff        @2ŠÍƒä&@C<C,¥zxma035                                                       1                                     %Y@_cÌáÅ‚V@8.BZîc ?ğ5*„8…?ğØÂ¤TŞ?ñêçÕfÏB?ô†á›ê?ûEÖ8†YK?ÿîõì€Ç?ŞÍ¢µ¢Ü?êğ½}®‚?ìe@Ìxé÷      àŒ      àŒ      à@Âã>ÿ@gRT`ªe@D°˜ÜÛ@šu      @                       plateTargets-1.par                    J082126.80+242711.0       %       %        ?”A™şCg^?”zô‹ô?››Y:Æ?¤M‡rO¨µ?¦vd
+k“Í?“åÌx7?¢Së9Ÿ]ÿ?åÀY!…ÆÀ8     À8     À8     À8     À8     ?à2‰T§ø?Ö7@%N?× ¯¢ğZq       a      3       v1_0_1     Ò™ÿÿÿÿÿÿü?”A™şCg^?”Wb½dyıÀ-A£n.±ÄÀ.É“àŞÓÀ1gÈK]ÌdÀ2·8}¿HÀ3eÜÆ?À3ºŸ¾vÈ´À4Ãa@OÀ,Œ~($À-ìVÕÏªÎÀ1§æšÔÀ24Ö¡aåÀ3,ÌÌÌÌÍÀ3Ä2ÊW¨À3¹#¢œwš@b-&éxÔş@y·t¼j~ú@n2¸Që…@£½p£×
+@¢Íğ£×
+=@¢Ì     @Që…¸AüÂ¼   A÷x¸l   ?æ Ï §Æ@ek•$İ?ÑFbºà;??Ñ²»©Ú?Å{úLaØb?¿¡fµN?¶î0Ê£&á?±c/zA¾?¨§ãß8	\@Ğ(¡ß¹@ˆœ¡‹Öb@ ¨‚j¨ëF@2“×
+=p¤@dĞÔıó¶F@ƒ‚ıó¶E¢@“/Që…¸@›kQë…¸@¡fk…¸R@M5¨Xy>@=ŠÚ¹õZ? ~ø-£§:?¾ÎxwNì?¡,£ÌùB?P¼üJÈü?gW9øŸ8•@!¼,äd™@3Ë¹Œ~($@b°ıó¶E¢@‚\(õÂ@’YG®zá@™ÙÂ\(ö@ ^½p£×
+@ºÎÄÒ@û“‰µ ? wP™u‡l?ÓÙœ¾è¼?¬O?tN†?œ8¢Ş¼¹Y?m÷œÚà’?ãæ­´Ñl@ê šª:Ò@eI²-V@˜«ˆ¤@.]¿HË’@=¸K]Ìcñ@hàIº^5?@†·¸Që…@–…×
+=p¤@Ÿ¶p£×
+=@¥fzáG®?ö«Š\å´$?şñA [À?ÃÏN‡Lü?Ñ-©†v§&?¹+M‹¤‘?¨°YÏ/?€R]šåÉô ¦    J082126.80+242711.11  Îâ/@_W%ÃŞç‚@8sı´Ì%<¢İB¬  A!î.?ãá4Î=æAk×s;IR=¶z@†¸RAS®@w®A
+=@HõÃBTff@¸¾&á˜>¬eÓ>»     c         A¿×l‹ÂÆ  ?bN ™G hş              ÂÆ  ?µFÈÍ˜¿y‹ìGASS108058J082126.80+242711.1@_W%ÃŞç‚@8sı´Ì%<¢İ@U€‘ÄCg!ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ?ó_ûÎkà?ö´};©+—@³ñ   @³
+‹¸cÿşø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ?ó ¾ú…ß?øà,j(È@´¿š,Ì @ÃzÛ“ÿıø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ?óZü|?ùÓ‰Â¶C@³¨Éù< @²ò=Ş” ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ø      ÿÿÿÿÿÿÿÿ        0                                                 #ë6102                            9195-6102                       1-42704                         v3_1_1                          v3_1_1                          v1_9_1                          v5_5_36                         v2_9                            APOGEE-2&MaNGA                  MaNGA dither                    @;§Vcx›(@*8l+r*²@béÃBŠiÀG£K,`9@;§Vd£Q@*8l"h	Õ?²ªšrİm.       @Ås3333        @69ÀëíúD@G¤¨ÁTÉ†ma123                                                       6                                     &@<Ğ‚à°«@+_?àGÔ?ğıó¶E¡Ë?ñ^*Ã") ?òÏ,ù]O?òB&€IR?õ¥zxl"h?ø†¸ºÇ?ìHê¿üÚ²?íâ^™éJ²?îgÕfÏAò      á;      á;      á>@ÿ|í‘hs@Ş FÇd®@¸ -à@­ÅÖ8†Y                             plateTargets-1.par                    \J015036.88+130636.8       =       =        ?â&Ñ%!"?ñA÷Tğ?˜rØd°ƒÁ? İ¸­[~?¡©š˜X?‰/Ìve·ë?œ>{eÑëğ?åÀY!…Æ?şi·¿a?õwãÑÌ?öJ¡!BÀ8     À8     ?ğ4CÔk&À?ê…U>öµÔ?ë#Ìâ¬2       ‘             v1_0_1      ±¤ÿÿÿÿÿÿü?â&Ñ%!"?‘jÕ`ğàÀ,/Ÿ¾wÀ-(	Ô•+À0QÎ_À1?Åo À1Ê…‡“İ˜À2 [À7À23óMjÀ+:û~‘ À,´¯O„MÀ0ƒä%®æÀ1`quÀ1êÇË)_À2CŠ	ŞÀ2rh	Ô•@U¡S&Á¾@mÂ‡+J@Te­BÃÉï@G®zá@–Êp£×
+=@*ë…¸R@„Ö° Ä›¦AÓÕ—H   AÚÜŞ„   ?íÂöÕ®@Tßn—P?ãh›Œ¸á?ã&.ÓR"?Ø"«%³ğ?ÑÂ3×Ú?ÉÂ—¿¤Æ?Ãˆv[¦ïÃ?»²Ìp†zÙ@ÈFŸ¸@Q&éxÔş@Ù©T"@%ü]cˆe•@SÙ¥œàv@pİ/Ÿ¾@|şIº^5?@ˆğï²-@ˆ­Ù‡+@Æ­-Ëf@äy’?—ês¦ÀÉ‰?¾#2ü¬?”7±G5H·?•‰‹.œË}?dè¯×H¦¸@åŞÊl @'N;Í5¨X@QB®}Vlô@oÌr° Äœ@|†(õÂ\@„è—Oß;@Š@?|í‘h@x?‘æG@
+µsê³g¡?™ô‰ª8MN?ÁíNL”-?”KŸŠtc?–İß1S_?fÒµ&í€?íÍl.ıC?ôœ.3ïñ•@TÇ²-V@ª0U2a|@&Å¼£n/@-%¸Që…@Pâ½<64@lx£×
+=q@yL‡+J@†²-V@„öhr° Å@ñ¾ôœõo@u'å!Wi?Ë†ã´oŞµ?ñ%q!«K?Ûz®òÇ2Y?Æá6çÚ+?–—kÁïùø Šš    J015036.88+130636.8®  Ê¥&@;§W’@*8p
+<‡NB  Aÿ&?íØInŞÛA€Çã;–»™>Mj@˜õÃALQì@¤zá@ÿ\)@*áHA¬ÌÍ@Y™š¿{Z=§ş       	   <‡lBx  @şJ¿§ÎÙ    @1™š  > Fo           AP·é¾˜¬?¿Ö’\§:¾èƒGASS101018J015036.88+130636.8@;§W’@*8p
+<‡N@Qà ¿Wø      ø      @0«Còœ>Ç?¡)qÂ+©@0«Còœ>Ç?¡)qÂ+©ø      ø      À1šR–±%?¥î’1NìÀ1šR–±%?¥î’1Nì        ø      ø      ø      @'ô_ôà?‘tˆ¹ÛnC@'ô_ôà?‘tˆ¹ÛnCø      ø      ?ùv=-oy?Á[MbZÌw?ùv=-oy?Á[MbZÌwø      ø      ?òØrAT;?š6ı2ß/À8¥Qr}y,@àz¨Îš,?í¶“¼\äk?s8,	h?ñ@axˆ?ğm‹C©,o@²É¯L @±ê°zÿûø      ø      @0ò›–,?¡‘XŠ@0ò›–,?¡‘XŠø      ø      À2B£íYÀ?œ³ÉNÄSüÀ2B£íYÀ?œ³ÉNÄSü        ø      ø      ø      @(®UåP­´?q˜¦Ç¦j@(®UåP­´?q˜¦Ç¦jø      ø      ?ú<4ÿ7.f?¤Qßx/O¨?ú<4ÿ7.f?¤Qßx/O¨ø      ø      ?ó¡–Ñéæ?zf«iÑÚAÀ$kCÙÊñ@ù~ís=?íû©ìU¶?mÍ£\‡¤Å?ñ6ïîÓàå?ğ…]“P5›@°>1“ÿÿ@½(}#cÿşø      ø      @/ ÔÁª?•×ÂÍ}ú@/ ÔÁª?•×ÂÍ}úø      ø      À2µ‰}¸?¡|¼“ŞŞçÀ2µ‰}¸?¡|¼“ŞŞç        ø      ø      ø      @,Ş”Á?†®Øˆ;@,Ş”Á?†®Øˆ;ø      ø      ?ıÅ™Çöº?¶ø íg?ıÅ™Çöº?¶ø ígø      ø      ?öÖ{hˆ?Š6Şìâ[0À0pÄÔƒ-É@/Zã·@¹?ípâQöÁ%?sà‰ğcÖ?ñY© Ky?ğ°†Ì%-@³˜Š¸ @±îYÒSÿüø      ø      ?ñ³n{ß ?¤WP·>m ?ñ³n{ß ?¤WP·>m ø      ø      @"ï*¤P
+?©8aı$@"ï*¤P
+?©8aı$@"ï*¤P
+?©8aı$@!µß¹é?«BP9š¥ @!µß¹é?«BP9š¥         ø              ø                     0                                                 %3701                            9494-3701                       1-384400                        v3_1_1                          v3_1_1                          v1_9_1                          v5_5_36                         v2_9                            APOGEE-2&MaNGA                  MaNGA dither                    @_°_÷~s›@5´í³Û»İ@iM“Í®p@>=½b@_°`Ÿ±@5´í²öaò?§zÚ€       @Åfffff        @8Y¦µ(@IúşÅm\ûma137                                                       6                                     ';@_ÆÎî<´@6˜Æ÷ ¶?ğN_oÒ ?ğ¦€IQƒ?ñ}¿HË’?ñƒùdo?ô;£D=G?ùOVêÈ`W?ëÈ}²³F?ì¸:lãX?í\Î¢âa      áå      áå      áå@Ã,¥zxl@º¼”pdí@ 'RT`ª@®>lLY      @                       plateTargets-1.par                    öJ082701.39+214224.3       %       %        ?<³åu:??– báv§ı?•d€³Ç?¦áR•Ï
+?¨JNë’‹?‹ìï{M?¡t\É/?åÀY!…ÆÀ8     À8     À8     À8     À8     ?à| ü?Õ64êK?Ö4 ½¨       ^      œ       v1_0_1     4òÿÿÿÿÿÿü?<³åu:??à¨Kä!À*¸†YJôñÀ/
+0U2a|À1³S÷ÎÙÀ3PëíúCşÀ3Û¬q²–À3ücñA \À4 ©*0UÀ*§y¦µÀ.÷€4mÅÖÀ1àHğÀ3I­BÃÉïÀ3Ì²•éá±À4
+QÎ_À47süPH@]%/Ÿ¾w@2®záH@xŒE¡ÊÀƒ@£³3333@£.záH@¢.záH@‘?fffffAÿcåñ   B @&€  ?Ù	Ş Ñ·@a©©ûçl‹?Ø)ˆ;£D?××ˆ±Ù+?ÎØU—J?ÆOÁß3?À	VÀÖõE?¸Qæ|¡;O?±>>)0zò@y¹©æï@	º;÷'@_&k¤“É@BîvÈ´9X@zKKÆ§ï@›\(õÃ@¦óÑë…¸@®R®záH@¯¸p£×
+=@¹3]$E@O‹X6?¾Eõ­–¦ ?áML¹ìö?Ì-œñ<î?pµ‚-lIÕ?{%x	¦òÉ@ÓÈŸ@¢‡@Es)^	@yæIº^5@›733333@¦öG®zá@®J.záH@²Š(õÂ@±¯:ÎÄ@›(Âz?Ãº<§P?â¶ÖUâŠ¤?Ïúñ€
+?pKÍ2ù&?‚Cäõ?ÅÃ‚¡/?ÿZpŞTµ@a·ß;dZ@ }ÔA5@q1eÓ™p@F7Òòä@v r° Äœ@›÷     @¨9¸Që…@¬Ô®záH@±îzáH@FÇd­ÿ‚@ –ÛØ/×?×o°’£#?ĞÉ>¢Òş?º©Ö'¿aª?‹Ÿe7’??@‡¯ŒJ ¦E    J082701.39+214224.4‡  ĞIH@_°_ZÙjj@5´ïˆ¹w…<yå}B„33AÙÿ?Ôá~4¹E1A^g8;	 '>:“@FffAp¤@G
+=A…@6ffB•ff@ˆ£×¾y‚…=ûÑV=©p     c         AC–¿Ô¼jÂÆ  ?§l‹ g ˜N              ÂÆ  ?Ä‡½‡ì1¿tExGASS108101J082701.39+214224.4@_°_ZÙjj@5´ïˆ¹w…<yå}@P…ÉGÁ~Àø      ø      @,ÔHÈˆ¼?’²YĞÿ@,ÔHÈˆ¼?’²YĞÿø      ø      À3¯¹Rç(?¡vwĞ˜lÀ3¯¹Rç(?¡vwĞ˜l        ø      ø      ø      @'Ä‚OQ?yç¿”hoa@'Ä‚OQ?yç¿”hoaø      ø      ?÷h†ğ#£?©¬=únm?÷h†ğ#£?©¬=únmø      ø      ?ûHzÊ–L‰?zQ#]Ñ|@T ¿hô??¡¾ÔuI¦w?Ğ"0ü8É?ecÆ%Jğ?úkNï|C?ö¢¾”Ä?@±k!Eà @¸â`| ø      ø      @+«^(ôô'?f'Ñà(K@+«^(ôô'?f'Ñà(Kø      ø      À4DâĞòP? àæÉx‹À4DâĞòP? àæÉx‹        ø      ø      ø      @(XÎÚ«l?dLGbjYµ@(XÎÚ«l?dLGbjYµø      ø      ?÷ú5âõT?›ğCÆk¹Ğ?÷ú5âõT?›ğCÆk¹Ğø      ø      ?û5.4Õ-Æ?l¸wè­ç*@T˜\‰WQñ? L}¹±Ø?Ğ¯LV
+?h'ÕÿÉ?şŒ‚<ia?öÇn¥­v§@²ØQø @Ãˆ|g¦ ø      ø      @+Õ×y?™o64„@+Õ×y?™o64„ø      ø      À4”<g`€¨?£Wíü\PæÀ4”<g`€¨?£Wíü\Pæ        ø      ø      ø      @)Ó*´­¾?‚ª¤ZK±@)Ó*´­¾?‚ª¤ZK±ø      ø      ?ø¹+Óş8?±Íƒ‰ëâÓ?ø¹+Óş8?±Íƒ‰ëâÓø      ø      ?üù×Ü¨+?‘àÆÉ@TœZ½Go¹? Úg™l?Ğë$Œô<+?cÅé$ÑîZ@Õkîùj?÷PÅ÷ålw@±JHzwÿı@¹Äq0 ø      ø      ?ìb+0?Ÿ=Å_êmñ?ìb+0?Ÿ=Å_êmñø      ø      @$Xô³ª?¤€&p2@$Xô³ª?¤€&p2@$Xô³ª?¤€&p2@"Xê˜n'q?¥ -KÔ@"Xê˜n'q?¥ -KÔ        ø              ø                     0                                                 %6101                            9495-6101                       1-298482                        v3_1_1                          v3_1_1                          v1_9_1                          v5_5_36                         v2_9                            APOGEE-2&MaNGA                  MaNGA dither                    @^£?~Ç‘@6Å´Q÷Éš@hù¥w@:ïÊ¾R&7@^£?|í‘h@6Å´V´A¼?§¹ÿj®Ë       	@¿¤¸Që…        @2ÄzáG®@D3Z…‡“Şma101                                                       5                                     '<@^°á¼©i@6j;İü ?ğ?‘æFñV?ğgÿX:S¹?ñ,Q—¢H•?ñíÚÎî=?ó2ÔÔK4?ô”šVWûj?î6KìgœÇ?îbûã:Í[?î»nÖwpz      âô      âô      âô@D«`kz¢@ş‹ÁiÂ;@Äå^³@›l7`¿]                             plateTargets-1.par                    øJ081012.17+224620.2       =       =        ?ï–ü0g§?'Óºı—?˜<l—ØÏ:? œä§´åO? ô6!¾—?¢Ğz w?ÄÑ¢£?åÀY!…Æ?ş±zÌNøŒ?ú9õY³Ğ}?ú¶ígwÀ8     À8     ?éÇ„#Ï?èû°åæy?èC‹7        Q      <       v1_0_1     Ñ¢ÿÿÿÿÿÿü?ï–ü0g§?‘>ì¤Ùh½À,O„MÀ+|àuöı"À/ñë…¸RÀ1=/Ÿ¾wÀ1äÂø7´¢À26R½<6À2dFs×ÜÀ,Uµsê³hÀ-âĞå`A‰À/­«ŸU›=À1(šu%FÀ1Ïb¶®}VÀ2*–»™À2Yûçl‹D@	HŠGìş›@PFäŠqŞ@Ä÷ù@¡(záG®@¡Ğ¨õÂ\@’Bfffff@ˆj~ùÛ#AÛ†   AÚ_#   ?äp½}®‚@eÄ     ?ØfÚ?×Í ¯¢ğZ?Íÿ´€¥¬Í?Æ­­ê‰?ÀS—VÉ:?¸GH“íˆ.?±6¶urrä@ª»Då_@Şì¿±[W@Ôã ù@/×^ G@Q}ÀëíúD@m¦Ù‡+@|¯`A‰7L@…~õÂ\)@‡×5?|í‘?•TÓ–ëip?¿ ŞLQk?K#&Ë›ÊK?Ï¬´(‘Â?À!JÓbé?QãØ,&y‘?n,{^<—@)ˆr° Äœ@9Û’:)Çz@On®}Vlô@m5ó¶E¡Ë@|Hå`A‰7@„„Iº^5@‰p;dZ¬?—†»pƒöš?ÀfÓs¯û?Rú"ñF©³?Øóèšˆ¬â?Ã¯îo´Ä?x•İ0r9?rG°˜¹ŸÉ?à´EíJ?úó–Ğ‘}k@eÔí‘hr°@ÿ.Hè§@%Øâe+Ô@ uj½ãû½@QšÏAò×@omÊÀƒo@~™"Ğå`B@…séxÔıô@Šk7KÆ§ğ?¯îáÊŠÓ-?Ô.ùÏ5]?›ã-ab§?ğ>Õ'å!?Ú­­ê‰?»Ğ¥2?’ÓA["Í ¥ó    J081012.17+224620.20  ÎÏ @^£?Rü&W@6Å´Ì%!<|äB‡33Aİ­?àçÚ+Z!A¥z;y	l=ş\’@—\)A"=q@“×
+A×
+@õÃBpff@Œ(ö¿¬A>n]x       	   <ûÎB¸  A¡Ë¿¡ë…?€  @{  ¦ •F              ÂÆ  ?¦?æS=XÆ¿?Ø„GASS108019J081012.17+224620.2@^£?Rü&W@6Å´Ì%!<|ä@På‹©9¬‚@3Lğv&? Ê²T)Ñ@0ÅWa¬M?‡É /ã›ì@0«:¾Ók«?†zÌm|eÀ-²·]\?¦#ŒFéÀ1a6zÚüã?Ÿ74ğk¶À1zşi=…?ù½	?¶­Ö™yº?e0»‡©T?öTJ`Í?ÔsL:zÜ@0»4ğwT?wKºüm@.£Ñ8
+Ë?†±#{o™?ÆxÀPNo9@²f‹‡#@ Ö¸­Æøp?ª¡ÅíK ?şÖ4c#Gu?¶j{?ô†Ä“lf?Û÷n¸pÿ?ëbF%QD?‹ü»Ÿé@^cÊ’Å§=?Õê]±é9C?àGq†Æíz?…äúox?ñÌRúIˆ?ğ½±˜>å@°³ì¸  @±G÷!¿ÿÿ@2¿›bws¥?ÚÙq&8@0ëgÛ?£Ïa‰ğ@/â‰íZ¦R?¨&Ïşq¡À.Í:ßŠk?Ú%Ëı[CÀ2&¸QAU?¨‚EúÑßÀ24óÛV?¬"j*ÛÄ?³Oı-BF?šîªÖ‡ Ø?öTJ`Í?ÔsL:zÜ@0f™=Ñı?|üÄªTÄ@.x']ğÕO?n·ş|ÈÙ˜?ÆxÀPNo9@²f‹‡#@ ‘×v%
+?®lÚŒ®?şªB»V?£f$†m8?ô†Ä“lf?Û÷n¸pÿ?ëbF%QD?‹ü»Ÿé@^cÊ’Å§=?Õê]±é9C?àGq†Æíz?…äúox?ñè³¸ÁÇ?ğs4® Õ{@°L„¾x @¼X…¡” @2\É–u‹­?–	z	ŠÄ^@/9Wøë?·8ßÙñ»@/İëCye?¡¿İÕ;À/’Şw;?¢(5JÑoÀ2‰MÀŸº? w-#hW¿À2ÉÜšì~? 6ˆ6áû?²Ô¿×Ò ?[Cğ8WôÍ?öTJ`Í?ÔsL:zÜ@1…|aMê?iVPpj @/Ëß8ğÑ?€t+áu(?ÆxÀPNo9@²f‹‡#@0œx‡š?¢Û[³@  ñuâ?°ÁÄÛ?ô†Ä“lf?Û÷n¸pÿ?ëbF%QD?‹ü»Ÿé@^cÊ’Å§=?Õê]±é9C?àGq†Æíz?…äúox?ñ¼i}?ğPNì5ö@°ŸË›ÿû@±B¼xÿı?îÜJ ?¤FY?ò…m.Z-x?“Òc›I5Ú?ò<¼“ïˆ?’‘˜÷ˆ°°@ Aæ>.Ã(?ÅÄ†gòğ@"ñ%Sˆ›*? ^š°¤}1@"ø÷{§? ÎbsYø@"ûƒëh? é»>cd@ Ø:ˆ}aì?¢÷/ï‚iŞ@ °€öOq?¤Èôl±oâ?Ÿiú™ú—©?º.6‡¢ş·?¦D˜ÆèÄ7?ù2/»                0                                                 %%12703                           9509-12703                      1-230042                        v3_1_1                          v3_1_1                          v1_9_1                          v5_5_36                         v2_9                            APOGEE-2&MaNGA                  MaNGA dither                    @_Ã\íR@9ıÈöAçá@h›@4ªpp@=R~~„¶@_ÃLŠÆ@9ıÈû†ô{?¢%ÎÆ¢a       	@¿¤Ê=p£×        @4ï²-@A1[W>«6ma142                                                       6                                     'J@^à;%oü@9â %9um?ğÂÎFI?ğ/Âej½ä?ğ€^_0çÿ?ğñVHş?ù¬'¦76Î@ *â—9m	?ì“}c.?ìÌ–F(~?í"v·íA·      á”      á”      á•@ÿÛLÂPr@•şÚf„@aïsÀÁı@5Í¶íg                             plateTargets-1.par                    J081625.36+255928.8              ©        ?§)ÿ­Ê©?¡£Ö3}ÛÎ?¯ÙÎ=U?¶ö9­ ·›?¹n¤"‰—Ä?šÑ§ıàk?°yK!K?åÀY!…Æ?¹{_ò®Ş¥?©r¯JĞ?«'­Ãó	wÀ8     À8     ?µÄ?_‘?§àÑn?¨iJFu/W       l      è       v1_0_1     ·Åÿÿÿÿÿÿü?§)ÿ­Ê©?§0l¯UÄÀ/¶®}VlôÀ0á°‰ 'RÀ3°°ò{²ÿÀ5ni­BÃÊÀ6GE8ï4×À6¯4Ö¡aåÀ6ü¬1&éÀ0l1&éyÀ1_4Ö¡aåÀ3~—Oß;À5É…ğoiÀ5ÂşÅm\ûÀ6'éùrGÀ6`4mÅÖ9@etA‰7KÇ@{_‰7KÆ¨@Rëçl‹C–@ Æ®záH@£¸Qì@¢Š=p£×@õ×
+=p¤B;‹â—À  B0{}ƒ   ?èâ43@_z-V?ÒÏR¹
+x)?Òq!«Ks?Çd­ÿ‚+¿?Á6iH˜ö?¸÷ÈùÙuR?²î±ùâ¯?ªØ»îX7Ï@$9ÀëíúD@"o,ù]N@+š)Çy¦µ@?°£×
+=q@r‡S÷ÎÙ@‘4Që…¸@¢c™™™™š@¬œaG®{@¯k…¸R?õ¼©iv?ûä×ğí=†?\¹:ô¡?lÁÕ"?£
+^ş“v?i—%vA?H‚&z,Ú@,°å`A‰7@?TğØDĞ@m+ÎÙ‡+@j33333@¡Ş£×
+=q@ªõúáG®@±7‚\(ö?õ¯ƒ{J#:?ü¸Që…?`kãÓÏu?¦9»°è?™â¯ åS?iÜ%4Aü?I‘Rœ—â?çLö¾7Ş”@Ç¸Õ¦@_×ï²-@58Që…¸@!_4Ö¡aå@3(“t¼j@pÌ^5?|î@—¬záG®@¬?Ç®zá@µÂÊ=p£×@½Õë…¸R@àŠï²ªã@Õv‰Ê½?Šq¨¹ÈJ?³Ÿ¿MˆI?˜L´¹&'?„ÁŞ\AIv?Xœ¤;>¾  KJ  ÏJ081625.36+255928.8ò  Íå Š@_ÃLŠÆ@9ıÉÄÚ=9m	CH™šA5¸?è>úç’KAa¸»;	 '=Ç®A õÃA   @Ì(öA(ö@¸RB(ff@„(ö¿%¥§?äËû>›ÂÆ     c =-¹AC  A…¿ìÌÍÂÆ  >n˜    œz          AS;Í¿nÕ?§¦q~g ¿‹QpGASS19274 J081625.36+255928.8@_ÃLŠÆ@9ıÉÄÚ=9m	@iT·Óù@0ç8Eò›[?·—hs Î@.EJñ<£Å?züËÑËa@-á«ÜĞà?”¹Bcæ×)À3›°C¥ÿ?·¹üYê˜À5`Cfïx?“\–Gb:À5’šj?—Ç’£;?Å 0ğ‘—?ˆ34ŠwÿÃ@Sv›3vª?ŒQ7(@A±vP¤)?r	ŞTàë@=$|änZM?ªQ»´?ïyn?Ó†-wğÈ@(ñt|U@x?¾è2ñD”@$Š¿Á>‡h?ò)´Ld X?û"ÍÙm¨ñ?”+Å—;‹?ğ      ø      @Rsâu#õÉ?Ûk„TÏ°f?æ¤í‹>t?_òŞ··?ø~~ñê4?ô‹ˆ~\©S@»#$bü @¸M±Nü @/Ó-–s{‡?…±¸¯Ğz@,¯·ó'Z?qÔ7ïêC¼@,:Ç0­ó?s(¥\Ç’ À4™Q½Ëƒ–?“e´"hÖ}À6+ƒ­­?†1„z<À6eİ¥lê`?†wÿ™v:?Èi‚Äœ7?cv<€•@Sv›3vª?ŒQ7(@@«ÒM²ô?gZáqåT@:Yš¦Áˆ<?^pòn?•?ïyn?Ó†-wğÈ@'€šg×İ?¶p{ÔE@"’×|È'b?¯°vå5|?û"ÍÙm¨ñ?”+Å—;‹?ğ      ø      @Rsâu#õÉ?Ûk„TÏ°f?æ¤í‹>t?_òŞ··@ )Ñøó?øo ^Ö‡@¹–,ÿı@Å]Eë3ÿé@.ãC0?{¼?ä>´ÅØJ@+Ì Lr¬¼?‰fN¹&z@+T†+‹.?„ÁìÕ=À5Fğåƒ|?‹ÔŒŞÀ6œ˜bËêü?Cá'¼ÍÀ6Ø¥s?ªO?cwõ;?ÈßÍƒ	‰?aë=_ğ™@Sv›3vª?ŒQ7(@@Ïğ ™Ó?onsÑî´ì@:k/’m?ªq¹a7¢?ïyn?Ó†-wğÈ@'³…Õ\?ºpÒøF @"Ÿ;½ãÉn?ò?f/Ü·?û"ÍÙm¨ñ?”+Å—;‹?ğ      ø      @Rsâu#õÉ?Ûk„TÏ°f?æ¤í‹>t?_òŞ··@ ér‘HUê?÷
+Ày€„Í@ºÔJ.#ÿû@¸6H(°  ?÷333333?·²$ƒ¿?óÅU&O¸H?”ÎUÚá7¥?ôi-Š*P?—-f5p¬6@%™µOV7L?»ªèšÎÄÈ@&\!g;vÖ?›”cÍD/Ñ@&¢áGujB?2[”ë@&©¦âH„?¢ù ›eÈ×@!Å>øUÌ?—Ÿ×½İß@!Óÿâ?œVv6·zÕ?ÑqÁ™–?±ª¼ÄY;?ÒÖ–-¶?«F1Ôî                n2 = 1                                            %(9102                            9512-9102                       1-53952                         v3_1_1                          v3_1_1                          v1_9_1                          v5_5_36                         v2_9                            APOGEE-2&MaNGA                  MaNGA dither                    @a„p{ä¹?çè0\g€@lë=Z ‡à@@­R8P@a„pyåŸ,?çè/SÕ•?¡O‹X6       @Å€            @5Bu%F
+¦@IIº^5?ma125                                                       !6                                     'M@a`½'=[«?ò¤üÛˆ?òá=1¹¶p?óP3:~?ó»úëÄ	?öbMÒñª?ø8ù±1eÔ?û„8…	À?é o&(ˆµ?ë”ĞÜüÆ?ìKy¶Vi      áó      áó      áö@3ÿ¬)Ü@Íí(Œç@êüÎX%@ì†hÍ                             plateTargets-1.par                    vJ092033.28+004315.9       [       [        ?‘œÅbe?Š‘–•Ù¹?—K—®è?ñ¦ é4?œ%Ö‚X4?Š3°0´Ó²?›NöX¹Õ?åÀY!…Æ@ CécÜH@ CécÜH@ CécÜHÀ8     À8     ?ò[v³»ƒÏ?ò[v³»ƒÏ?ò[v³»ƒÏ       u      s       v1_0_1      ßÎÿÿÿÿÿÿü?‘œÅbe?’Q¦»ÁÎÀ+ÿ¼À,ŞvÈ´9XÀ/ú)Çy¦µÀ0ùõY³Ğ}À1ˆ -àÀ1Ñ©ûçl‹À2	#¢œwšÀ+j™0¾íÀ,IxÔıó¶À06E¡ÊÀƒÀ0Ò&€IRÀ1cä%®æ2À1·â‚@·€À29¦µ(@[i$İ/@sÑº^5?}@[mÂ\(ö@˜¿záG®@Ï…¸Qì@œgG®zá@ƒb²-VAÑŠä   AÇA   ?ï=:2?î@AÎ_p?ÑÍİnÀY?Ñ‘`4Pj?Æ$x…LÛ{?ÀJÏ1+7?·¢xåÄë?±ë‹Ô´ø›?©iB¹¸óÒ@g–|®§H@Å¶™„¡@\(õÃ@&úÇË)_@Y A‰7KÇ@f33333@r{Â\(ö@}š-V@…1‡+J@~RvŠ@ñ9C¬Å?›h™Fƒ?ÇOß;dZ?ÂJj‡]Vó?¨Jœ	¶b?k­àÎawi@­w1Å@'Ù=Ùb·@S¸Ö¡aä÷@cø¼j~ùÛ@q…¸Qì@xšA‰7KÇ@„éxÔıô@şlLYtæ@XÇâ‚@¸?S?Ï"è?ÉŒ2¨É¸E?À9-Œ*E?©òÎ¿T%?p]5:I|÷?ïA¢a¿7¹?õ[0HA@PK_oÒó@!+jçÕfÏ@$çâ‚@·€@.¨1&éxÕ@PÍÑN;Í6@fä9XbN@tÔıó¶F@{7KÆ§ğ@$Ù‡+@kÄØì–@ ¼¾aĞ?Ôw[0H?ôuy(àÊ?ã)ùÎ?Êº0‚ù?,‹yEf< ª+    J092033.28+004315.7Ù  ÊÙ T@a„oü]ö?çÂzcsm<Œæ8B•33AIç?ï´3s†
+Aƒô¼;ï4×=¾vÉ@Ö{A<  @ª=q@õÂ?áG®A   @HõÃ¿ <®=æ×=$»[      <Œ¬KB`  AOß¿o²    @!&é  	Å 2å           AI@¸½Ç¥¼?ÍHIÙ¾§¨GASS109099J092033.28+004315.7@a„oü]ö?çÂzcsm<Œæ8@R¨Ìƒ%ø      ø      @0Ğ2sĞ?¤iït}à@0Ğ2sĞ?¤iït}àø      ø      À1VúŠ(X?¨AS³3¤À1VúŠ(X?¨AS³3¤        ø      ø      ø      @9#;J{ÎM?4­2†@9#;J{ÎM?4­2†ø      ø      @Ù¨ôºo“?¿á—” ©@Ù¨ôºo“?¿á—” ©ø      ø      ?ı"D	UÃ?£?º/òği@U×
+=p¤@pÕHlD’?ïÿaT.:Ç?sK¶æ‚C?ïú«¤ìÒ?ğY8ù‹@³ËtmX @¸VXïÿıø      ø      @0_ &I<R?’¥õD­E@0_ &I<R?’¥õD­Eø      ø      À1ıÂds_Ö? 0P¿ÁÀ1ıÂds_Ö? 0P¿Á        ø      ø      ø      @2Ë O@¿Q?r9òÅ·ú@2Ë O@¿Q?r9òÅ·úø      ø      @ÒÙÆÒĞ?¨Æ½ËP1@ÒÙÆÒĞ?¨Æ½ËP1ø      ø      ?òßç¯º?è©rTÙß@ZŒÌÌÌÌÍ@pÓíà·Ç8?ïÿóÄ.âd>òóÖ…ù¥?ğl3¼ :?ğ®ü²Ø¹@²Š–/ÿı@Ãi;1ÿşø      ø      @0õ“¹p?šáé·6ï@0õ“¹p?šáé·6ïø      ø      À2El÷-â¸?¢Ä½€¼À2El÷-â¸?¢Ä½€¼        ø      ø      ø      @3kîyç^ì?„˜öOØ÷@3kîyç^ì?„˜öOØ÷ø      ø      @„tcS~Ğ?¶¾‚TóÌû@„tcS~Ğ?¶¾‚TóÌûø      ø      ?ñè=ge ?»gYŠû@UzáG®@p¹ÁA 4€?ï]şâşZy?‚Ëb/º.?ğGÁÌP¸/?ïödÕ\è.@´l>¶  @¸T	5+ÿûø      ø      ?ç¿”wL ?¨q
+¹¬‘{?ç¿”wL ?¨q
+¹¬‘{ø      ø      @!Ò­ŸŸŞÂ?­°RÜ‡Ñj@!Ò­ŸŸŞÂ?­°RÜ‡Ñj@!Ò­ŸŸŞÂ?­°RÜ‡Ñj@UfAtBi?®Ñƒß8i5@UfAtBi?®Ñƒß8i5        ø              ø                     0                                                 &‡12704                           9863-12704                      1-591260                        v3_1_1                          v3_1_1                          v1_9_1                          v5_5_36                         v2_9                            APOGEE-2&MaNGA                  MaNGA dither                    @hb3Õäå@;÷¯0°|(@LP®Wdíu@U÷I:@hb3Úøßz@;÷¯1±Rô?„È”Xçø¢       	@¿¤¦ffff        @7c×
+=p¤@Eğy=Ùcma135                                                       "5                                     (¬@h?9ÿÖ•@;W8`™Ë?ğ”î9.?ğö+jçÕ?ğ["Ğå`B?ò[l7`¿]?ö­ê‰v6?ù^³¾"æ?ç™HıŸÓ?ë Ü3rT?ë›ı~E€      â       â!      â!@ô‡ü¹#£@¿ëJw@£á†˜5@“P	,Ïl      @                       plateTargets-1.par                    *J130017.69+275915.0              %       ?®ä„yvä?’P<XuâÛ?šì`?¢¿(t“?¤ìˆSöø?mk=e¼?GÒıhv?åÀY!…ÆÀ8     À8     À8     À8     À8     ?ğU›=È?áùkü¨\«?ã&ª´c            ß       v1_0_1     	›¥ÿÿÿÿÿÿü?®ä„yvä?äÅçÖ=À'h´9XbÀ(Hè§æ›À0ú	Ş ÒÀ2škP°ò|À3Y™™™™šÀ3®V“uÀ3Ï'»/ìWÀ(q²•êÀ+ 6âëÀ0JçÕfÏBÀ1ğªdÂø8À2¢ëC,¥À2øğ¹À3/–»˜È?¿¢H”ÄGÃ@4PØDĞ©@r/\(õÂ@£”záG®@£A     @£”záG®@¡S÷ÎÙAıôä   Aìƒq:   ?â‚««êÔö@@q–R½<6?µ-ÉH?´ÑÓœÊ¦‚?ª=©®º“?£NÊhn~c?œÙç>?•<®Ü÷½;?W(ÛÁ\@vZš€If@òìkÎ…4¿…d¶bıü?ÛÈŸ@¢‡@cÒñ©ûç@ƒkıó¶E¢@’ö=p£×
+@še\(õÃ@Ÿáfffff?“´êä	?ÊÙ”[l7a?®§èçµ†_?Ò¯)M×#h?½ïbùÊ[Ù?£/Çmè:ç?ag`âC ±@[qu!–@"­õÉ°@\Ğr° Äœ@¶E¡ÊÁ@‘;áG®{@˜…¸Qì@¸Që…?œUšfH3u?Ò*ù¨Íê?¸?8úóPÅ?Ú‡]Vó+Ü?Å†
+¢r?¬Ë"¨¡tY?eÇø|¨òş?Ø>öµÔbÃ@      @@¹G®zá@)–‡+J¿P7ViªNÚ@;ƒÏ,ù]@k9¸Që…@&áG®{@ ¥8Që…@§×
+=p¤@ªÇ®zá?¥pˆÿ¢´?ÏøÂ!y?¿›ı÷èŠ?À¬Ñ„Âr ?¦Pçy }N?”zM£÷Ám?s$”3ÿ ¹t    J130016.51+275803.0À  Ò?c@hb3Æ )ñ@;÷¯d9Ö<}w-B†  AÉİ?ß>ÌÄiQAnW?;#×
+<äŠ@P  A%ë…@=p¤AõÃ@L(öBzff@Qì¿öF{<†I       	  c         A²-¿Ø´9ÂÆ  @	xÕ [ "<              ÂÆ  ?› L¨m\8¿zèGASS113012J130016.51+275803.0@hb3Æ )ñ@;÷¯d9Ö<}w-@PÂçµc	@1YËÚU[ø?’9ã‘‚è@0ÅÒ1°?}'>Ó½@/|)Å—ó9?{é‘i$àÀ0Çô¹İ'?¡)äYĞı8À2úÂ Òı?û’4~PÀ2c«±f‰d?êr‘¼†?ÍÑŠ˜¶?ie^½¹ç?ú~Æ–{¹?¨>¢•
+*§@2ãûOh`†?g…n;İÍ@,
+ºËxá?~ÒV‰mj?ÊuSƒ+œ/?ÖYë6: ª@İ>óÀc?£®RGo6?ûûwCú(?®ßÙHÀ|?úq×M:|?½ªĞ»¯·v?ğ      ø      @]­£D@?Æt†7 ?Õ\Ôï?ˆ3rZƒı?õuı;oP»?ñ+¤´kbˆ@²%ëÑËÿÿ@°h='ÿÿ@0S/ÆÕƒ?±ñdY¼ş@.ÔÛZC ?‘ó‘†ë­6@.íC*ir?˜ëéÀ£‘À1Î‘k­}?²‰a“ÂzÏÀ2·Rç²ğ?¡S]G3À3IòNG?¢äOkâD?ÓUNWíZ?‹cŸèÄBƒ?ú~Æ–{¹?¨>¢•
+*§@1â‡F	©?‚¤ ¬ÏÙÈ@%˜Ô`?«?§5ÀÎWD?ÊuSƒ+œ/?ÖYë6: ª@Êğ¤8?²²&ÀHC?õ‘ …'ÚÀ?Õm¤ó¹(5?úq×M:|?½ªĞ»¯·v?ğ      ø      @]­£D@?Æt†7 ?Õ\Ôï?ˆ3rZƒı@ ¹Ï±«‰?ğp®ßKÊí@°y†y[ÿü@¼f fœ @/ŸHX pZ?‘ş§
+İ Š@-ïü¨;?”y (\òĞ@-Øgé-Ù?A~w–´UÀ2Rh"JÓ?¡=Ì¥À3*<(.â?¡É˜ÃµÀ3“T`=ì? dÏØJt?Ô&hà¥¬÷?u©vD²É8?ú~Æ–{¹?¨>¢•
+*§@38aÑıG?ièÇÿ(WC@'jş—xèê?58Ø’Š²?ÊuSƒ+œ/?ÖYë6: ª@1†÷“«Ÿ?¤mÖé@I?÷b¤zntx?°¥¬[|UË?úq×M:|?½ªĞ»¯·v?ğ      ø      @]­£D@?Æt†7 ?Õ\Ôï?ˆ3rZƒı?ùiè…Ü®c?ò¶FKåwJ@²$·Ì @°D´¹T ?÷333333?™œÏ&6Ô?ğäBu¾X?•¹G–àY?òúŠív+ ?¨×\!Áè@#]èR<¿9?¥ç‘+n1’@#.†ŒzŞ,?ŸNœVŒËû@#ËË7ôW¸?›—æ½ı-@#áš„qÆ¡?›ú¼'ÆZ@"Hy();1?ËÔ­é s§@ ßBÛ8¯?¥×hW¨-Ú?à9sT€ßî?§¯‰ÿ5-?á²Âƒ[ŞB?¥TPNÌ                n2 = 1                                            &‡6104                            9863-6104                       1-623756                        v3_1_1                          v3_1_1                          v1_9_1                          v5_5_36                         v2_9                            APOGEE-2&MaNGA                  MaNGA dither                    @hi;Is!Ç@;Ñ|™=¾@IŸ¹Ÿ@Uï/]&“ì@hi;Oag#@;Ñ|‘K? 2ÕÀ;o       	@¿¤¦ffff        @7c×
+=p¤@Eğy=Ùcma103                                                       5                                     (¬@h?9ÿÖ•@;W8`™Ë?ğ–»˜È?ğØƒº4D?ğ^çƒù?ò[l7`¿]?ö­ê‰v6?ù^³¾"æ?ç™HıŸÓ?ë Ü3rT?ë›ı~E€      â       â!      â!@íÒ^İ@µ?|í‘h@¦Ù¾L×I@˜ƒº4CÔ                             plateTargets-1.par                    *J130109.20+274909.9       =       =        ?”9ôƒÊû?”¸Å®ËZ?›Í5¨Xy>?¤}Ê0:Zo?¦¦ºêL9”?’•S¹»x?ŸœÇKƒŒ?åÀY!…ÆÀ8     À8     À8     À8     À8     ?éıŠÚ¹õZ?İ¼ÿŸ‡ğ?ßl] l‡       ˜      û       v1_0_1     
+B·ÿÿÿÿÿÿü?”9ôƒÊû?”|EaFÀ(Æ¸ºÇÀ+Çü¹#¢œÀ0ú)Çy¦µÀ2ÿ—$tÀ3yè>BZîÀ3¾ÒˆÎp;À4D¨ÁTÉ†À+«6z‘À,RˆÎp:ûÀ1-Ùb¶®À2~Åm\ú­À31 [À7À3‘[W>«6À3¹e+ÓÃa@\{çl‹C–@nŒ‹C•@p˜‡+J@¢\(õÂ@¢ÿ\(õÃ@¢À×
+=p¤@ƒ˜—Oß;AÿäÕÁ   AúaŞ   ?ê+UïŞ@GÃĞ|„µİ?±ëæm‡Ã?±RJO¯j¼?¥Ôï°ıcn? JĞŞªE?—M#ŸAyG?‘«0šÒ~½?‰ûkEÉ8@;µsê³@º² {@:Ü	€²B@%R½<6@j=¸Që…@„IvÈ´9X@“øzáG®@Â\(ö@¡6\(õÃ?ÿ%íĞR“K@
+å6P&?—×/V/?¿ênëp?¬\I¬ò;ò?’€ÖT5{?RNüˆé@!Nû*®)t@&q©ûçl‹@f4ƒn—@ƒ¿…¸Qì@“
+=p£×@œ0ÌÌÌÌÍ@ ¬\(õÂ@‹m†ìì@ƒä%¯?7"«ür­?Áùa€M˜9?±5¼zo1ç?–YQªí~ô?8jUÅj”?çPEşw@      @FÇË)^@ ùC¬Äğ@ÔÇŸk@ ÚÎî<´@b1G®zá@†|í‘hs@™%p£×
+=@ ‡”záG®@«SB\(ö@ßKâCW@ö„‹ë[-?È÷Ó
+Ôo?ÊO—íÇï?°o"ÍŠb?;z)‘ÉÁ?t_X*8» ¹›    J130109.23+274905.9Â  Ó‰I@hi;%oü@;Ñ~+Uï<¡È•B«ÌÍA Å]?ç8'úòAn¹õ;#×
+<ºÇ@G®AXõÃ@dzáA
+=@W
+=B2ff@¨Qì¿ğ@«=% €       	  c         A/¿Ü¬ÂÆ  ?'®    "</      ‹    Anšk¿(r%?¹‹A2[¿—ævGASS113051J130109.23+274905.9@hi;%oü@;Ñ~+Uï<¡È•@Uw_ê&Ÿp@.{O=?­,`Ë}gø      ø      @.{O=?­,`Ë}gÀ3m¡¶Ï†?¯U'İçø      ø      À3m¡¶Ï†?¯U'İç?ğ      ø      @<ìAº?²EÎr• /ø      ø      @<ìAº?²EÎr• /@ÏËóe¦ğ?å —Š3(ø      ø      @ÏËóe¦ğ?å —Š3(@*L€º)?xr¹V;ø      ø      @`&Õ+hNI?âŒÎr?çã @Ù?d9í&ˆ_Ü?ğ¤»úU?ğs¤=N@³h¿*Ğ @²hï‘ÿı@-<ÍÈ<Ï%?‰ıêDÿCø      ø      @-<ÍÈ<Ï%?‰ıêDÿCÀ4â`Ï+‚?šK×ºb¾­ø      ø      À3m¡¶Ï†?šK×ºb¾­?ğ      ø      @5S¥İ¸•?†³tñğœø      ø      @5S¥İ¸•?†³tñğœ@Ëò2E?»±…ÒşÄÓø      ø      @Ëò2E?»±…ÒşÄÓ@Gã¢qŸ?~wÙÙÈ£ø      ø      @`ÓX™„3?â1)™¿¨Ğ?çıÏâD®?\Í°ı8?ñ·ÜjJí?ò€æûÇ@´,6Z  @¿å=3| @,	|õu?­3jo†[ø      ø      @,	|õu?­3jo†[À4¦‹&˜Z?¯[µh-Äïø      ø      À4¦‹&˜Z?¯[µh-Äï?ğ      ø      @@µAğE>?§|#¿ø      ø      @@µAğE>?§|#¿@0têb”3?Ûöƒ‚°•õø      ø      @0têb”3?Ûöƒ‚°•õ@NoK¤?œ)K¦‘œø      ø      @_ùÊÅzİ?Üÿ>a¿æ?çı ú{çÜ?g$é #T?òX„å"ØÁ?óE½Ÿ©í@µ˜š–›ÿû@³ÇuÚïÿÿ?ó”åxÍ0?´£m²ãXéø      ø      ?ó”åxÍ0?´£m²ãXé@$¢zôè"†?¸;ièÅ£ø      ø      @$¢zôè"†?¸;ièÅ£@$¢zôè"†?¸;ièÅ£@!†:œe:Ş?¹AKc&ƒø      ø      ?ğ      ø      ?ğ      ø                     0                                                 &’9102                            9874-9102                       1-404358                        v3_1_1                          v3_1_1                          v1_9_1                          v5_5_36                         v2_9                            APOGEE-2&MaNGA                  MaNGA dither                    @hS—Jy”@=œÌ½Íh@VàÂ£€D«@UÄà´{M@hS—Ne¾¡@=œÌ¼Õ,?…œê†ñ÷)       	@¿¤À            @5¨FÜ]d@E<êJŒMma094                                                       !4                                     (·@hEEıÊ@<6—ZúøY?ğX%[\?ñ2‹m†ì?ò.Æ¼èS;?õkp&É?øYè>BZî@èMüã?íŒé¬ ?î|¦CÌ?îG¡A(¿      ã      ã      ã@‹§2ßP]@BŒûü@64êK@-ïÇ£˜                              plateTargets-1.par                    #J125826.92+293644.9       [       [        ?“ïÉQIÉ?”IHHn-Û?›u™àvp?¤(ƒ¬ÈJ‡?¦QjUß/¦?Šºæñ;A?¡#½tj5(?åÀY!…ÆÀ8     À8     À8     À8     À8     ?á¢&şq‹?×¡Ó#şâÊ?Ø§;BÌ-k             &       v1_0_1     †Ìÿÿÿÿÿÿü?“ïÉQIÉ?”H§8¾oÀ'ÈË’:*À, ªdÂø8À18}¿HÀ2—l‹C•À3W ù	kºÀ3 4mÅÖ9À3Ø“t¼jÀ+Xâe+ÔÀ.ùrGE9À0ûíúCş]À2r° Ä›¦À3$¢3œ¿À3u¨Xy=ÙÀ3±²•éâ?Ğ¶„‹ë[-@b"° Ä›¦@`à1&éy@¢‚W
+=p¤@¢Å\(õÃ@”#™™™™š@P<ƒn—AúÌU   Añ»ë=   ?æ>Õ'å!@T°ŠqŞj?¶Aå}º‘?µöKKWí'?«®J*Æ}'?¤^˜5?‹F¿Ä§?–g À`#?Äcq¿_ı@~_0çÿX@s„vò¥¤¿äÓíR~R@"uÍ¶íg@cV“@ƒxÆ§ï²@’š\(õÃ@š>\(õÃ@õõÂ\)?y5Ed89?Ìù2±-4?‡õÚã1?Í*ØŞ¨—?©Ğ&ô`?Q½Yè(É>ó€ íğò@A¨¬\ı@@>Hè§ç@b)Òñ©ûç@ƒw`A‰7L@’˜¸Që…@™ô™™™™š@ SW
+=p¤?w”i.é¦?Ë)ùÎ?‡Làƒböo?Áš¦	¤ø?ªSZğç^I?RŸI±ÏÆQ>ó†{¡åW-?âÚ"ö¥k@k@öjU@TŒ7´¢3œ@">âCV–æ?õãˆe”¯O@"×¼w¯d@cWŸ¾vÉ@…î›¥ãSø@–¯záG®@CáG®{@¢ü¸Qì?×Tæb4?áÈ×à&Eå?¿yc™,ŒP?ÓÏqm*¦?¼BtÖ›?©„ñkè†g?HR²)ˆd“ µ†    J125826.93+293644.9Û  ĞûÇ@hS—9m	@=œË}At?<Ÿ~bB©33A ·¼?ãª^x[[pAjDg;#×
+<í‘h@·®Ag×
+@­¸A	p¤@!G®BVff@«…¿Ç÷H<±¦¶=bsŞ     c         A¶F¿ØbÂÆ  ?'® 2 !¨j              ÂÆ  ?²¹4™ˆ‹¿èGASS112006J125826.93+293644.9@hS—9m	@=œË}At?<Ÿ~b@U(t‡Ôºê@2_“´$?Ÿ9¨P)F@//v„ü	¬?w`x|0¥Õ@/¤ÜsR?wyÁ¨*»MÀ0C««·)¸?£rÈŒcøÀ3ƒuí3?—èµë÷äOÀ3 0eüş3?—êBFtn?²ZŞñ?_'d‰-?î¦®‡0Õß?ËeÑ,Ñ@4ÑÕFä?`€í&'5@3'mÚ\ü?hšã%â?Ã*Ù°ëÃ¼?ÿ€Ø/¯-‡@
+	ìl7ñÌ?¤såNú~@ôŸèç@?¥îNÕ™$?ö[Ÿ³tn?Ñ«obW¬¡?ôÍ©†;èx?’{uáuI5@dû¥Ì´Ï"?â {ºÆ?âºpÌ(
+¿?~ß†ws‹š?ù‘En,?ğ@Ş½ª[@³|~Šè @°la€ @1¡Ïmæq?Ó¥CÃ§ÀK@-À]9 ?¤×ğ•?©@-•á¬ÛÁ?¦{;ë˜ÙÀ1oJ„ÆÊ?Ó²ìı¦5À3Ã0	Î´L?§Ù›_™CMÀ3ØMáıWN?©K@Åçì?²ºˆ…ø°Å?“ÍjÑÀ3?î¦®‡0Õß?ËeÑ,Ñ@5ë4½?L±¬Ê÷õ@3e…'œuL?el€–€1?Ã*Ù°ëÃ¼?ÿ€Ø/¯-‡@
+j‘Hg"?´b­»h@BHé\Pa?¤ğT_•Ê6?ö[Ÿ³tn?Ñ«obW¬¡?ôÍ©†;èx?’{uáuI5@dû¥Ì´Ï"?â {ºÆ?âºpÌ(
+¿?~ß†ws‹š@›1S…Œk?ğ‰¹Ì”(@³
+~/ÿû@ÀMWõÿÿ@1Iı`6Ñ~?‡ó<’’(@-ş™„j?€+L¤4WÄ@,êmëé4{?~)t@£ şÀ1YAX4f^?š¢À4¿k›õ§?˜¥ÆÏûÀ4.Âv?˜a‹HFˆ?²ŞÌZ¶—z?M~ÆA?î¦®‡0Õß?ËeÑ,Ñ@4÷ú»?N?a¬Àµ«@3=B1[?gk…Aã.Ë?Ã*Ù°ëÃ¼?ÿ€Ø/¯-‡@
+8sÁlk?¤»ßRçH5@íõEü#?¥‹eµ#kí?ö[Ÿ³tn?Ñ«obW¬¡?ôÍ©†;èx?’{uáuI5@dû¥Ì´Ï"?â {ºÆ?âºpÌ(
+¿?~ß†ws‹š@à‚VG†Ú?ğ"S»›­@³Ì	@ @°‘Æwÿş?ñYZÇÓÊ`? ¸«ÚÉdØ?ğÓ¿Zì*?ƒó‘íTš?ğİuÇ™ö¸?ƒJ`U9@!á,¸Õ¿W?À.KB¾@$t?×÷x?™ªU:~«o@$À†+É®?šSĞø\U@$ÑÁÈWı?™Ü*ô|?@!(İó?œîktoß@ ğ®RHòª? ¹_U]’<?´9
+&.Ú„?³~;"DáR?´KOF\UL?–®8kÜ.T                0                                                 &˜12702                           9880-12702                      1-457185                        v3_1_1                          v3_1_1                          v1_9_1                          v5_5_36                         v2_9                            APOGEE-2&MaNGA                  MaNGA dither                    @ht°¹:– @;pÈP@D]*1R+@Uà;a¾u—@ht°³‘’d@;pË’:*?†Õ™êø       	@¿¤®záH        @7.cŠ	@G¡aä÷fma078                                                       3                                     (½@hˆÇ%ÃŞè@<jP_?ğê“ò«´?ñÅ—Ne¾¡?ó-Œ*EN?ôsà7Ü‡?õd¸{Üğ0?öÒv‰Ê?ë'Å¬GH?ëÚ¹õY³Ğ?ìlö8 !      ão      ão      ãp@.záG®@’8\h@ËâCV—@˜dE#ö                             plateTargets-1.par                    ;J130235.17+272621.9                      ?’~_”?“”]·?™Ñ.[]?¡•‰i ­Š?£Ë-\6?‹±yŠ/™K?@ÈG,?åÀY!…Æ?ı¯D‘)ˆ?é—¹Z)AB?ëºˆ&ªÀ8     À8     ?ìf¥P‡?áxXpÚ^?â]TÚLè       ›      û       v1_0_1     `Yÿÿÿÿÿÿü?’~_”?“0¨>x
+ÔÀ(ÈŒç¯¸À, A‰7KÇÀ0†z–¼À1ñ©ûçl‹À2ÒˆÎp;À2ÒMÒñ©üÀ2Î!–R½<À,€ù	k¹ŒÀ-!½¥œàÀ0×eıŠÚºÀ1±ÑN;Í6À2<q²•êÀ2‰b¶®}À2Ó9Àëíú@e¿×
+=p¤@uß;dZ@a¢-V@µ\(õÃ@`ëÎÙ‡+@œŸp£×
+=@u}V“Aâ¯I|   AáEà   ?å® ı;)¢@K`hÛ‹¬q?·Y LVè?·	²0iTW?­	e×y?¥]lÂ ùà?ıÃİéU?—ñQçSa?©_	zÓ@"£}é9êİ@ ˆ÷´·@	ĞlÊ-¶@,âø7´¢4@h¿\(õÂ@wıó¶E¢@‚°hr° Å@‰fn—P@’UzáG®?òó8q`•l@ùÕä£ƒ'?„÷si„(?´R‡ŒPÛ»??0ºæxøî?†tfjÌ?<ÜôQ @,ˆõÂ\)@2áœàuöı@b,ƒn—@u½hr° Å@‚B¡ÊÀƒ@ˆ÷‘hr°!@p£×
+=?öW^ FÇe@^ÂÎFI?ˆã‘4pJ?¶ìƒKy{?@0ò¼.f?‰ì¥°(QX?A Œ‰)¤?Şù3]$E@jà"'@LïE8ï4×@1ƒä%®æ@´·,Q˜@-*=p£×
+@ZÍÂ\(ö@{o33333@ˆƒMÒñ©ü@C\(õÃ@U¸Që…@H¾µ²Õ@	7´¢3œ?¸‘ï,»J?×6¨2¹°?w)Vb?¯4Á©?sR<ã¶^ ¹    J130235.17+272621.9Â  Ó‰¥@ht°ÈŠGí@;p#Ìã<“óôBœÌÍA…?áxÃ7!ÕAx8;ƒo<óMj@±™šAr¸R@›×
+AÂ@.¸RBk33@ŠáH¿¯——>²Å‰       	  c         A
+=¿«çmÂÆ  @È´  ¹Ã "8ª              ÂÆ  ?¥±µ`£Õ¿<ü0GASS113025J130235.17+272621.9@ht°ÈŠGí@;p#Ìã<“óô@S›1û&?Ç@2©©Ì'NŸ?˜Ñøˆ?%Z@0iyÚ¼!?¦ÑNJ’Û@0H‰ôcH?çÔó‘eÀ/yÙÍŞ?¡šlD.™À2lİñ”?eÜb•À20\ÄJ®F?&â&ÕF?¼›’õ,š÷?eÜ!w×´š@—ØÕ¥N$?°x³l¿u@:³ˆø«Æ?d:èJgq@6ŠníÅÄ?—úvj?×î¾p®Ø?áÃ/ç-³@N?ĞJFl?µã=¼è1¶@
+2.J'¨?À¯T@WŸß?öR	­"6?²“AÁ!<1?÷úÇë‰D¨?z –DeÎ@aãòqr„?ÖaŸd ·â?ßû=î7;?‡3R ?ğ3* ó3?ğD¸´Tx@°O{• @°6§O @2NŞGJ?£?ÅhaQôX9@0/rÊ?Ÿ€*¤Â>@/Ãr	h‡r? ¡›äPùîÀ0*qcuë?Å¢MĞzÿÀ2w·µ:ë‰?£ï+ë¸dGÀ2—-³ùqÕ?¤Ës®Wã?»e•‹Öˆä?¤*\>k©@—ØÕ¥N$?°x³l¿u@5j¿Æë?BÑ9@2¦=¢ªD?~YÀT&Ñ?×î¾p®Ø?áÃ/ç-³@ãØUUc?Áz˜	4÷@¬qx»:è?²?œ¬S?öR	­"6?²“AÁ!<1?÷úÇë‰D¨?z –DeÎ@aãòqr„?ÖaŸd ·â?ßû=î7;?‡3R ?ñ&~+oÛÛ?ğ®Mn©‚‰@±"mïÿÿ@½ñş\À @2"Ã²VW?“óâ½'œ‰@/*ø–öôÍ?›ƒC²0¶v@.ø9Í¼v?™,7t)À0VÚôû_7?Ÿõ’lIÎİÀ2ãjm2;(?¢“e™bÀ2üÉÑÏ­Ó?¡º„¸@{?¶U‹O4´µ?cğ÷‹xˆ·@—ØÕ¥N$?°x³l¿u@5CĞñ¶¶?u«nâÑ@3"kƒ?•Şº²u4?×î¾p®Ø?áÃ/ç-³@¶™B©}?­¾Ö: FC@$¾·e?Çğ.sãM[?öR	­"6?²“AÁ!<1?÷úÇë‰D¨?z –DeÎ@aãòqr„?ÖaŸd ·â?ßû=î7;?‡3R ?ğ#—°îö‹?ğg!@°šo›oÿû@°7
+™¯ÿû?àóÁŸ	 ?ŸØ‚é¬?ê±èäĞ? gä~#:?é¡°Ÿñ ?SóRJÑ@Ø®„‘?³Ü‹W@ˆ@"tĞç8÷Š?¥6ïÙ½Øå@"|{Ê¬v?£ïWÇ|£@"€‰¿‰Î?¤:rµ+¾@…k¾{_1?§WF@ûéq¥x?¬Óêª,Ô ?¡Xø	?jÏ?À0¡D§ç?ªJ»Xk‘?„4Œàã“F        @      0                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
